@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MyNews">
+<meta name="theme-color" content="#0a0a0f">
+<title>MyNews</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0f;--sf:#13131a;--sf2:#1c1c27;--bd:#2a2a3a;--ac:#4f8ef7;--ac2:#7c5cfc;--tx:#e8e8f0;--tx2:#8888aa;--tx3:#555570;--r:14px;--st:env(safe-area-inset-top,0px);--sb:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);min-height:100dvh;overflow-x:hidden}
+#hd{position:fixed;top:0;left:0;right:0;z-index:100;padding-top:var(--st);background:rgba(10,10,15,.88);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--bd)}
+#hi{display:flex;align-items:center;justify-content:space-between;padding:12px 16px}
+#logo{font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:2px;background:linear-gradient(135deg,var(--ac),var(--ac2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+#ha{display:flex;gap:8px;align-items:center}
+.ib{width:38px;height:38px;border:none;background:var(--sf2);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--tx2);transition:.15s}
+.ib:active{background:var(--bd)}
+.ib.spin svg{animation:spin .8s linear}
+@keyframes spin{to{transform:rotate(360deg)}}
+#fb{overflow-x:auto;padding:8px 16px 10px;display:flex;gap:8px;scrollbar-width:none}
+#fb::-webkit-scrollbar{display:none}
+.chip{flex-shrink:0;padding:5px 14px;border-radius:20px;border:1px solid var(--bd);background:transparent;color:var(--tx2);font-size:12px;font-family:'Noto Sans JP',sans-serif;cursor:pointer;transition:.15s;white-space:nowrap}
+.chip.active{background:var(--ac);border-color:var(--ac);color:#fff;font-weight:700}
+#main{padding:calc(var(--st) + 104px) 12px calc(var(--sb) + 80px)}
+#grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:var(--sf);border-radius:var(--r);overflow:hidden;border:1px solid var(--bd);cursor:pointer;transition:transform .15s;animation:fu .35s ease both}
+.card:active{transform:scale(.97)}
+@keyframes fu{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.ct{width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--sf2);display:block}
+.cp{width:100%;aspect-ratio:16/9;background:var(--sf2);display:flex;align-items:center;justify-content:center;color:var(--tx3);font-size:28px}
+.cb{padding:9px 10px 11px}
+.cs{font-size:10px;color:var(--ac);font-weight:700;letter-spacing:.5px;margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ctitle{font-size:12px;line-height:1.5;font-weight:500;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cd{margin-top:6px;font-size:10px;color:var(--tx3)}
+#sv{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:40vh;gap:16px;color:var(--tx2);text-align:center;padding:20px}
+.spinner{width:36px;height:36px;border:3px solid var(--bd);border-top-color:var(--ac);border-radius:50%;animation:spin .75s linear infinite}
+#sv p{font-size:14px;line-height:1.7}
+#sv small{font-size:11px;color:var(--tx3)}
+.retry-btn{background:var(--ac);color:#fff;border:none;border-radius:10px;padding:10px 24px;font-size:14px;font-family:'Noto Sans JP',sans-serif;cursor:pointer;margin-top:4px}
+/* Settings */
+#so{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+#so.open{display:flex;align-items:flex-end}
+#sp{width:100%;max-height:85dvh;background:var(--sf);border-radius:20px 20px 0 0;border-top:1px solid var(--bd);display:flex;flex-direction:column;overflow:hidden;padding-bottom:var(--sb);animation:su .3s cubic-bezier(.32,.72,0,1)}
+@keyframes su{from{transform:translateY(100%)}to{transform:translateY(0)}}
+#sh{padding:16px 20px 12px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--bd);flex-shrink:0}
+#sh h2{font-size:17px;font-weight:700}
+#ss{overflow-y:auto;flex:1;padding:12px 0}
+.sr{display:flex;align-items:center;padding:12px 20px;gap:12px;border-bottom:1px solid var(--bd)}
+.sr:last-child{border-bottom:none}
+.si{flex:1;min-width:0}
+.sn{font-size:14px;font-weight:500}
+.su2{font-size:11px;color:var(--tx3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.tg{position:relative;width:44px;height:26px;flex-shrink:0}
+.tg input{opacity:0;width:0;height:0;position:absolute}
+.tt{position:absolute;inset:0;background:var(--bd);border-radius:13px;transition:.2s;cursor:pointer}
+.tg input:checked+.tt{background:var(--ac)}
+.tt::after{content:'';position:absolute;width:20px;height:20px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s}
+.tg input:checked+.tt::after{transform:translateX(18px)}
+.db{background:none;border:none;color:#e05555;font-size:20px;cursor:pointer;padding:4px;flex-shrink:0}
+#af{padding:16px 20px;border-top:1px solid var(--bd);flex-shrink:0;display:flex;flex-direction:column;gap:8px}
+#af input{background:var(--sf2);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;font-size:14px;font-family:'Noto Sans JP',sans-serif;color:var(--tx);outline:none;width:100%}
+#af input:focus{border-color:var(--ac)}
+#af input::placeholder{color:var(--tx3)}
+#af button{background:var(--ac);color:#fff;border:none;border-radius:10px;padding:11px;font-size:14px;font-weight:700;font-family:'Noto Sans JP',sans-serif;cursor:pointer}
+/* Article */
+#ao{display:none;position:fixed;inset:0;z-index:300;background:#000;flex-direction:column}
+#ao.open{display:flex}
+#ah{display:flex;align-items:center;gap:12px;padding:12px 16px;padding-top:calc(var(--st) + 12px);background:rgba(10,10,15,.95);border-bottom:1px solid var(--bd);flex-shrink:0}
+#asl{flex:1;font-size:13px;font-weight:700;color:var(--ac);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* FIX: iframeのsandboxからallow-same-originを削除してセキュリティ強化 */
+#ai{flex:1;border:none;background:#fff;width:100%}
+.xb{background:var(--sf2);border:none;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--tx2);font-size:18px;flex-shrink:0}
+#rh{text-align:center;font-size:11px;color:var(--tx3);padding:8px 0 0}
+/* ホーム画面追加ガイド */
+#guide{position:fixed;bottom:0;left:0;right:0;z-index:400;padding:14px 16px calc(var(--sb) + 14px);background:#1a2540;border-top:2px solid var(--ac);display:none;align-items:center;gap:10px;animation:su .4s ease}
+#guide p{font-size:12px;line-height:1.6;color:#aac4f0;flex:1}
+#guide strong{color:#fff}
+#gc{background:none;border:none;color:var(--tx3);font-size:22px;cursor:pointer}
+</style>
+</head>
+<body>
+
+<div id="hd">
+  <div id="hi">
+    <div id="logo">MyNews</div>
+    <div id="ha">
+      <button class="ib" id="rb" onclick="refreshAll()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+      </button>
+      <button class="ib" onclick="downloadSelf()" title="このアプリをダウンロード">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      </button>
+      <button class="ib" onclick="openSettings()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="fb"></div>
+</div>
+
+<div id="main">
+  <div id="sv"><div class="spinner"></div><p>ニュースを取得中...</p></div>
+  <div id="grid" style="display:none"></div>
+  <p id="rh" style="display:none">↓ 引っ張って更新</p>
+</div>
+
+<div id="so" onclick="maybeClose(event)">
+  <div id="sp">
+    <div id="sh"><h2>メディア設定</h2>
+      <button class="ib" onclick="closeSettings()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div id="ss"><div id="sl"></div></div>
+    <div id="af">
+      <input id="an" placeholder="メディア名（例: 読売新聞）" type="text">
+      <input id="au" placeholder="RSS URL（https://...）" type="url" inputmode="url">
+      <button onclick="addSource()">＋ メディアを追加</button>
+    </div>
+  </div>
+</div>
+
+<div id="ao">
+  <div id="ah">
+    <button class="xb" onclick="closeArticle()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <span id="asl"></span>
+    <button class="ib" onclick="openSafari()">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+    </button>
+  </div>
+  <!-- FIX: allow-same-originを削除してXSS経由のsandbox脱出を防ぐ -->
+  <iframe id="ai" sandbox="allow-scripts allow-popups allow-forms allow-top-navigation-by-user-activation" style="flex:1;border:none;background:#fff;width:100%;height:100%"></iframe>
+</div>
+
+<div id="guide">
+  <p>📱 <strong>ホーム画面に追加</strong>するとアプリとして使えます<br>Safari下部 <strong>共有ボタン（□↑）→「ホーム画面に追加」</strong></p>
+  <button id="gc" onclick="dismissGuide()">×</button>
+</div>
+
+<script>
+// ── デフォルトソース ──────────────────────────────
+const DS = [
+  {id:'s1', name:'NHK ニュース',         url:'https://www.nhk.or.jp/rss/news/cat0.xml',            enabled:true},
+  {id:'s2', name:'朝日新聞',             url:'https://www.asahi.com/rss/asahi/newsheadlines.rdf',   enabled:true},
+  {id:'s3', name:'日本経済新聞',         url:'https://www.nikkei.com/rss/news.rdf',                 enabled:true},
+  {id:'s4', name:'テレ朝NEWS',           url:'https://news.tv-asahi.co.jp/rss20/news_all.xml',      enabled:true},
+  {id:'s5', name:'TBS NEWS DIG',         url:'https://newsdig.tbs.co.jp/rss',                       enabled:true},
+  {id:'s6', name:'FNNプライムオンライン', url:'https://feeds.fnn.jp/fnnprime/rss.xml',              enabled:true},
+  {id:'s7', name:'毎日新聞',             url:'https://mainichi.jp/rss/etc/mainichi-flash.rss',       enabled:true},
+];
+
+// ── RSS取得APIのリスト（順番にフォールバック）──────
+const RSS_APIS = [
+  // API 1: rss2json（最も安定・JSON変換済み）
+  function(rssUrl) {
+    return 'https://api.rss2json.com/v1/api.json?count=20&rss_url=' + encodeURIComponent(rssUrl);
+  },
+  // API 2: allorigins（CORSプロキシ・生XML）
+  function(rssUrl) {
+    return 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
+  }
+];
+
+let sources = loadSrc(), articles = [], fid = null, curUrl = '', loading = false;
+
+function loadSrc() {
+  try { var s = localStorage.getItem('mn4'); if (s) return JSON.parse(s); } catch(e) {}
+  return DS.map(function(s) { return Object.assign({}, s); });
+}
+function saveSrc() {
+  try { localStorage.setItem('mn4', JSON.stringify(sources)); } catch(e) {}
+}
+
+// FIX: AbortSignal.timeoutをAbortController+setTimeoutで置き換え（iOS 13+対応）
+function fetchWithTimeout(url, ms) {
+  var controller = new AbortController();
+  var timer = setTimeout(function() { controller.abort(); }, ms);
+  return fetch(url, { signal: controller.signal }).then(function(res) {
+    clearTimeout(timer);
+    return res;
+  }, function(err) {
+    clearTimeout(timer);
+    throw err;
+  });
+}
+
+// rss2jsonのレスポンスをパース
+function parseRss2json(data, source) {
+  if (!data || data.status !== 'ok') return null;
+  return (data.items || []).map(function(i) {
+    var image = i.thumbnail || null;
+    if (!image && i.enclosure && i.enclosure.link) image = i.enclosure.link;
+    if (!image) image = imgFromHtml(i.description || '');
+    return {
+      id: i.guid || i.link,
+      title: i.title || '',
+      link: i.link || '',
+      pubDate: i.pubDate ? new Date(i.pubDate) : null,
+      image: image,
+      source: source.name,
+      sid: source.id
+    };
+  });
+}
+
+// alloriginsのレスポンス（XML文字列）をパース
+function parseXml(xmlStr, source) {
+  try {
+    var parser = new DOMParser();
+    var doc = parser.parseFromString(xmlStr, 'text/xml');
+    var items = Array.from(doc.querySelectorAll('item, entry'));
+    return items.map(function(item) {
+      var title = (item.querySelector('title') || {}).textContent || '';
+      var link = '';
+      var linkEl = item.querySelector('link');
+      if (linkEl) { link = linkEl.getAttribute('href') || linkEl.textContent || ''; }
+      var desc = (item.querySelector('description, summary, content') || {}).textContent || '';
+      var pubDateStr = (item.querySelector('pubDate, published, updated') || {}).textContent || '';
+      var image = null;
+      var mediaEl = item.querySelector('thumbnail, content');
+      if (mediaEl) image = mediaEl.getAttribute('url');
+      if (!image) image = imgFromHtml(desc);
+      return {
+        id: link,
+        title: title.trim(),
+        link: link.trim(),
+        pubDate: pubDateStr ? new Date(pubDateStr) : null,
+        image: image,
+        source: source.name,
+        sid: source.id
+      };
+    }).filter(function(i) { return i.title && i.link; });
+  } catch(e) { return []; }
+}
+
+function imgFromHtml(h) {
+  var m = h.match(/<img[^>]+src=["']([^"']+)["']/i);
+  return m ? m[1] : null;
+}
+
+async function fetchSrc(source) {
+  // API 1: rss2json
+  try {
+    var res = await fetchWithTimeout(RSS_APIS[0](source.url), 10000);
+    if (res.ok) {
+      var data = await res.json();
+      var items = parseRss2json(data, source);
+      if (items && items.length > 0) return items;
+    }
+  } catch(e) { /* フォールバックへ */ }
+
+  // API 2: allorigins（フォールバック）
+  try {
+    var res2 = await fetchWithTimeout(RSS_APIS[1](source.url), 10000);
+    if (res2.ok) {
+      var data2 = await res2.json();
+      if (data2 && data2.contents) {
+        var items2 = parseXml(data2.contents, source);
+        if (items2.length > 0) return items2;
+      }
+    }
+  } catch(e) { /* 失敗 */ }
+
+  return [];
+}
+
+// FIX: try/finallyでloadingフラグを必ずリセット
+async function refreshAll() {
+  if (loading) return;
+  loading = true;
+  document.getElementById('rb').classList.add('spin');
+  showLoading();
+  try {
+    var enabled = sources.filter(function(s) { return s.enabled; });
+    if (enabled.length === 0) { showError('有効なメディアがありません。設定から追加してください。'); return; }
+    var results = await Promise.allSettled(enabled.map(function(s) { return fetchSrc(s); }));
+    var all = [];
+    results.forEach(function(r) { if (r.status === 'fulfilled') all = all.concat(r.value); });
+    all.sort(function(a, b) { return (b.pubDate || 0) - (a.pubDate || 0); });
+    articles = all;
+    if (all.length === 0) {
+      showError('記事を取得できませんでした。\nネットワーク接続を確認してください。');
+    } else {
+      renderGrid();
+      renderChips();
+    }
+  } catch(e) {
+    showError('エラーが発生しました: ' + e.message);
+  } finally {
+    // FIX: 常にリセット
+    loading = false;
+    document.getElementById('rb').classList.remove('spin');
+  }
+}
+
+function showLoading() {
+  var sv = document.getElementById('sv');
+  sv.style.display = 'flex';
+  sv.innerHTML = '<div class="spinner"></div><p>ニュースを取得中...</p>';
+  document.getElementById('grid').style.display = 'none';
+  document.getElementById('rh').style.display = 'none';
+}
+
+function showError(msg) {
+  var sv = document.getElementById('sv');
+  sv.style.display = 'flex';
+  sv.innerHTML = '<p>' + msg.replace(/\n/g,'<br>') + '</p><button class="retry-btn" onclick="refreshAll()">再試行</button><small>設定ボタンからメディアのON/OFFも確認してください</small>';
+  document.getElementById('grid').style.display = 'none';
+  document.getElementById('rh').style.display = 'none';
+}
+
+function renderChips() {
+  var enabled = sources.filter(function(s) { return s.enabled; });
+  var h = '<button class="chip' + (fid === null ? ' active' : '') + '" onclick="setF(null)">すべて</button>';
+  enabled.forEach(function(s) {
+    h += '<button class="chip' + (fid === s.id ? ' active' : '') + '" onclick="setF(\'' + s.id + '\')">' + e(s.name) + '</button>';
+  });
+  document.getElementById('fb').innerHTML = h;
+}
+
+function setF(id) { fid = id; renderChips(); renderGrid(); }
+
+function renderGrid() {
+  var V = document.getElementById('sv'), G = document.getElementById('grid'), R = document.getElementById('rh');
+  var vis = fid ? articles.filter(function(a) { return a.sid === fid; }) : articles;
+  if (!vis.length) {
+    V.style.display = 'flex';
+    V.innerHTML = '<p>このメディアの記事がありません</p>';
+    G.style.display = 'none'; R.style.display = 'none'; return;
+  }
+  V.style.display = 'none'; G.style.display = 'grid'; R.style.display = 'block';
+  G.innerHTML = vis.map(function(a, i) {
+    var delay = Math.min(i * 25, 300);
+    var th = a.image
+      ? '<img class="ct" src="' + e(a.image) + '" alt="" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'"><div class="cp" style="display:none">📰</div>'
+      : '<div class="cp">📰</div>';
+    var dt = a.pubDate ? rel(a.pubDate) : '';
+    return '<div class="card" style="animation-delay:' + delay + 'ms" onclick="openA(' + i + ')">'
+      + th + '<div class="cb"><div class="cs">' + e(a.source) + '</div>'
+      + '<div class="ctitle">' + e(a.title) + '</div>'
+      + (dt ? '<div class="cd">' + dt + '</div>' : '')
+      + '</div></div>';
+  }).join('');
+}
+
+function openA(i) {
+  var vis = fid ? articles.filter(function(a) { return a.sid === fid; }) : articles;
+  var a = vis[i]; if (!a) return;
+  curUrl = a.link;
+  document.getElementById('asl').textContent = a.source;
+  document.getElementById('ai').src = a.link;
+  document.getElementById('ao').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeArticle() {
+  document.getElementById('ao').classList.remove('open');
+  document.getElementById('ai').src = 'about:blank';
+  document.body.style.overflow = '';
+}
+function openSafari() { if (curUrl) window.open(curUrl, '_blank'); }
+
+function openSettings() { renderSL(); document.getElementById('so').classList.add('open'); document.body.style.overflow = 'hidden'; }
+function closeSettings() { document.getElementById('so').classList.remove('open'); document.body.style.overflow = ''; saveSrc(); renderChips(); refreshAll(); }
+function maybeClose(ev) { if (ev.target === document.getElementById('so')) closeSettings(); }
+
+function renderSL() {
+  document.getElementById('sl').innerHTML = sources.map(function(s, i) {
+    return '<div class="sr"><div class="si"><div class="sn">' + e(s.name) + '</div><div class="su2">' + e(s.url) + '</div></div>'
+      + '<label class="tg"><input type="checkbox"' + (s.enabled ? ' checked' : '') + ' onchange="tog(' + i + ',this.checked)"><div class="tt"></div></label>'
+      + '<button class="db" onclick="delSrc(' + i + ')">×</button></div>';
+  }).join('');
+}
+function tog(i, v) { sources[i].enabled = v; }
+function delSrc(i) {
+  if (!confirm('「' + sources[i].name + '」を削除しますか？')) return;
+  sources.splice(i, 1); saveSrc(); renderSL();
+}
+function addSource() {
+  var n = document.getElementById('an').value.trim();
+  var u = document.getElementById('au').value.trim();
+  if (!n || !u) { alert('名前とURLを入力してください'); return; }
+  if (u.indexOf('http') !== 0) { alert('URLはhttpsから始まる必要があります'); return; }
+  sources.push({id: 'u' + Date.now(), name: n, url: u, enabled: true});
+  document.getElementById('an').value = '';
+  document.getElementById('au').value = '';
+  saveSrc(); renderSL();
+}
+
+function e(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function rel(d) {
+  var s = (Date.now() - d) / 1000;
+  if (s < 60) return 'たった今';
+  if (s < 3600) return Math.floor(s / 60) + '分前';
+  if (s < 86400) return Math.floor(s / 3600) + '時間前';
+  return Math.floor(s / 86400) + '日前';
+}
+
+function dismissGuide() { localStorage.setItem('mn_g','1'); document.getElementById('guide').style.display = 'none'; }
+function showGuide() {
+  var isSafari = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
+  if (isSafari && !window.navigator.standalone && !localStorage.getItem('mn_g')) {
+    document.getElementById('guide').style.display = 'flex';
+  }
+}
+
+// プルリフレッシュ
+var ty = 0;
+document.addEventListener('touchstart', function(ev) { ty = ev.touches[0].clientY; }, {passive: true});
+document.addEventListener('touchend', function(ev) {
+  if (ev.changedTouches[0].clientY - ty > 80 && window.scrollY === 0 && !loading) refreshAll();
+}, {passive: true});
+
+refreshAll();
+showGuide();
+</script>
+</body>
+</html>
