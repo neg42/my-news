@@ -2,8 +2,8 @@ name: Fetch RSS
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 毎時0分に実行
-  workflow_dispatch:        # 手動実行も可能
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   fetch:
@@ -17,155 +17,185 @@ jobs:
 
       - name: Fetch RSS feeds
         run: |
-          python3 << 'PYEOF'
-          import urllib.request, urllib.error, xml.etree.ElementTree as ET
-          import json, datetime, re, time
+          python3 - << 'PYEOF'
+import urllib.request, urllib.error, xml.etree.ElementTree as ET
+import json, datetime, re, time
 
-          SOURCES = [
-            {"id":"s1","name":"NHK ニュース",
-             "urls":["https://www.nhk.or.jp/rss/news/cat0.xml",
-                     "https://www3.nhk.or.jp/rss/news/cat0.xml"]},
-            {"id":"s2","name":"朝日新聞",
-             "urls":["https://www.asahi.com/rss/asahi/newsheadlines.rdf"]},
-            {"id":"s3","name":"日本経済新聞",
-             "urls":["https://www.nikkei.com/rss/news.rdf"]},
-            {"id":"s4","name":"テレ朝NEWS",
-             "urls":["https://news.tv-asahi.co.jp/rss20/news_all.xml",
-                     "https://news.tv-asahi.co.jp/rss/news_all.xml"]},
-            {"id":"s5","name":"TBS NEWS DIG",
-             "urls":["https://newsdig.tbs.co.jp/rss",
-                     "https://newsdig.tbs.co.jp/list/rss"]},
-            {"id":"s6","name":"FNNプライムオンライン",
-             "urls":["https://feeds.fnn.jp/fnnprime/rss.xml",
-                     "https://www.fnn.jp/rss/articles"]},
-            {"id":"s7","name":"毎日新聞",
-             "urls":["https://mainichi.jp/rss/etc/mainichi-flash.rss"]},
-          ]
+SOURCES = [
+  {"id":"s1","name":"NHK ニュース",
+   "urls":["https://www.nhk.or.jp/rss/news/cat0.xml",
+           "https://www3.nhk.or.jp/rss/news/cat0.xml",
+           "https://www.nhk.or.jp/rss/news/cat1.xml"]},
+  {"id":"s2","name":"朝日新聞",
+   "urls":["https://www.asahi.com/rss/asahi/newsheadlines.rdf",
+           "https://www.asahi.com/rss/asahi/news.rdf"]},
+  {"id":"s3","name":"日本経済新聞",
+   "urls":["https://www.nikkei.com/rss/news.rdf",
+           "https://www.nikkei.com/rss/index.rdf"]},
+  {"id":"s4","name":"テレ朝NEWS",
+   "urls":["https://news.tv-asahi.co.jp/rss20/news_all.xml",
+           "https://news.tv-asahi.co.jp/rss/index.xml"]},
+  {"id":"s5","name":"TBS NEWS DIG",
+   "urls":["https://newsdig.tbs.co.jp/rss",
+           "https://newsdig.tbs.co.jp/articles/rss"]},
+  {"id":"s6","name":"FNNプライムオンライン",
+   "urls":["https://feeds.fnn.jp/fnnprime/rss.xml",
+           "https://www.fnn.jp/rss/articles"]},
+  {"id":"s7","name":"毎日新聞",
+   "urls":["https://mainichi.jp/rss/etc/mainichi-flash.rss",
+           "https://mainichi.jp/rss/etc/mainichi-news.rss"]},
+]
 
-          NS = {
-            'media': 'http://search.yahoo.com/mrss/',
-            'dc':    'http://purl.org/dc/elements/1.1/',
-          }
+RDF_NS  = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+RSS_NS  = 'http://purl.org/rss/1.0/'
+ATOM_NS = 'http://www.w3.org/2005/Atom'
+MEDIA_NS= 'http://search.yahoo.com/mrss/'
+DC_NS   = 'http://purl.org/dc/elements/1.1/'
 
-          USER_AGENTS = [
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
-            'Feedfetcher-Google; (+http://www.google.com/feedfetcher.html)',
-            'MyNewsReader/1.0',
-          ]
+USER_AGENTS = [
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 1 subscribers; feed-id=1234)',
+]
 
-          def fetch_url(url):
-            for ua in USER_AGENTS:
-              try:
-                req = urllib.request.Request(url, headers={
-                  'User-Agent': ua,
-                  'Accept': 'application/rss+xml,application/xml,text/xml,*/*',
-                  'Accept-Language': 'ja,en;q=0.9',
-                  'Cache-Control': 'no-cache',
-                })
-                with urllib.request.urlopen(req, timeout=15) as resp:
-                  data = resp.read()
-                if len(data) > 100:
-                  print(f"  UA成功: {ua[:50]}")
-                  return data
-              except urllib.error.HTTPError as e:
-                print(f"  HTTP {e.code} with UA: {ua[:40]}")
-              except Exception as e:
-                print(f"  Error: {e} with UA: {ua[:40]}")
-              time.sleep(0.5)
-            return None
+def fetch_url(url):
+  for ua in USER_AGENTS:
+    try:
+      req = urllib.request.Request(url, headers={
+        'User-Agent': ua,
+        'Accept': 'application/rss+xml,application/rdf+xml,application/xml,text/xml,*/*',
+        'Accept-Language': 'ja,en;q=0.9',
+      })
+      with urllib.request.urlopen(req, timeout=15) as resp:
+        data = resp.read()
+      if len(data) > 200:
+        return data
+    except urllib.error.HTTPError as e:
+      print(f"  HTTP {e.code}: {url} UA={ua[:30]}")
+    except Exception as e:
+      print(f"  ERR: {e}: {url}")
+    time.sleep(0.3)
+  return None
 
-          def get_text(el, *tags):
-            for tag in tags:
-              child = el.find(tag)
-              if child is not None and child.text:
-                return child.text.strip()
-            return ''
+def get_text(el, *tags):
+  for tag in tags:
+    child = el.find(tag)
+    if child is not None and child.text:
+      return child.text.strip()
+  return ''
 
-          def get_image(item):
-            for tag in ['media:thumbnail','media:content']:
-              el = item.find(tag, NS)
-              if el is not None:
-                u = el.get('url')
-                if u: return u
-            enc = item.find('enclosure')
-            if enc is not None and enc.get('type','').startswith('image'):
-              return enc.get('url','')
-            desc = get_text(item, 'description')
-            m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc, re.I)
-            return m.group(1) if m else ''
+def get_image(item):
+  # media:thumbnail, media:content
+  for tag in [f'{{{MEDIA_NS}}}thumbnail', f'{{{MEDIA_NS}}}content']:
+    el = item.find(tag)
+    if el is not None:
+      u = el.get('url','')
+      if u: return u
+  # enclosure
+  enc = item.find('enclosure')
+  if enc is not None and enc.get('type','').startswith('image'):
+    return enc.get('url','')
+  # img in description
+  desc = get_text(item, 'description', f'{{{RSS_NS}}}description')
+  m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc, re.I)
+  return m.group(1) if m else ''
 
-          def fix_link(link, src_name):
-            """リンクを実際に開けるURLに修正"""
-            if not link:
-              return ''
-            link = link.strip()
-            if not link.startswith('http'):
-              return ''
-            # NHKの旧形式URLをwww3形式に統一
-            link = link.replace('www.nhk.or.jp/news/', 'www3.nhk.or.jp/news/')
-            return link
+def parse_feed(data, src):
+  """RSS 2.0 / RDF 1.0 / Atom を統一パース"""
+  items_out = []
+  try:
+    root = ET.fromstring(data)
+    tag = root.tag
 
-          all_items = []
+    # ── Atom ──────────────────────────
+    if 'Atom' in tag or tag == f'{{{ATOM_NS}}}feed':
+      for item in root.findall(f'{{{ATOM_NS}}}entry'):
+        title = get_text(item, f'{{{ATOM_NS}}}title')
+        link  = ''
+        lel   = item.find(f'{{{ATOM_NS}}}link')
+        if lel is not None:
+          link = lel.get('href','') or lel.text or ''
+        pub = get_text(item, f'{{{ATOM_NS}}}published', f'{{{ATOM_NS}}}updated')
+        items_out.append((title, link, pub, get_image(item)))
 
-          for src in SOURCES:
-            print(f"\n=== {src['name']} ===")
-            data = None
-            for url in src['urls']:
-              print(f"  試行: {url}")
-              data = fetch_url(url)
-              if data:
-                print(f"  取得成功: {len(data)} bytes")
-                break
-            
-            if not data:
-              print(f"  全URL失敗: {src['name']}")
-              continue
+    # ── RDF 1.0（朝日など）────────────
+    elif tag == f'{{{RDF_NS}}}RDF' or 'RDF' in tag:
+      # <item rdf:about="..."> 形式
+      for item in root.findall(f'{{{RSS_NS}}}item'):
+        title = get_text(item, f'{{{RSS_NS}}}title', 'title')
+        link  = get_text(item, f'{{{RSS_NS}}}link', 'link')
+        pub   = get_text(item, f'{{{DC_NS}}}date', 'pubDate')
+        items_out.append((title, link, pub, get_image(item)))
+      # フォールバック: 名前空間なし
+      if not items_out:
+        for item in root.findall('.//item'):
+          title = get_text(item, 'title')
+          link  = get_text(item, 'link')
+          pub   = get_text(item, 'pubDate', f'{{{DC_NS}}}date')
+          items_out.append((title, link, pub, get_image(item)))
 
-            try:
-              root = ET.fromstring(data)
-              items = root.findall('.//item')
-              if not items:
-                items = root.findall('.//{http://www.w3.org/2005/Atom}entry')
-              count = 0
-              for item in items[:20]:
-                title = get_text(item, 'title',
-                  '{http://www.w3.org/2005/Atom}title')
-                link = get_text(item, 'link',
-                  '{http://www.w3.org/2005/Atom}link')
-                if not link:
-                  lel = item.find('{http://www.w3.org/2005/Atom}link')
-                  if lel is not None:
-                    link = lel.get('href','')
-                link = fix_link(link, src['name'])
-                pub = get_text(item, 'pubDate','published','updated',
-                  '{http://www.w3.org/2005/Atom}published',
-                  'dc:date')
-                image = get_image(item)
-                if title and link:
-                  all_items.append({
-                    'id': link,
-                    'title': title,
-                    'link': link,
-                    'pubDate': pub,
-                    'image': image,
-                    'source': src['name'],
-                    'sid': src['id'],
-                  })
-                  count += 1
-              print(f"  パース成功: {count}件")
-            except ET.ParseError as ex:
-              print(f"  XMLパースエラー: {ex}")
-            except Exception as ex:
-              print(f"  エラー: {ex}")
+    # ── RSS 2.0（標準）────────────────
+    else:
+      for item in root.findall('.//item'):
+        title = get_text(item, 'title')
+        link  = get_text(item, 'link')
+        pub   = get_text(item, 'pubDate', f'{{{DC_NS}}}date')
+        items_out.append((title, link, pub, get_image(item)))
 
-          output = {
-            'updated': datetime.datetime.utcnow().isoformat() + 'Z',
-            'items': all_items,
-          }
-          with open('data.json', 'w', encoding='utf-8') as f:
-            json.dump(output, f, ensure_ascii=False, indent=2)
-          print(f"\n=== 完了: 合計{len(all_items)}件 ===")
+  except ET.ParseError as e:
+    print(f"  XMLパースエラー: {e}")
+    return []
+
+  result = []
+  for title, link, pub, image in items_out[:20]:
+    title = title.strip()
+    link  = link.strip()
+    if not title or not link:
+      continue
+    if not link.startswith('http'):
+      continue
+    # NHKリンク正規化
+    link = link.replace('//www.nhk.or.jp/news/', '//www3.nhk.or.jp/news/')
+    result.append({
+      'id':      link,
+      'title':   title,
+      'link':    link,
+      'pubDate': pub,
+      'image':   image,
+      'source':  src['name'],
+      'sid':     src['id'],
+    })
+  return result
+
+all_items = []
+
+for src in SOURCES:
+  print(f"\n=== {src['name']} ===")
+  data = None
+  for url in src['urls']:
+    print(f"  URL: {url}")
+    data = fetch_url(url)
+    if data:
+      print(f"  取得: {len(data)} bytes")
+      break
+
+  if not data:
+    print(f"  失敗: 全URL応答なし")
+    continue
+
+  items = parse_feed(data, src)
+  print(f"  パース: {len(items)}件")
+  if items:
+    print(f"  例: {items[0]['title'][:40]}")
+  all_items.extend(items)
+
+output = {
+  'updated': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+  'items':   all_items,
+}
+with open('data.json', 'w', encoding='utf-8') as f:
+  json.dump(output, f, ensure_ascii=False, indent=2)
+print(f"\n=== 保存完了: 合計{len(all_items)}件 ===")
           PYEOF
 
       - name: Commit data.json
@@ -173,5 +203,5 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git diff --cached --quiet || git commit -m "Update RSS data $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git diff --cached --quiet || git commit -m "Update RSS $(date -u '+%Y-%m-%d %H:%M') UTC"
           git push
