@@ -40,7 +40,7 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
 .spinner{width:36px;height:36px;border:3px solid var(--bd);border-top-color:var(--ac);border-radius:50%;animation:spin .75s linear infinite}
 #sv p{font-size:14px;line-height:1.7}
 .retry-btn{background:var(--ac);color:#fff;border:none;border-radius:10px;padding:10px 28px;font-size:14px;font-family:'Noto Sans JP',sans-serif;cursor:pointer}
-.debug-btn{background:var(--sf2);color:var(--tx3);border:1px solid var(--bd);border-radius:10px;padding:8px 20px;font-size:12px;font-family:'Noto Sans JP',sans-serif;cursor:pointer}
+#updated{text-align:center;font-size:10px;color:var(--tx3);padding:6px 0 0}
 #so{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
 #so.open{display:flex;align-items:flex-end}
 #sp{width:100%;max-height:85dvh;background:var(--sf);border-radius:20px 20px 0 0;border-top:1px solid var(--bd);display:flex;flex-direction:column;overflow:hidden;padding-bottom:var(--sb);animation:su .3s cubic-bezier(.32,.72,0,1)}
@@ -75,12 +75,6 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
 #guide p{font-size:12px;line-height:1.6;color:#aac4f0;flex:1}
 #guide strong{color:#fff}
 #gc{background:none;border:none;color:var(--tx3);font-size:22px;cursor:pointer}
-#dbg{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,.9);overflow-y:auto;padding:calc(var(--st)+16px) 16px calc(var(--sb)+16px)}
-#dbg-inner{background:var(--sf);border-radius:16px;padding:20px;max-width:500px;margin:0 auto}
-#dbg h2{font-size:16px;margin-bottom:16px;color:var(--ac)}
-#dbg-log{font-size:11px;font-family:monospace;line-height:1.9;color:var(--tx2);white-space:pre-wrap;word-break:break-all}
-.log-ok{color:#4caf50}.log-err{color:#e05555}.log-warn{color:#f5a623}.log-info{color:#8888aa}
-#dbg-close{margin-top:16px;width:100%;padding:12px;background:var(--sf2);border:1px solid var(--bd);border-radius:10px;color:var(--tx);font-size:14px;font-family:'Noto Sans JP',sans-serif;cursor:pointer}
 </style>
 </head>
 <body>
@@ -88,7 +82,7 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
   <div id="hi">
     <div id="logo">MyNews</div>
     <div id="ha">
-      <button class="ib" id="rb" onclick="refreshAll()">
+      <button class="ib" id="rb" onclick="loadData()">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
       </button>
       <button class="ib" onclick="openSettings()">
@@ -100,8 +94,9 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
 </div>
 
 <div id="main">
-  <div id="sv"><div class="spinner"></div><p>ニュースを取得中...</p></div>
+  <div id="sv"><div class="spinner"></div><p>ニュースを読み込み中...</p></div>
   <div id="grid" style="display:none"></div>
+  <p id="updated" style="display:none"></p>
   <p id="rh" style="display:none">↓ 引っ張って更新</p>
 </div>
 
@@ -139,190 +134,51 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
   <button id="gc" onclick="dismissGuide()">×</button>
 </div>
 
-<div id="dbg">
-  <div id="dbg-inner">
-    <h2>🔍 デバッグログ</h2>
-    <div id="dbg-log"></div>
-    <button id="dbg-close" onclick="document.getElementById('dbg').style.display='none'">閉じる</button>
-  </div>
-</div>
-
 <script>
-// ── デバッグ ──────────────────────────────────────
-var debugLines = [];
-function dlog(type, msg) {
-  var t = new Date().toLocaleTimeString('ja-JP');
-  var cls = {ok:'log-ok',err:'log-err',warn:'log-warn',info:'log-info'}[type]||'log-info';
-  var icon = {ok:'✅',err:'❌',warn:'⚠️',info:'ℹ️'}[type]||'ℹ️';
-  debugLines.push('<span class="'+cls+'">['+t+'] '+icon+' '+msg+'</span>');
-  var el = document.getElementById('dbg-log');
-  if (el) el.innerHTML = debugLines.join('\n');
-}
-function showDebug() { document.getElementById('dbg').style.display = 'block'; }
+// 設定（ON/OFFのみ管理。URLはサーバー側で固定）
+var DS_IDS = ['s1','s2','s3','s4','s5','s6','s7'];
+var DS_NAMES = {
+  s1:'NHK ニュース', s2:'朝日新聞', s3:'日本経済新聞',
+  s4:'テレ朝NEWS', s5:'TBS NEWS DIG', s6:'FNNプライムオンライン', s7:'毎日新聞'
+};
 
-// ── デフォルトソース ──────────────────────────────
-var DS = [
-  {id:'s1', name:'NHK ニュース',          url:'https://www.nhk.or.jp/rss/news/cat0.xml',           enabled:true},
-  {id:'s2', name:'朝日新聞',              url:'https://www.asahi.com/rss/asahi/newsheadlines.rdf',  enabled:true},
-  {id:'s3', name:'日本経済新聞',          url:'https://www.nikkei.com/rss/news.rdf',                enabled:true},
-  {id:'s4', name:'テレ朝NEWS',            url:'https://news.tv-asahi.co.jp/rss20/news_all.xml',     enabled:true},
-  {id:'s5', name:'TBS NEWS DIG',          url:'https://newsdig.tbs.co.jp/rss',                      enabled:true},
-  {id:'s6', name:'FNNプライムオンライン', url:'https://feeds.fnn.jp/fnnprime/rss.xml',             enabled:true},
-  {id:'s7', name:'毎日新聞',              url:'https://mainichi.jp/rss/etc/mainichi-flash.rss',      enabled:true},
-];
+var allArticles = [], articles = [], fid = null, curUrl = '', loading = false;
+var enabledSet = loadEnabled();
 
-var sources = loadSrc(), articles = [], fid = null, curUrl = '', loading = false;
-
-function loadSrc() {
-  try { var s = localStorage.getItem('mn5'); if (s) return JSON.parse(s); } catch(e) {}
-  return DS.map(function(s){ return Object.assign({}, s); });
-}
-function saveSrc() {
-  try { localStorage.setItem('mn5', JSON.stringify(sources)); } catch(e) {}
-}
-
-// ── JSONP方式でrss2jsonを呼ぶ（fetchを一切使わない）────
-var jsonpCallbacks = {};
-var jsonpCounter = 0;
-
-function jsonpFetch(url, timeout) {
-  return new Promise(function(resolve, reject) {
-    var cbName = '_rss2jsonCb' + (jsonpCounter++);
-    var script = document.createElement('script');
-    var timer = setTimeout(function() {
-      cleanup();
-      reject(new Error('timeout'));
-    }, timeout);
-
-    function cleanup() {
-      clearTimeout(timer);
-      delete window[cbName];
-      if (script.parentNode) script.parentNode.removeChild(script);
-    }
-
-    window[cbName] = function(data) {
-      cleanup();
-      resolve(data);
-    };
-
-    // rss2json は callback パラメータ対応
-    script.src = url + '&callback=' + cbName;
-    script.onerror = function() {
-      cleanup();
-      reject(new Error('script load error'));
-    };
-    document.head.appendChild(script);
-  });
-}
-
-function imgFromHtml(h) {
-  var m = h.match(/<img[^>]+src=["']([^"']+)["']/i);
-  return m ? m[1] : null;
-}
-
-function parseXml(xmlStr, source) {
+function loadEnabled() {
   try {
-    var parser = new DOMParser();
-    var doc = parser.parseFromString(xmlStr, 'text/xml');
-    if (doc.querySelector('parsererror')) return [];
-    var items = Array.from(doc.querySelectorAll('item, entry'));
-    return items.map(function(item) {
-      var title = (item.querySelector('title')||{}).textContent||'';
-      var link = '';
-      var linkEl = item.querySelector('link');
-      if (linkEl) link = linkEl.getAttribute('href') || linkEl.textContent || '';
-      var desc = (item.querySelector('description,summary,content')||{}).textContent||'';
-      var pubStr = (item.querySelector('pubDate,published,updated')||{}).textContent||'';
-      var image = null;
-      var media = item.querySelector('[url]');
-      if (media) image = media.getAttribute('url');
-      if (!image) image = imgFromHtml(desc);
-      return {id:link, title:title.trim(), link:link.trim(),
-        pubDate: pubStr ? new Date(pubStr) : null,
-        image:image, source:source.name, sid:source.id};
-    }).filter(function(i){ return i.title && i.link; });
-  } catch(e) { return []; }
+    var s = localStorage.getItem('mn_enabled');
+    if (s) return new Set(JSON.parse(s));
+  } catch(e) {}
+  return new Set(DS_IDS); // デフォルト全ON
+}
+function saveEnabled() {
+  try { localStorage.setItem('mn_enabled', JSON.stringify(Array.from(enabledSet))); } catch(e) {}
 }
 
-async function fetchSrc(source) {
-  dlog('info', source.name + ' 取得中...');
-
-  // 方法1: JSONP（fetchを使わない・CORSを回避）
-  try {
-    var apiUrl = 'https://api.rss2json.com/v1/api.json?count=20&rss_url=' + encodeURIComponent(source.url);
-    var data = await jsonpFetch(apiUrl, 12000);
-    if (data && data.status === 'ok' && data.items && data.items.length > 0) {
-      dlog('ok', source.name + ' (JSONP): ' + data.items.length + '件');
-      return data.items.map(function(i) {
-        var image = i.thumbnail || null;
-        if (!image && i.enclosure && i.enclosure.link) image = i.enclosure.link;
-        if (!image) image = imgFromHtml(i.description||'');
-        return {id:i.guid||i.link, title:i.title||'', link:i.link||'',
-          pubDate: i.pubDate ? new Date(i.pubDate) : null,
-          image:image, source:source.name, sid:source.id};
-      });
-    }
-    dlog('warn', source.name + ' JSONP: status=' + (data&&data.status) + ' msg=' + (data&&data.message||''));
-  } catch(e) {
-    dlog('warn', source.name + ' JSONP失敗: ' + e.message);
-  }
-
-  // 方法2: fetch（念のため残す）
-  try {
-    var r = await Promise.race([
-      fetch('https://api.rss2json.com/v1/api.json?count=20&rss_url=' + encodeURIComponent(source.url)),
-      new Promise(function(_,rej){ setTimeout(function(){ rej(new Error('timeout')); }, 10000); })
-    ]);
-    if (r.ok) {
-      var d = await r.json();
-      if (d.status === 'ok' && d.items && d.items.length > 0) {
-        dlog('ok', source.name + ' (fetch): ' + d.items.length + '件');
-        return d.items.map(function(i) {
-          var image = i.thumbnail||null;
-          if (!image && i.enclosure && i.enclosure.link) image = i.enclosure.link;
-          if (!image) image = imgFromHtml(i.description||'');
-          return {id:i.guid||i.link, title:i.title||'', link:i.link||'',
-            pubDate:i.pubDate?new Date(i.pubDate):null,
-            image:image, source:source.name, sid:source.id};
-        });
-      }
-    }
-  } catch(e) {
-    dlog('warn', source.name + ' fetch失敗: ' + e.message);
-  }
-
-  dlog('err', source.name + ': 取得失敗');
-  return [];
-}
-
-async function refreshAll() {
+async function loadData() {
   if (loading) return;
   loading = true;
-  debugLines = [];
-  var ua = navigator.userAgent;
-  dlog('info', 'ブラウザ: ' + (ua.indexOf('Chrome')>-1?'Chrome':ua.indexOf('Firefox')>-1?'Firefox':'Safari系'));
-  dlog('info', 'URL: ' + location.href);
-  dlog('info', '開始: ' + new Date().toLocaleString('ja-JP'));
   document.getElementById('rb').classList.add('spin');
   showLoading();
   try {
-    var enabled = sources.filter(function(s){ return s.enabled; });
-    if (!enabled.length) { showError('有効なメディアがありません'); return; }
-    dlog('info', '有効ソース数: ' + enabled.length);
-    var results = await Promise.allSettled(enabled.map(function(s){ return fetchSrc(s); }));
-    var all = [];
-    results.forEach(function(r){ if (r.status==='fulfilled') all = all.concat(r.value); });
-    all.sort(function(a,b){ return (b.pubDate||0)-(a.pubDate||0); });
-    articles = all;
-    dlog('info', '合計: ' + all.length + '件');
-    if (!all.length) {
-      showError('記事を取得できませんでした');
-    } else {
-      renderGrid(); renderChips();
+    // 同一オリジンのdata.jsonを読むだけ→CORSなし
+    var r = await fetch('data.json?t=' + Date.now());
+    if (!r.ok) throw new Error('data.json が見つかりません (HTTP ' + r.status + ')。\nGitHub Actionsを一度手動で実行してください。');
+    var data = await r.json();
+    allArticles = (data.items || []).map(function(i) {
+      return Object.assign({}, i, { pubDate: i.pubDate ? new Date(i.pubDate) : null });
+    });
+    renderChips();
+    applyFilter();
+    // 更新日時を表示
+    if (data.updated) {
+      var d = new Date(data.updated);
+      document.getElementById('updated').textContent = '最終更新: ' + d.toLocaleString('ja-JP');
+      document.getElementById('updated').style.display = 'block';
     }
   } catch(e) {
-    dlog('err', '予期しないエラー: ' + e.message);
-    showError('エラー: ' + e.message);
+    showError(e.message);
   } finally {
     loading = false;
     document.getElementById('rb').classList.remove('spin');
@@ -331,39 +187,44 @@ async function refreshAll() {
 
 function showLoading() {
   document.getElementById('sv').style.display='flex';
-  document.getElementById('sv').innerHTML='<div class="spinner"></div><p>ニュースを取得中...</p>';
+  document.getElementById('sv').innerHTML='<div class="spinner"></div><p>読み込み中...</p>';
   document.getElementById('grid').style.display='none';
   document.getElementById('rh').style.display='none';
+  document.getElementById('updated').style.display='none';
 }
 function showError(msg) {
   document.getElementById('sv').style.display='flex';
-  document.getElementById('sv').innerHTML=
-    '<p>'+msg+'</p>'+
-    '<button class="retry-btn" onclick="refreshAll()">再試行</button>'+
-    '<button class="debug-btn" onclick="showDebug()">🔍 詳細ログ</button>';
+  document.getElementById('sv').innerHTML='<p style="white-space:pre-line">'+e(msg)+'</p><button class="retry-btn" onclick="loadData()">再試行</button>';
   document.getElementById('grid').style.display='none';
-  document.getElementById('rh').style.display='none';
+}
+
+function applyFilter() {
+  articles = allArticles.filter(function(a) {
+    return enabledSet.has(a.sid) && (fid === null || a.sid === fid);
+  });
+  renderGrid();
 }
 
 function renderChips() {
   var h='<button class="chip'+(fid===null?' active':'')+'" onclick="setF(null)">すべて</button>';
-  sources.filter(function(s){return s.enabled;}).forEach(function(s){
-    h+='<button class="chip'+(fid===s.id?' active':'')+'" onclick="setF(\''+s.id+'\')">'+e(s.name)+'</button>';
+  DS_IDS.forEach(function(id) {
+    if (!enabledSet.has(id)) return;
+    h+='<button class="chip'+(fid===id?' active':'')+'" onclick="setF(\''+id+'\')">'+e(DS_NAMES[id])+'</button>';
   });
   document.getElementById('fb').innerHTML=h;
 }
-function setF(id){ fid=id; renderChips(); renderGrid(); }
+function setF(id){ fid=id; renderChips(); applyFilter(); }
 
 function renderGrid() {
-  var V=document.getElementById('sv'), G=document.getElementById('grid'), R=document.getElementById('rh');
-  var vis=fid?articles.filter(function(a){return a.sid===fid;}):articles;
-  if (!vis.length) {
-    V.style.display='flex'; V.innerHTML='<p>記事がありません</p>';
+  var V=document.getElementById('sv'),G=document.getElementById('grid'),R=document.getElementById('rh');
+  if (!articles.length) {
+    V.style.display='flex';
+    V.innerHTML='<p>記事がありません</p><button class="retry-btn" onclick="loadData()">再読み込み</button>';
     G.style.display='none'; R.style.display='none'; return;
   }
   V.style.display='none'; G.style.display='grid'; R.style.display='block';
-  G.innerHTML=vis.map(function(a,i){
-    var delay=Math.min(i*25,300);
+  G.innerHTML=articles.map(function(a,i){
+    var delay=Math.min(i*20,400);
     var th=a.image
       ?'<img class="ct" src="'+e(a.image)+'" alt="" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'"><div class="cp" style="display:none">📰</div>'
       :'<div class="cp">📰</div>';
@@ -377,8 +238,7 @@ function renderGrid() {
 }
 
 function openA(i) {
-  var vis=fid?articles.filter(function(a){return a.sid===fid;}):articles;
-  var a=vis[i]; if(!a) return;
+  var a=articles[i]; if(!a) return;
   curUrl=a.link;
   document.getElementById('asl').textContent=a.source;
   document.getElementById('ai').src=a.link;
@@ -393,33 +253,27 @@ function closeArticle(){
 function openSafari(){ if(curUrl) window.open(curUrl,'_blank'); }
 
 function openSettings(){ renderSL(); document.getElementById('so').classList.add('open'); document.body.style.overflow='hidden'; }
-function closeSettings(){ document.getElementById('so').classList.remove('open'); document.body.style.overflow=''; saveSrc(); renderChips(); refreshAll(); }
+function closeSettings(){ document.getElementById('so').classList.remove('open'); document.body.style.overflow=''; saveEnabled(); renderChips(); applyFilter(); }
 function maybeClose(ev){ if(ev.target===document.getElementById('so')) closeSettings(); }
+
 function renderSL(){
-  document.getElementById('sl').innerHTML=sources.map(function(s,i){
-    return '<div class="sr"><div class="si"><div class="sn">'+e(s.name)+'</div><div class="su2">'+e(s.url)+'</div></div>'
-      +'<label class="tg"><input type="checkbox"'+(s.enabled?' checked':'')+' onchange="tog('+i+',this.checked)"><div class="tt"></div></label>'
-      +'<button class="db" onclick="delSrc('+i+')">×</button></div>';
+  document.getElementById('sl').innerHTML=DS_IDS.map(function(id){
+    return '<div class="sr"><div class="si"><div class="sn">'+e(DS_NAMES[id])+'</div></div>'
+      +'<label class="tg"><input type="checkbox"'+(enabledSet.has(id)?' checked':'')+' onchange="togSrc(\''+id+'\',this.checked)"><div class="tt"></div></label>'
+      +'</div>';
   }).join('');
 }
-function tog(i,v){ sources[i].enabled=v; }
-function delSrc(i){
-  if(!confirm('「'+sources[i].name+'」を削除しますか？')) return;
-  sources.splice(i,1); saveSrc(); renderSL();
+function togSrc(id,v){
+  if(v) enabledSet.add(id); else enabledSet.delete(id);
 }
+// カスタムソース追加（将来拡張用・現在はUIのみ）
 function addSource(){
-  var n=document.getElementById('an').value.trim();
-  var u=document.getElementById('au').value.trim();
-  if(!n||!u){ alert('名前とURLを入力してください'); return; }
-  if(u.indexOf('http')!==0){ alert('URLはhttpsから始まる必要があります'); return; }
-  sources.push({id:'u'+Date.now(), name:n, url:u, enabled:true});
-  document.getElementById('an').value=''; document.getElementById('au').value='';
-  saveSrc(); renderSL();
+  alert('カスタムソースの追加はGitHub Actionsのfetch-rss.ymlを編集して追加してください。');
 }
 
 function e(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
 function rel(d){
-  var s=(Date.now()-d)/1000;
+  var s=(Date.now()-d.getTime())/1000;
   if(s<60) return 'たった今';
   if(s<3600) return Math.floor(s/60)+'分前';
   if(s<86400) return Math.floor(s/3600)+'時間前';
@@ -435,10 +289,10 @@ function showGuide(){
 var ty=0;
 document.addEventListener('touchstart',function(ev){ty=ev.touches[0].clientY;},{passive:true});
 document.addEventListener('touchend',function(ev){
-  if(ev.changedTouches[0].clientY-ty>80&&window.scrollY===0&&!loading) refreshAll();
+  if(ev.changedTouches[0].clientY-ty>80&&window.scrollY===0&&!loading) loadData();
 },{passive:true});
 
-refreshAll();
+loadData();
 showGuide();
 </script>
 </body>
