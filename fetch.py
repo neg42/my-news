@@ -1,153 +1,239 @@
 import urllib.request, urllib.error, xml.etree.ElementTree as ET
 import json, datetime, re, time
 
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ソース定義
+# type: "rss" = 通常RSS/RDF, "youtube" = YouTube チャンネルRSS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SOURCES = [
-  {"id":"s1","name":"NHK ニュース",
-   "urls":["https://www.nhk.or.jp/rss/news/cat0.xml",
-           "https://www3.nhk.or.jp/rss/news/cat0.xml"]},
-  {"id":"s2","name":"朝日新聞",
-   "urls":["https://www.asahi.com/rss/asahi/newsheadlines.rdf"]},
-  {"id":"s3","name":"日本経済新聞",
-   "urls":["https://www.nikkei.com/rss/news.rdf",
-           "https://www.nikkei.com/rss/index.rdf"]},
-  {"id":"s4","name":"テレ朝NEWS",
-   "urls":["https://news.tv-asahi.co.jp/rss20/news_all.xml",
-           "https://news.tv-asahi.co.jp/rss/index.xml"]},
-  {"id":"s5","name":"TBS NEWS DIG",
-   "urls":["https://newsdig.tbs.co.jp/rss",
-           "https://newsdig.tbs.co.jp/articles/rss"]},
-  {"id":"s6","name":"FNNプライムオンライン",
-   "urls":["https://feeds.fnn.jp/fnnprime/rss.xml",
-           "https://www.fnn.jp/rss/articles"]},
-  {"id":"s7","name":"毎日新聞",
-   "urls":["https://mainichi.jp/rss/etc/mainichi-flash.rss",
-           "https://mainichi.jp/rss/etc/mainichi-news.rss"]},
+  # ── NHK（カテゴリ別・合計40〜50件）──────────────────────────
+  {"id":"s1","name":"NHK ニュース","type":"rss",
+   "url":"https://www.nhk.or.jp/rss/news/cat0.xml"},
+  {"id":"s1","name":"NHK ニュース","type":"rss",
+   "url":"https://www.nhk.or.jp/rss/news/cat1.xml"},
+  {"id":"s1","name":"NHK ニュース","type":"rss",
+   "url":"https://www.nhk.or.jp/rss/news/cat4.xml"},
+  {"id":"s1","name":"NHK ニュース","type":"rss",
+   "url":"https://www.nhk.or.jp/rss/news/cat5.xml"},
+  {"id":"s1","name":"NHK ニュース","type":"rss",
+   "url":"https://www.nhk.or.jp/rss/news/cat6.xml"},
+
+  # ── 新聞社（RSS）────────────────────────────────────────
+  {"id":"s2","name":"朝日新聞","type":"rss",
+   "url":"https://www.asahi.com/rss/asahi/newsheadlines.rdf"},
+  {"id":"s7","name":"毎日新聞","type":"rss",
+   "url":"https://mainichi.jp/rss/etc/mainichi-flash.rss"},
+  {"id":"s8","name":"産経ニュース","type":"rss",
+   "url":"https://www.sankei.com/rss/news/flash/today/newsflash-story.rss"},
+
+  # ── テレビ局（YouTube RSS）───────────────────────────────
+  {"id":"s4","name":"テレ朝NEWS","type":"youtube",
+   "channel_id":"UCivjgV3f4b5kBFj-4WExXAQ"},   # ANNnewsCH
+  {"id":"s5","name":"TBS NEWS DIG","type":"youtube",
+   "channel_id":"UC6AG81pAkf6Lbi_1VC5NmPA"},
+  {"id":"s6","name":"FNNプライムオンライン","type":"youtube",
+   "channel_id":"UCoQBJMzcwmXrRSHBFAlTsIw"},
+  {"id":"s3","name":"日テレNEWS","type":"youtube",
+   "channel_id":"UCuTAXTexrhetbOe3zgskJBQ"},
+  {"id":"s10","name":"日本経済新聞","type":"youtube",
+   "channel_id":"UCHL12woHGeiqAqLrK-pJe7g"},
 ]
 
-RDF_NS   = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
-RSS_NS   = 'http://purl.org/rss/1.0/'
 ATOM_NS  = 'http://www.w3.org/2005/Atom'
 MEDIA_NS = 'http://search.yahoo.com/mrss/'
+RSS_NS   = 'http://purl.org/rss/1.0/'
+RDF_NS   = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
 DC_NS    = 'http://purl.org/dc/elements/1.1/'
+YT_NS    = 'http://www.youtube.com/xml/schemas/2015'
 
-USER_AGENTS = [
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-  'Feedfetcher-Google; (+http://www.google.com/feedfetcher.html)',
-]
+UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+      'AppleWebKit/605.1.15 (KHTML, like Gecko) '
+      'Version/17.0 Safari/605.1.15')
 
-def fetch_url(url):
-  for ua in USER_AGENTS:
+def fetch(url):
+  for attempt in range(3):
     try:
       req = urllib.request.Request(url, headers={
-        'User-Agent': ua,
-        'Accept': 'application/rss+xml,application/rdf+xml,application/xml,text/xml,*/*',
+        'User-Agent': UA,
+        'Accept': 'application/rss+xml,application/rdf+xml,application/atom+xml,application/xml,text/xml,*/*',
         'Accept-Language': 'ja,en;q=0.9',
       })
-      with urllib.request.urlopen(req, timeout=15) as resp:
-        data = resp.read()
+      with urllib.request.urlopen(req, timeout=15) as r:
+        data = r.read()
       if len(data) > 200:
         return data
     except urllib.error.HTTPError as e:
-      print(f"  HTTP {e.code}: {url}")
+      print(f"  HTTP {e.code} (試行{attempt+1}): {url}")
     except Exception as e:
-      print(f"  ERR: {e}")
-    time.sleep(0.3)
+      print(f"  ERR {e} (試行{attempt+1}): {url}")
+    time.sleep(1)
   return None
 
-def get_text(el, *tags):
+def txt(el, *tags):
   for tag in tags:
-    child = el.find(tag)
-    if child is not None and child.text:
-      return child.text.strip()
+    try:
+      c = el.find(tag)
+      if c is not None and c.text:
+        return c.text.strip()
+    except: pass
   return ''
 
-def get_image(item):
+def get_image_rss(item):
+  # media:thumbnail / media:content[url]
   for tag in [f'{{{MEDIA_NS}}}thumbnail', f'{{{MEDIA_NS}}}content']:
-    el = item.find(tag)
-    if el is not None:
-      u = el.get('url', '')
-      if u: return u
+    try:
+      el = item.find(tag)
+      if el is not None:
+        u = el.get('url','')
+        if u: return u
+    except: pass
+  # enclosure
   enc = item.find('enclosure')
-  if enc is not None and enc.get('type', '').startswith('image'):
-    return enc.get('url', '')
-  desc = get_text(item, 'description', f'{{{RSS_NS}}}description')
+  if enc is not None and enc.get('type','').startswith('image'):
+    return enc.get('url','')
+  # img in description
+  desc = txt(item,'description',f'{{{RSS_NS}}}description')
   m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc, re.I)
   return m.group(1) if m else ''
 
-def parse_feed(data, src):
-  items_out = []
+def parse_rss(data, src):
+  """RSS 2.0 / RDF 1.0 パーサー"""
   try:
     root = ET.fromstring(data)
-    tag  = root.tag
-    if ATOM_NS in tag:
-      for item in root.findall(f'{{{ATOM_NS}}}entry'):
-        title = get_text(item, f'{{{ATOM_NS}}}title')
-        link  = ''
-        lel   = item.find(f'{{{ATOM_NS}}}link')
-        if lel is not None:
-          link = lel.get('href', '') or lel.text or ''
-        pub = get_text(item, f'{{{ATOM_NS}}}published', f'{{{ATOM_NS}}}updated')
-        items_out.append((title, link, pub, get_image(item)))
-    elif RDF_NS in tag or 'RDF' in tag:
-      for item in root.findall(f'{{{RSS_NS}}}item'):
-        title = get_text(item, f'{{{RSS_NS}}}title', 'title')
-        link  = get_text(item, f'{{{RSS_NS}}}link',  'link')
-        pub   = get_text(item, f'{{{DC_NS}}}date',   'pubDate')
-        items_out.append((title, link, pub, get_image(item)))
-      if not items_out:
-        for item in root.findall('.//item'):
-          title = get_text(item, 'title')
-          link  = get_text(item, 'link')
-          pub   = get_text(item, 'pubDate', f'{{{DC_NS}}}date')
-          items_out.append((title, link, pub, get_image(item)))
-    else:
-      for item in root.findall('.//item'):
-        title = get_text(item, 'title')
-        link  = get_text(item, 'link')
-        pub   = get_text(item, 'pubDate', f'{{{DC_NS}}}date')
-        items_out.append((title, link, pub, get_image(item)))
   except ET.ParseError as e:
-    print(f"  XMLパースエラー: {e}")
+    print(f"  XML parse error: {e}")
     return []
 
+  tag = root.tag
+  raw = []
+
+  if RSS_NS in tag or RDF_NS in tag:
+    # RDF 1.0（朝日など）
+    for item in root.findall(f'{{{RSS_NS}}}item'):
+      title = txt(item, f'{{{RSS_NS}}}title', 'title')
+      link  = txt(item, f'{{{RSS_NS}}}link', 'link')
+      if not link:
+        lel = item.find(f'{{{RSS_NS}}}link')
+        if lel is not None:
+          link = lel.get(f'{{{RDF_NS}}}resource','')
+      pub = txt(item, f'{{{DC_NS}}}date', 'pubDate')
+      raw.append((title, link, pub, get_image_rss(item)))
+    # フォールバック
+    if not raw:
+      for item in root.findall('.//item'):
+        raw.append((
+          txt(item,'title'),
+          txt(item,'link'),
+          txt(item,'pubDate',f'{{{DC_NS}}}date'),
+          get_image_rss(item)
+        ))
+  else:
+    # RSS 2.0
+    for item in root.findall('.//item'):
+      raw.append((
+        txt(item,'title'),
+        txt(item,'link'),
+        txt(item,'pubDate',f'{{{DC_NS}}}date'),
+        get_image_rss(item)
+      ))
+
+  return build_items(raw, src)
+
+def parse_youtube(data, src):
+  """YouTube Atom フィードパーサー（サムネイル付き）"""
+  try:
+    root = ET.fromstring(data)
+  except ET.ParseError as e:
+    print(f"  XML parse error: {e}")
+    return []
+
+  raw = []
+  for entry in root.findall(f'{{{ATOM_NS}}}entry'):
+    title = txt(entry, f'{{{ATOM_NS}}}title')
+    link  = ''
+    lel   = entry.find(f'{{{ATOM_NS}}}link')
+    if lel is not None:
+      link = lel.get('href','')
+    pub = txt(entry, f'{{{ATOM_NS}}}published', f'{{{ATOM_NS}}}updated')
+
+    # YouTube サムネイル（media:group > media:thumbnail）
+    image = ''
+    group = entry.find(f'{{{MEDIA_NS}}}group')
+    if group is not None:
+      th = group.find(f'{{{MEDIA_NS}}}thumbnail')
+      if th is not None:
+        image = th.get('url','')
+    if not image:
+      th = entry.find(f'{{{MEDIA_NS}}}thumbnail')
+      if th is not None:
+        image = th.get('url','')
+
+    raw.append((title, link, pub, image))
+
+  return build_items(raw, src)
+
+def build_items(raw, src):
   result = []
-  for title, link, pub, image in items_out[:20]:
-    title = title.strip()
-    link  = link.strip()
+  for title, link, pub, image in raw[:20]:
+    title = (title or '').strip()
+    link  = (link  or '').strip()
     if not title or not link or not link.startswith('http'):
       continue
-    link = link.replace('//www.nhk.or.jp/news/', '//www3.nhk.or.jp/news/')
+    # NHKリンク正規化
+    link = re.sub(r'https?://www\.nhk\.or\.jp/news/',
+                  'https://www3.nhk.or.jp/news/', link)
     result.append({
-      'id': link, 'title': title, 'link': link,
-      'pubDate': pub, 'image': image,
-      'source': src['name'], 'sid': src['id'],
+      'id':      link,
+      'title':   title,
+      'link':    link,
+      'pubDate': pub or '',
+      'image':   image or '',
+      'source':  src['name'],
+      'sid':     src['id'],
     })
   return result
 
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# メイン処理
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 all_items = []
+seen = set()
+
 for src in SOURCES:
-  print(f"\n=== {src['name']} ===")
-  data = None
-  for url in src['urls']:
-    print(f"  試行: {url}")
-    data = fetch_url(url)
-    if data:
-      print(f"  取得: {len(data)} bytes")
-      break
+  if src['type'] == 'youtube':
+    url = f"https://www.youtube.com/feeds/videos.xml?channel_id={src['channel_id']}"
+  else:
+    url = src['url']
+
+  print(f"\n=== {src['name']} ({src['id']}) ===")
+  print(f"  {url}")
+
+  data = fetch(url)
   if not data:
-    print(f"  失敗")
+    print(f"  → 失敗")
     continue
-  items = parse_feed(data, src)
-  print(f"  件数: {len(items)}")
-  if items:
-    print(f"  例: {items[0]['title'][:50]}")
-  all_items.extend(items)
+  print(f"  → 取得: {len(data):,} bytes")
+
+  if src['type'] == 'youtube':
+    items = parse_youtube(data, src)
+  else:
+    items = parse_rss(data, src)
+
+  new = [i for i in items if i['link'] not in seen]
+  for i in new:
+    seen.add(i['link'])
+  all_items.extend(new)
+  print(f"  → {len(new)}件追加")
+  if new:
+    print(f"  例: {new[0]['title'][:50]}")
+
+# 日付降順ソート
+all_items.sort(key=lambda i: i['pubDate'], reverse=True)
 
 output = {
   'updated': datetime.datetime.now(datetime.timezone.utc).isoformat(),
-  'items': all_items,
+  'items':   all_items,
 }
 with open('data.json', 'w', encoding='utf-8') as f:
   json.dump(output, f, ensure_ascii=False, indent=2)
-print(f"\n=== 保存完了: {len(all_items)}件 ===")
+print(f"\n=== 完了: 合計 {len(all_items)} 件 ===")
