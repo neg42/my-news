@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install feedparser
+        run: pip install feedparser -q
+
       - name: Fetch RSS feeds
         run: python3 fetch.py
 
