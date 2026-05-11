@@ -1,0 +1,120 @@
+name: Fetch RSS
+ 
+on:
+  schedule:
+    - cron: '0 * * * *'   # 毎時0分に実行
+  workflow_dispatch:        # 手動実行も可能
+ 
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+ 
+      - name: Fetch RSS feeds
+        run: |
+          python3 << 'PYEOF'
+          import urllib.request, xml.etree.ElementTree as ET, json, datetime, re
+ 
+          SOURCES = [
+            {"id":"s1","name":"NHK ニュース",         "url":"https://www.nhk.or.jp/rss/news/cat0.xml"},
+            {"id":"s2","name":"朝日新聞",              "url":"https://www.asahi.com/rss/asahi/newsheadlines.rdf"},
+            {"id":"s3","name":"日本経済新聞",          "url":"https://www.nikkei.com/rss/news.rdf"},
+            {"id":"s4","name":"テレ朝NEWS",            "url":"https://news.tv-asahi.co.jp/rss20/news_all.xml"},
+            {"id":"s5","name":"TBS NEWS DIG",          "url":"https://newsdig.tbs.co.jp/rss"},
+            {"id":"s6","name":"FNNプライムオンライン", "url":"https://feeds.fnn.jp/fnnprime/rss.xml"},
+            {"id":"s7","name":"毎日新聞",              "url":"https://mainichi.jp/rss/etc/mainichi-flash.rss"},
+          ]
+ 
+          NS = {
+            'media': 'http://search.yahoo.com/mrss/',
+            'dc':    'http://purl.org/dc/elements/1.1/',
+            'atom':  'http://www.w3.org/2005/Atom',
+          }
+ 
+          def get_text(el, *tags):
+            for tag in tags:
+              child = el.find(tag)
+              if child is not None and child.text:
+                return child.text.strip()
+            return ''
+ 
+          def get_image(item):
+            # media:thumbnail / media:content
+            for tag in ['media:thumbnail','media:content']:
+              el = item.find(tag, NS)
+              if el is not None:
+                url = el.get('url')
+                if url: return url
+            # enclosure
+            enc = item.find('enclosure')
+            if enc is not None and (enc.get('type','').startswith('image')):
+              return enc.get('url','') or ''
+            # img in description
+            desc = get_text(item, 'description')
+            m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc, re.I)
+            if m: return m.group(1)
+            return ''
+ 
+          all_items = []
+          headers = {'User-Agent': 'Mozilla/5.0 (compatible; MyNewsBot/1.0)'}
+ 
+          for src in SOURCES:
+            try:
+              req = urllib.request.Request(src['url'], headers=headers)
+              with urllib.request.urlopen(req, timeout=15) as resp:
+                data = resp.read()
+              root = ET.fromstring(data)
+              # RSS 2.0
+              items = root.findall('.//item')
+              # Atom
+              if not items:
+                items = root.findall('.//{http://www.w3.org/2005/Atom}entry')
+              count = 0
+              for item in items[:20]:
+                title = get_text(item, 'title',
+                  '{http://www.w3.org/2005/Atom}title')
+                link = get_text(item, 'link',
+                  '{http://www.w3.org/2005/Atom}link')
+                if not link:
+                  lel = item.find('{http://www.w3.org/2005/Atom}link')
+                  if lel is not None: link = lel.get('href','')
+                pub = get_text(item, 'pubDate','published','updated',
+                  '{http://www.w3.org/2005/Atom}published',
+                  '{http://www.w3.org/2005/Atom}updated',
+                  'dc:date')
+                image = get_image(item)
+                if title and link:
+                  all_items.append({
+                    'id': link,
+                    'title': title,
+                    'link': link,
+                    'pubDate': pub,
+                    'image': image,
+                    'source': src['name'],
+                    'sid': src['id'],
+                  })
+                  count += 1
+              print(f"OK {src['name']}: {count}件")
+            except Exception as ex:
+              print(f"NG {src['name']}: {ex}")
+ 
+          output = {
+            'updated': datetime.datetime.utcnow().isoformat() + 'Z',
+            'items': all_items,
+          }
+          with open('data.json', 'w', encoding='utf-8') as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
+          print(f"保存完了: {len(all_items)}件")
+          PYEOF
+ 
+      - name: Commit data.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "Update RSS data $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
+ 
