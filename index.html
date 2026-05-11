@@ -41,7 +41,6 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
 #sv p{font-size:14px;line-height:1.7}
 .retry-btn{background:var(--ac);color:#fff;border:none;border-radius:10px;padding:10px 28px;font-size:14px;font-family:'Noto Sans JP',sans-serif;cursor:pointer}
 .debug-btn{background:var(--sf2);color:var(--tx3);border:1px solid var(--bd);border-radius:10px;padding:8px 20px;font-size:12px;font-family:'Noto Sans JP',sans-serif;cursor:pointer}
-/* Settings */
 #so{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
 #so.open{display:flex;align-items:flex-end}
 #sp{width:100%;max-height:85dvh;background:var(--sf);border-radius:20px 20px 0 0;border-top:1px solid var(--bd);display:flex;flex-direction:column;overflow:hidden;padding-bottom:var(--sb);animation:su .3s cubic-bezier(.32,.72,0,1)}
@@ -66,40 +65,33 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
 #af input:focus{border-color:var(--ac)}
 #af input::placeholder{color:var(--tx3)}
 #af button{background:var(--ac);color:#fff;border:none;border-radius:10px;padding:11px;font-size:14px;font-weight:700;font-family:'Noto Sans JP',sans-serif;cursor:pointer}
-/* Article */
 #ao{display:none;position:fixed;inset:0;z-index:300;background:#000;flex-direction:column}
 #ao.open{display:flex}
 #ah{display:flex;align-items:center;gap:12px;padding:12px 16px;padding-top:calc(var(--st) + 12px);background:rgba(10,10,15,.95);border-bottom:1px solid var(--bd);flex-shrink:0}
 #asl{flex:1;font-size:13px;font-weight:700;color:var(--ac);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .xb{background:var(--sf2);border:none;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--tx2);font-size:18px;flex-shrink:0}
 #rh{text-align:center;font-size:11px;color:var(--tx3);padding:8px 0 0}
-/* Guide */
 #guide{position:fixed;bottom:0;left:0;right:0;z-index:400;padding:14px 16px calc(var(--sb)+14px);background:#1a2540;border-top:2px solid var(--ac);display:none;align-items:center;gap:10px;animation:su .4s ease}
 #guide p{font-size:12px;line-height:1.6;color:#aac4f0;flex:1}
 #guide strong{color:#fff}
 #gc{background:none;border:none;color:var(--tx3);font-size:22px;cursor:pointer}
-/* Debug panel */
-#dbg{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,.85);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);overflow-y:auto;padding:calc(var(--st)+16px) 16px calc(var(--sb)+16px)}
+#dbg{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,.9);overflow-y:auto;padding:calc(var(--st)+16px) 16px calc(var(--sb)+16px)}
 #dbg-inner{background:var(--sf);border-radius:16px;padding:20px;max-width:500px;margin:0 auto}
 #dbg h2{font-size:16px;margin-bottom:16px;color:var(--ac)}
-#dbg-log{font-size:11px;font-family:monospace;line-height:1.8;color:var(--tx2);white-space:pre-wrap;word-break:break-all}
-.log-ok{color:#4caf50}
-.log-err{color:#e05555}
-.log-warn{color:#f5a623}
-.log-info{color:#8888aa}
+#dbg-log{font-size:11px;font-family:monospace;line-height:1.9;color:var(--tx2);white-space:pre-wrap;word-break:break-all}
+.log-ok{color:#4caf50}.log-err{color:#e05555}.log-warn{color:#f5a623}.log-info{color:#8888aa}
 #dbg-close{margin-top:16px;width:100%;padding:12px;background:var(--sf2);border:1px solid var(--bd);border-radius:10px;color:var(--tx);font-size:14px;font-family:'Noto Sans JP',sans-serif;cursor:pointer}
 </style>
 </head>
 <body>
-
 <div id="hd">
   <div id="hi">
     <div id="logo">MyNews</div>
     <div id="ha">
-      <button class="ib" id="rb" onclick="refreshAll()" title="更新">
+      <button class="ib" id="rb" onclick="refreshAll()">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
       </button>
-      <button class="ib" onclick="openSettings()" title="設定">
+      <button class="ib" onclick="openSettings()">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
       </button>
     </div>
@@ -113,7 +105,6 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
   <p id="rh" style="display:none">↓ 引っ張って更新</p>
 </div>
 
-<!-- Settings -->
 <div id="so" onclick="maybeClose(event)">
   <div id="sp">
     <div id="sh"><h2>メディア設定</h2>
@@ -130,7 +121,6 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
   </div>
 </div>
 
-<!-- Article -->
 <div id="ao">
   <div id="ah">
     <button class="xb" onclick="closeArticle()">
@@ -144,13 +134,11 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
   <iframe id="ai" sandbox="allow-scripts allow-popups allow-forms allow-top-navigation-by-user-activation" style="flex:1;border:none;background:#fff;width:100%;height:100%"></iframe>
 </div>
 
-<!-- Guide -->
 <div id="guide">
   <p>📱 <strong>ホーム画面に追加</strong>するとアプリとして使えます<br>Safari下部 <strong>共有ボタン（□↑）→「ホーム画面に追加」</strong></p>
   <button id="gc" onclick="dismissGuide()">×</button>
 </div>
 
-<!-- Debug panel -->
 <div id="dbg">
   <div id="dbg-inner">
     <h2>🔍 デバッグログ</h2>
@@ -160,19 +148,17 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--tx);
 </div>
 
 <script>
-// ── デバッグログ ──────────────────────────────────
+// ── デバッグ ──────────────────────────────────────
 var debugLines = [];
 function dlog(type, msg) {
   var t = new Date().toLocaleTimeString('ja-JP');
-  var cls = {ok:'log-ok', err:'log-err', warn:'log-warn', info:'log-info'}[type] || 'log-info';
-  var icon = {ok:'✅', err:'❌', warn:'⚠️', info:'ℹ️'}[type] || 'ℹ️';
-  debugLines.push('<span class="' + cls + '">[' + t + '] ' + icon + ' ' + msg + '</span>');
+  var cls = {ok:'log-ok',err:'log-err',warn:'log-warn',info:'log-info'}[type]||'log-info';
+  var icon = {ok:'✅',err:'❌',warn:'⚠️',info:'ℹ️'}[type]||'ℹ️';
+  debugLines.push('<span class="'+cls+'">['+t+'] '+icon+' '+msg+'</span>');
   var el = document.getElementById('dbg-log');
   if (el) el.innerHTML = debugLines.join('\n');
 }
-function showDebug() {
-  document.getElementById('dbg').style.display = 'block';
-}
+function showDebug() { document.getElementById('dbg').style.display = 'block'; }
 
 // ── デフォルトソース ──────────────────────────────
 var DS = [
@@ -188,47 +174,45 @@ var DS = [
 var sources = loadSrc(), articles = [], fid = null, curUrl = '', loading = false;
 
 function loadSrc() {
-  try { var s = localStorage.getItem('mn4'); if (s) return JSON.parse(s); } catch(e) {}
-  return DS.map(function(s) { return Object.assign({}, s); });
+  try { var s = localStorage.getItem('mn5'); if (s) return JSON.parse(s); } catch(e) {}
+  return DS.map(function(s){ return Object.assign({}, s); });
 }
 function saveSrc() {
-  try { localStorage.setItem('mn4', JSON.stringify(sources)); } catch(e) {}
+  try { localStorage.setItem('mn5', JSON.stringify(sources)); } catch(e) {}
 }
 
-// タイムアウト付きfetch（AbortControllerを使わない・全ブラウザ対応版）
-function fetchWithTimeout(url, ms) {
-  var timeout = new Promise(function(_, reject) {
-    setTimeout(function() { reject(new Error('timeout')); }, ms);
+// ── JSONP方式でrss2jsonを呼ぶ（fetchを一切使わない）────
+var jsonpCallbacks = {};
+var jsonpCounter = 0;
+
+function jsonpFetch(url, timeout) {
+  return new Promise(function(resolve, reject) {
+    var cbName = '_rss2jsonCb' + (jsonpCounter++);
+    var script = document.createElement('script');
+    var timer = setTimeout(function() {
+      cleanup();
+      reject(new Error('timeout'));
+    }, timeout);
+
+    function cleanup() {
+      clearTimeout(timer);
+      delete window[cbName];
+      if (script.parentNode) script.parentNode.removeChild(script);
+    }
+
+    window[cbName] = function(data) {
+      cleanup();
+      resolve(data);
+    };
+
+    // rss2json は callback パラメータ対応
+    script.src = url + '&callback=' + cbName;
+    script.onerror = function() {
+      cleanup();
+      reject(new Error('script load error'));
+    };
+    document.head.appendChild(script);
   });
-  return Promise.race([fetch(url), timeout]);
-}
-
-// XMLパーサー（allorigins用）
-function parseXml(xmlStr, source) {
-  try {
-    var parser = new DOMParser();
-    var doc = parser.parseFromString(xmlStr, 'text/xml');
-    // パースエラー検出
-    var err = doc.querySelector('parsererror');
-    if (err) { dlog('warn', source.name + ': XMLパースエラー'); return []; }
-    var items = Array.from(doc.querySelectorAll('item, entry'));
-    dlog('ok', source.name + ' (allorigins): ' + items.length + '件');
-    return items.map(function(item) {
-      var title = (item.querySelector('title') || {}).textContent || '';
-      var link = '';
-      var linkEl = item.querySelector('link');
-      if (linkEl) link = linkEl.getAttribute('href') || linkEl.textContent || '';
-      var desc = (item.querySelector('description, summary, content') || {}).textContent || '';
-      var pubStr = (item.querySelector('pubDate, published, updated') || {}).textContent || '';
-      var image = null;
-      var media = item.querySelector('[url]');
-      if (media) image = media.getAttribute('url');
-      if (!image) image = imgFromHtml(desc);
-      return {id: link, title: title.trim(), link: link.trim(),
-        pubDate: pubStr ? new Date(pubStr) : null,
-        image: image, source: source.name, sid: source.id};
-    }).filter(function(i) { return i.title && i.link; });
-  } catch(e) { dlog('err', source.name + ' XMLパース例外: ' + e.message); return []; }
 }
 
 function imgFromHtml(h) {
@@ -236,76 +220,78 @@ function imgFromHtml(h) {
   return m ? m[1] : null;
 }
 
-// 1ソースのフェッチ（3つのAPIを順に試す）
+function parseXml(xmlStr, source) {
+  try {
+    var parser = new DOMParser();
+    var doc = parser.parseFromString(xmlStr, 'text/xml');
+    if (doc.querySelector('parsererror')) return [];
+    var items = Array.from(doc.querySelectorAll('item, entry'));
+    return items.map(function(item) {
+      var title = (item.querySelector('title')||{}).textContent||'';
+      var link = '';
+      var linkEl = item.querySelector('link');
+      if (linkEl) link = linkEl.getAttribute('href') || linkEl.textContent || '';
+      var desc = (item.querySelector('description,summary,content')||{}).textContent||'';
+      var pubStr = (item.querySelector('pubDate,published,updated')||{}).textContent||'';
+      var image = null;
+      var media = item.querySelector('[url]');
+      if (media) image = media.getAttribute('url');
+      if (!image) image = imgFromHtml(desc);
+      return {id:link, title:title.trim(), link:link.trim(),
+        pubDate: pubStr ? new Date(pubStr) : null,
+        image:image, source:source.name, sid:source.id};
+    }).filter(function(i){ return i.title && i.link; });
+  } catch(e) { return []; }
+}
+
 async function fetchSrc(source) {
-  dlog('info', source.name + ' 取得開始...');
+  dlog('info', source.name + ' 取得中...');
 
-  // API 1: rss2json
+  // 方法1: JSONP（fetchを使わない・CORSを回避）
   try {
-    var url1 = 'https://api.rss2json.com/v1/api.json?count=20&rss_url=' + encodeURIComponent(source.url);
-    var r1 = await fetchWithTimeout(url1, 10000);
-    if (r1.ok) {
-      var d1 = await r1.json();
-      if (d1.status === 'ok' && d1.items && d1.items.length > 0) {
-        dlog('ok', source.name + ' (rss2json): ' + d1.items.length + '件');
-        return d1.items.map(function(i) {
-          var image = i.thumbnail || null;
+    var apiUrl = 'https://api.rss2json.com/v1/api.json?count=20&rss_url=' + encodeURIComponent(source.url);
+    var data = await jsonpFetch(apiUrl, 12000);
+    if (data && data.status === 'ok' && data.items && data.items.length > 0) {
+      dlog('ok', source.name + ' (JSONP): ' + data.items.length + '件');
+      return data.items.map(function(i) {
+        var image = i.thumbnail || null;
+        if (!image && i.enclosure && i.enclosure.link) image = i.enclosure.link;
+        if (!image) image = imgFromHtml(i.description||'');
+        return {id:i.guid||i.link, title:i.title||'', link:i.link||'',
+          pubDate: i.pubDate ? new Date(i.pubDate) : null,
+          image:image, source:source.name, sid:source.id};
+      });
+    }
+    dlog('warn', source.name + ' JSONP: status=' + (data&&data.status) + ' msg=' + (data&&data.message||''));
+  } catch(e) {
+    dlog('warn', source.name + ' JSONP失敗: ' + e.message);
+  }
+
+  // 方法2: fetch（念のため残す）
+  try {
+    var r = await Promise.race([
+      fetch('https://api.rss2json.com/v1/api.json?count=20&rss_url=' + encodeURIComponent(source.url)),
+      new Promise(function(_,rej){ setTimeout(function(){ rej(new Error('timeout')); }, 10000); })
+    ]);
+    if (r.ok) {
+      var d = await r.json();
+      if (d.status === 'ok' && d.items && d.items.length > 0) {
+        dlog('ok', source.name + ' (fetch): ' + d.items.length + '件');
+        return d.items.map(function(i) {
+          var image = i.thumbnail||null;
           if (!image && i.enclosure && i.enclosure.link) image = i.enclosure.link;
-          if (!image) image = imgFromHtml(i.description || '');
-          return {id: i.guid||i.link, title: i.title||'', link: i.link||'',
-            pubDate: i.pubDate ? new Date(i.pubDate) : null,
-            image: image, source: source.name, sid: source.id};
+          if (!image) image = imgFromHtml(i.description||'');
+          return {id:i.guid||i.link, title:i.title||'', link:i.link||'',
+            pubDate:i.pubDate?new Date(i.pubDate):null,
+            image:image, source:source.name, sid:source.id};
         });
-      } else {
-        dlog('warn', source.name + ' rss2json: status=' + d1.status + ' message=' + (d1.message||''));
       }
-    } else {
-      dlog('warn', source.name + ' rss2json HTTP: ' + r1.status);
     }
   } catch(e) {
-    dlog('warn', source.name + ' rss2json失敗: ' + e.message);
+    dlog('warn', source.name + ' fetch失敗: ' + e.message);
   }
 
-  // API 2: allorigins
-  try {
-    var url2 = 'https://api.allorigins.win/get?url=' + encodeURIComponent(source.url);
-    var r2 = await fetchWithTimeout(url2, 10000);
-    if (r2.ok) {
-      var d2 = await r2.json();
-      if (d2 && d2.contents) {
-        var items2 = parseXml(d2.contents, source);
-        if (items2.length > 0) return items2;
-        dlog('warn', source.name + ' allorigins: 記事0件');
-      } else {
-        dlog('warn', source.name + ' allorigins: contentsなし status=' + (d2&&d2.status&&d2.status.http_code));
-      }
-    } else {
-      dlog('warn', source.name + ' allorigins HTTP: ' + r2.status);
-    }
-  } catch(e) {
-    dlog('warn', source.name + ' allorigins失敗: ' + e.message);
-  }
-
-  // API 3: corsproxy.io
-  try {
-    var url3 = 'https://corsproxy.io/?' + encodeURIComponent(source.url);
-    var r3 = await fetchWithTimeout(url3, 10000);
-    if (r3.ok) {
-      var xml3 = await r3.text();
-      var items3 = parseXml(xml3, source);
-      if (items3.length > 0) {
-        dlog('ok', source.name + ' (corsproxy): ' + items3.length + '件');
-        return items3;
-      }
-      dlog('warn', source.name + ' corsproxy: 記事0件');
-    } else {
-      dlog('warn', source.name + ' corsproxy HTTP: ' + r3.status);
-    }
-  } catch(e) {
-    dlog('warn', source.name + ' corsproxy失敗: ' + e.message);
-  }
-
-  dlog('err', source.name + ': 全APIで取得失敗');
+  dlog('err', source.name + ': 取得失敗');
   return [];
 }
 
@@ -313,20 +299,22 @@ async function refreshAll() {
   if (loading) return;
   loading = true;
   debugLines = [];
-  dlog('info', 'UA: ' + navigator.userAgent.substring(0,80));
-  dlog('info', '取得開始 ' + new Date().toLocaleString('ja-JP'));
+  var ua = navigator.userAgent;
+  dlog('info', 'ブラウザ: ' + (ua.indexOf('Chrome')>-1?'Chrome':ua.indexOf('Firefox')>-1?'Firefox':'Safari系'));
+  dlog('info', 'URL: ' + location.href);
+  dlog('info', '開始: ' + new Date().toLocaleString('ja-JP'));
   document.getElementById('rb').classList.add('spin');
   showLoading();
   try {
-    var enabled = sources.filter(function(s) { return s.enabled; });
+    var enabled = sources.filter(function(s){ return s.enabled; });
     if (!enabled.length) { showError('有効なメディアがありません'); return; }
     dlog('info', '有効ソース数: ' + enabled.length);
-    var results = await Promise.allSettled(enabled.map(function(s) { return fetchSrc(s); }));
+    var results = await Promise.allSettled(enabled.map(function(s){ return fetchSrc(s); }));
     var all = [];
-    results.forEach(function(r) { if (r.status === 'fulfilled') all = all.concat(r.value); });
-    all.sort(function(a, b) { return (b.pubDate||0) - (a.pubDate||0); });
+    results.forEach(function(r){ if (r.status==='fulfilled') all = all.concat(r.value); });
+    all.sort(function(a,b){ return (b.pubDate||0)-(a.pubDate||0); });
     articles = all;
-    dlog('info', '合計取得件数: ' + all.length);
+    dlog('info', '合計: ' + all.length + '件');
     if (!all.length) {
       showError('記事を取得できませんでした');
     } else {
@@ -342,114 +330,113 @@ async function refreshAll() {
 }
 
 function showLoading() {
-  document.getElementById('sv').style.display = 'flex';
-  document.getElementById('sv').innerHTML = '<div class="spinner"></div><p>ニュースを取得中...</p>';
-  document.getElementById('grid').style.display = 'none';
-  document.getElementById('rh').style.display = 'none';
+  document.getElementById('sv').style.display='flex';
+  document.getElementById('sv').innerHTML='<div class="spinner"></div><p>ニュースを取得中...</p>';
+  document.getElementById('grid').style.display='none';
+  document.getElementById('rh').style.display='none';
 }
-
 function showError(msg) {
-  document.getElementById('sv').style.display = 'flex';
-  document.getElementById('sv').innerHTML =
-    '<p>' + msg + '</p>' +
-    '<button class="retry-btn" onclick="refreshAll()">再試行</button>' +
-    '<button class="debug-btn" onclick="showDebug()">🔍 詳細ログを見る</button>';
-  document.getElementById('grid').style.display = 'none';
-  document.getElementById('rh').style.display = 'none';
+  document.getElementById('sv').style.display='flex';
+  document.getElementById('sv').innerHTML=
+    '<p>'+msg+'</p>'+
+    '<button class="retry-btn" onclick="refreshAll()">再試行</button>'+
+    '<button class="debug-btn" onclick="showDebug()">🔍 詳細ログ</button>';
+  document.getElementById('grid').style.display='none';
+  document.getElementById('rh').style.display='none';
 }
 
 function renderChips() {
-  var h = '<button class="chip' + (fid===null?' active':'') + '" onclick="setF(null)">すべて</button>';
-  sources.filter(function(s){return s.enabled;}).forEach(function(s) {
-    h += '<button class="chip' + (fid===s.id?' active':'') + '" onclick="setF(\'' + s.id + '\')">' + e(s.name) + '</button>';
+  var h='<button class="chip'+(fid===null?' active':'')+'" onclick="setF(null)">すべて</button>';
+  sources.filter(function(s){return s.enabled;}).forEach(function(s){
+    h+='<button class="chip'+(fid===s.id?' active':'')+'" onclick="setF(\''+s.id+'\')">'+e(s.name)+'</button>';
   });
-  document.getElementById('fb').innerHTML = h;
+  document.getElementById('fb').innerHTML=h;
 }
-function setF(id) { fid = id; renderChips(); renderGrid(); }
+function setF(id){ fid=id; renderChips(); renderGrid(); }
 
 function renderGrid() {
   var V=document.getElementById('sv'), G=document.getElementById('grid'), R=document.getElementById('rh');
-  var vis = fid ? articles.filter(function(a){return a.sid===fid;}) : articles;
+  var vis=fid?articles.filter(function(a){return a.sid===fid;}):articles;
   if (!vis.length) {
     V.style.display='flex'; V.innerHTML='<p>記事がありません</p>';
     G.style.display='none'; R.style.display='none'; return;
   }
   V.style.display='none'; G.style.display='grid'; R.style.display='block';
-  G.innerHTML = vis.map(function(a, i) {
-    var delay = Math.min(i*25, 300);
-    var th = a.image
-      ? '<img class="ct" src="' + e(a.image) + '" alt="" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'"><div class="cp" style="display:none">📰</div>'
-      : '<div class="cp">📰</div>';
-    var dt = a.pubDate ? rel(a.pubDate) : '';
-    return '<div class="card" style="animation-delay:' + delay + 'ms" onclick="openA(' + i + ')">'
-      + th + '<div class="cb"><div class="cs">' + e(a.source) + '</div>'
-      + '<div class="ctitle">' + e(a.title) + '</div>'
-      + (dt ? '<div class="cd">' + dt + '</div>' : '')
-      + '</div></div>';
+  G.innerHTML=vis.map(function(a,i){
+    var delay=Math.min(i*25,300);
+    var th=a.image
+      ?'<img class="ct" src="'+e(a.image)+'" alt="" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'"><div class="cp" style="display:none">📰</div>'
+      :'<div class="cp">📰</div>';
+    var dt=a.pubDate?rel(a.pubDate):'';
+    return '<div class="card" style="animation-delay:'+delay+'ms" onclick="openA('+i+')">'
+      +th+'<div class="cb"><div class="cs">'+e(a.source)+'</div>'
+      +'<div class="ctitle">'+e(a.title)+'</div>'
+      +(dt?'<div class="cd">'+dt+'</div>':'')
+      +'</div></div>';
   }).join('');
 }
 
 function openA(i) {
-  var vis = fid ? articles.filter(function(a){return a.sid===fid;}) : articles;
-  var a = vis[i]; if (!a) return;
-  curUrl = a.link;
-  document.getElementById('asl').textContent = a.source;
-  document.getElementById('ai').src = a.link;
+  var vis=fid?articles.filter(function(a){return a.sid===fid;}):articles;
+  var a=vis[i]; if(!a) return;
+  curUrl=a.link;
+  document.getElementById('asl').textContent=a.source;
+  document.getElementById('ai').src=a.link;
   document.getElementById('ao').classList.add('open');
-  document.body.style.overflow = 'hidden';
+  document.body.style.overflow='hidden';
 }
-function closeArticle() {
+function closeArticle(){
   document.getElementById('ao').classList.remove('open');
-  document.getElementById('ai').src = 'about:blank';
-  document.body.style.overflow = '';
+  document.getElementById('ai').src='about:blank';
+  document.body.style.overflow='';
 }
-function openSafari() { if (curUrl) window.open(curUrl, '_blank'); }
+function openSafari(){ if(curUrl) window.open(curUrl,'_blank'); }
 
-function openSettings() { renderSL(); document.getElementById('so').classList.add('open'); document.body.style.overflow='hidden'; }
-function closeSettings() { document.getElementById('so').classList.remove('open'); document.body.style.overflow=''; saveSrc(); renderChips(); refreshAll(); }
-function maybeClose(ev) { if (ev.target===document.getElementById('so')) closeSettings(); }
-function renderSL() {
-  document.getElementById('sl').innerHTML = sources.map(function(s,i) {
-    return '<div class="sr"><div class="si"><div class="sn">' + e(s.name) + '</div><div class="su2">' + e(s.url) + '</div></div>'
-      + '<label class="tg"><input type="checkbox"' + (s.enabled?' checked':'') + ' onchange="tog(' + i + ',this.checked)"><div class="tt"></div></label>'
-      + '<button class="db" onclick="delSrc(' + i + ')">×</button></div>';
+function openSettings(){ renderSL(); document.getElementById('so').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeSettings(){ document.getElementById('so').classList.remove('open'); document.body.style.overflow=''; saveSrc(); renderChips(); refreshAll(); }
+function maybeClose(ev){ if(ev.target===document.getElementById('so')) closeSettings(); }
+function renderSL(){
+  document.getElementById('sl').innerHTML=sources.map(function(s,i){
+    return '<div class="sr"><div class="si"><div class="sn">'+e(s.name)+'</div><div class="su2">'+e(s.url)+'</div></div>'
+      +'<label class="tg"><input type="checkbox"'+(s.enabled?' checked':'')+' onchange="tog('+i+',this.checked)"><div class="tt"></div></label>'
+      +'<button class="db" onclick="delSrc('+i+')">×</button></div>';
   }).join('');
 }
-function tog(i,v) { sources[i].enabled = v; }
-function delSrc(i) {
-  if (!confirm('「' + sources[i].name + '」を削除しますか？')) return;
+function tog(i,v){ sources[i].enabled=v; }
+function delSrc(i){
+  if(!confirm('「'+sources[i].name+'」を削除しますか？')) return;
   sources.splice(i,1); saveSrc(); renderSL();
 }
-function addSource() {
-  var n = document.getElementById('an').value.trim();
-  var u = document.getElementById('au').value.trim();
-  if (!n||!u) { alert('名前とURLを入力してください'); return; }
-  if (u.indexOf('http') !== 0) { alert('URLはhttpsから始まる必要があります'); return; }
+function addSource(){
+  var n=document.getElementById('an').value.trim();
+  var u=document.getElementById('au').value.trim();
+  if(!n||!u){ alert('名前とURLを入力してください'); return; }
+  if(u.indexOf('http')!==0){ alert('URLはhttpsから始まる必要があります'); return; }
   sources.push({id:'u'+Date.now(), name:n, url:u, enabled:true});
   document.getElementById('an').value=''; document.getElementById('au').value='';
   saveSrc(); renderSL();
 }
 
-function e(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
-function rel(d) {
-  var s = (Date.now()-d)/1000;
-  if (s<60) return 'たった今';
-  if (s<3600) return Math.floor(s/60)+'分前';
-  if (s<86400) return Math.floor(s/3600)+'時間前';
+function e(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+function rel(d){
+  var s=(Date.now()-d)/1000;
+  if(s<60) return 'たった今';
+  if(s<3600) return Math.floor(s/60)+'分前';
+  if(s<86400) return Math.floor(s/3600)+'時間前';
   return Math.floor(s/86400)+'日前';
 }
-function dismissGuide() { localStorage.setItem('mn_g','1'); document.getElementById('guide').style.display='none'; }
-function showGuide() {
-  var isSafari = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
-  if (isSafari && !window.navigator.standalone && !localStorage.getItem('mn_g'))
-    document.getElementById('guide').style.display = 'flex';
+function dismissGuide(){ localStorage.setItem('mn_g','1'); document.getElementById('guide').style.display='none'; }
+function showGuide(){
+  var isSafari=/Safari/.test(navigator.userAgent)&&!/Chrome/.test(navigator.userAgent);
+  if(isSafari&&!window.navigator.standalone&&!localStorage.getItem('mn_g'))
+    document.getElementById('guide').style.display='flex';
 }
 
-var ty = 0;
-document.addEventListener('touchstart', function(ev){ty=ev.touches[0].clientY;}, {passive:true});
-document.addEventListener('touchend', function(ev){
-  if (ev.changedTouches[0].clientY-ty > 80 && window.scrollY===0 && !loading) refreshAll();
-}, {passive:true});
+var ty=0;
+document.addEventListener('touchstart',function(ev){ty=ev.touches[0].clientY;},{passive:true});
+document.addEventListener('touchend',function(ev){
+  if(ev.changedTouches[0].clientY-ty>80&&window.scrollY===0&&!loading) refreshAll();
+},{passive:true});
 
 refreshAll();
 showGuide();
