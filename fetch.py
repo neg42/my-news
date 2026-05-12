@@ -44,7 +44,7 @@ RSS_SOURCES = [
 ]
 
 YOUTUBE_SOURCES = [
-    {"id":"s4","name":"テレ朝NEWS",          "channel_id":"UCivjgV3f4b5kBFj-4WExXAQ"},
+    {"id":"s4","name":"テレ朝NEWS",          "channel_id":"UCGCZAYq5Xxojl_tSXcVJhiQ"},
     {"id":"s5","name":"TBS NEWS DIG",         "channel_id":"UC6AG81pAkf6Lbi_1VC5NmPA"},
     {"id":"s6","name":"FNNプライムオンライン","channel_id":"UCoQBJMzcwmXrRSHBFAlTsIw"},
     {"id":"s3","name":"日テレNEWS",           "channel_id":"UCuTAXTexrhetbOe3zgskJBQ"},

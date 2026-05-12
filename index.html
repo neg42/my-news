@@ -239,11 +239,8 @@ function renderGrid() {
 
 function openA(i) {
   var a=articles[i]; if(!a) return;
-  curUrl=a.link;
-  document.getElementById('asl').textContent=a.source;
-  document.getElementById('ai').src=a.link;
-  document.getElementById('ao').classList.add('open');
-  document.body.style.overflow='hidden';
+  // Safariで直接開く（iframeはYouTube・ニュースサイトでブロックされるため）
+  window.open(a.link,'_blank');
 }
 function closeArticle(){
   document.getElementById('ao').classList.remove('open');
