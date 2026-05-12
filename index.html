@@ -163,18 +163,32 @@ async function loadData() {
   showLoading();
   try {
     // 同一オリジンのdata.jsonを読むだけ→CORSなし
-    var r = await fetch('data.json?t=' + Date.now());
+    var r = await fetch('data.json?t=' + Date.now(), {
+      cache: 'no-store',
+      headers: {'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache'}
+    });
     if (!r.ok) throw new Error('data.json が見つかりません (HTTP ' + r.status + ')。\nGitHub Actionsを一度手動で実行してください。');
     var data = await r.json();
     allArticles = (data.items || []).map(function(i) {
-      return Object.assign({}, i, { pubDate: i.pubDate ? new Date(i.pubDate) : null });
+      var d = null;
+      if (i.pubDate) {
+        d = new Date(i.pubDate);
+        if (isNaN(d.getTime())) d = null;
+      }
+      return Object.assign({}, i, { pubDate: d });
     });
     renderChips();
     applyFilter();
     // 更新日時を表示
     if (data.updated) {
       var d = new Date(data.updated);
-      document.getElementById('updated').textContent = '最終更新: ' + d.toLocaleString('ja-JP');
+      var jst = new Date(d.getTime() + 9*60*60*1000);
+      var fmt = jst.getUTCFullYear() + '/' +
+        String(jst.getUTCMonth()+1).padStart(2,'0') + '/' +
+        String(jst.getUTCDate()).padStart(2,'0') + ' ' +
+        String(jst.getUTCHours()).padStart(2,'0') + ':' +
+        String(jst.getUTCMinutes()).padStart(2,'0');
+      document.getElementById('updated').textContent = 'データ更新: ' + fmt + ' JST（毎時自動更新）';
       document.getElementById('updated').style.display = 'block';
     }
   } catch(e) {
@@ -199,8 +213,15 @@ function showError(msg) {
 }
 
 function applyFilter() {
+  // 有効メディアでフィルタ
   articles = allArticles.filter(function(a) {
     return enabledSet.has(a.sid) && (fid === null || a.sid === fid);
+  });
+  // 全メディア混在で新着順ソート（pubDate降順）
+  articles.sort(function(a, b) {
+    var ta = a.pubDate ? a.pubDate.getTime() : 0;
+    var tb = b.pubDate ? b.pubDate.getTime() : 0;
+    return tb - ta;
   });
   renderGrid();
 }

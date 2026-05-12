@@ -254,7 +254,31 @@ for src in YOUTUBE_SOURCES:
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # ソート & 保存
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-all_items.sort(key=lambda i: i.get('pubDate',''), reverse=True)
+# pubDateをUTCタイムスタンプに変換して正確にソート
+from email.utils import parsedate_to_datetime as _rfc822
+
+def _to_ts(item):
+    pub = item.get('pubDate', '')
+    if not pub:
+        return 0
+    try:
+        return _rfc822(pub).timestamp()
+    except:
+        pass
+    try:
+        import datetime as _dt
+        return _dt.datetime.fromisoformat(pub).timestamp()
+    except:
+        pass
+    return 0
+
+all_items.sort(key=_to_ts, reverse=True)
+# pubDateをISO形式に統一（フロントエンドでのパースを安定させる）
+for item in all_items:
+    ts = _to_ts(item)
+    if ts:
+        import datetime as _dt
+        item['pubDate'] = _dt.datetime.fromtimestamp(ts, tz=_dt.timezone.utc).isoformat()
 
 output = {
     'updated': datetime.datetime.now(datetime.timezone.utc).isoformat(),
