@@ -1,57 +1,696 @@
 {
-  "updated": "2026-06-26T13:58:14.748788+00:00",
+  "updated": "2026-06-26T16:13:37.020700+00:00",
   "items": [
+    {
+      "id": "https://mainichi.jp/articles/20260626/k00/00m/040/404000c",
+      "title": "山口・平生の家屋に土砂流入　家族5人が巻き込まれ1人行方不明",
+      "link": "https://mainichi.jp/articles/20260626/k00/00m/040/404000c",
+      "pubDate": "2026-06-26T16:12:25+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=2XU4cEBX0qM",
+      "title": "【ライブ】気象庁が会見　山梨県富士河口湖町で震度6弱",
+      "link": "https://www.youtube.com/watch?v=2XU4cEBX0qM",
+      "pubDate": "2026-06-26T16:12:18+00:00",
+      "image": "https://i3.ytimg.com/vi/2XU4cEBX0qM/hqdefault.jpg",
+      "source": "FNNプライムオンライン",
+      "sid": "s6"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015161941000",
+      "title": "山梨県で震度6弱 気象庁が記者会見",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015161941000",
+      "pubDate": "2026-06-26T16:11:25+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015160621000",
+      "title": "2つの台風 相次ぎ接近 総雨量多くなるおそれ 土砂災害厳重警戒",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015160621000",
+      "pubDate": "2026-06-26T16:10:42+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161091000",
       "title": "【地震速報】山梨県で震度6弱 津波の心配なし",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161091000",
-      "pubDate": "2026-06-26T13:54:28+00:00",
+      "pubDate": "2026-06-26T16:07:30+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=qFDzGxbsf7s",
-      "title": "【速報】山梨・富士河口湖町で震度6弱  津波の心配なし",
-      "link": "https://www.youtube.com/watch?v=qFDzGxbsf7s",
-      "pubDate": "2026-06-26T13:54:07+00:00",
-      "image": "https://i2.ytimg.com/vi/qFDzGxbsf7s/hqdefault.jpg",
+      "id": "https://www.youtube.com/shorts/Y5eeDoerh_c",
+      "title": "【山梨･富士河口湖町で最大震度6弱】発生直後の新幹線の車内　電気も消えて…空調も停止【視聴者提供映像】#shorts",
+      "link": "https://www.youtube.com/shorts/Y5eeDoerh_c",
+      "pubDate": "2026-06-26T16:03:10+00:00",
+      "image": "https://i2.ytimg.com/vi/Y5eeDoerh_c/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162021000",
+      "title": "山梨で震度6弱 木原官房長官「停電や断水が一部で発生」",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162021000",
+      "pubDate": "2026-06-26T16:01:41+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162131000",
+      "title": "山口 平生町 住宅に土砂が流れ込み1人不明 3人搬送",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162131000",
+      "pubDate": "2026-06-26T16:01:14+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162061000",
+      "title": "【高速道路】東名 新東名 中央道 一部で通行止め",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162061000",
+      "pubDate": "2026-06-26T16:00:09+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=IKC-VG45RkQ",
+      "title": "【震度6弱】東海道新幹線の一部で運転見合わせ　高速道路で通行止めも",
+      "link": "https://www.youtube.com/watch?v=IKC-VG45RkQ",
+      "pubDate": "2026-06-26T15:59:25+00:00",
+      "image": "https://i2.ytimg.com/vi/IKC-VG45RkQ/hqdefault.jpg",
       "source": "日テレNEWS",
       "sid": "s3"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015161991000",
-      "title": "静岡 浜岡原発 地震による異常の有無を確認中",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015161991000",
-      "pubDate": "2026-06-26T13:53:12+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
+      "id": "https://www.youtube.com/watch?v=oGAH1hbpZVg",
+      "title": "【山梨県で震度6弱】各地で落石など被害の報告(2026年6月27日)",
+      "link": "https://www.youtube.com/watch?v=oGAH1hbpZVg",
+      "pubDate": "2026-06-26T15:53:55+00:00",
+      "image": "https://i4.ytimg.com/vi/oGAH1hbpZVg/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=NLO9TnawnyI",
+      "title": "【山梨･富士河口湖町で最大震度6弱】発生直後の新幹線の車内　電気も消えて…空調も停止【視聴者提供映像】",
+      "link": "https://www.youtube.com/watch?v=NLO9TnawnyI",
+      "pubDate": "2026-06-26T15:53:55+00:00",
+      "image": "https://i3.ytimg.com/vi/NLO9TnawnyI/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=TvC2e_FZHEY",
+      "title": "【緊急ライブ】 「現時点で富士山の火山活動に異常なし」山梨県富士河口湖町で震度6弱 木原官房長官 緊急会見【LIVE】 (2026年6月26日) ANN/テレ朝",
+      "link": "https://www.youtube.com/watch?v=TvC2e_FZHEY",
+      "pubDate": "2026-06-26T15:52:57+00:00",
+      "image": "https://i1.ytimg.com/vi/TvC2e_FZHEY/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161971000",
-      "title": "警察庁 地震を受け被害状況を確認",
+      "title": "【被害まとめ】山梨で震度6弱 各地の被害状況は",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161971000",
-      "pubDate": "2026-06-26T13:52:14+00:00",
+      "pubDate": "2026-06-26T15:51:13+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=6Adw8B4tJW0",
+      "title": "【ライブカメラ】山梨県で震度6弱　神奈川県や静岡県でも震度5弱 ──緊急地震ニュースライブ（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=6Adw8B4tJW0",
+      "pubDate": "2026-06-26T15:50:56+00:00",
+      "image": "https://i3.ytimg.com/vi/6Adw8B4tJW0/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=xICNhgCD4RQ",
+      "title": "【山梨で震度6弱】台風接近…現地の様子は　JR甲府駅から中継",
+      "link": "https://www.youtube.com/watch?v=xICNhgCD4RQ",
+      "pubDate": "2026-06-26T15:49:48+00:00",
+      "image": "https://i1.ytimg.com/vi/xICNhgCD4RQ/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162121000",
+      "title": "【映像】地震発生時 北陸新幹線の車内で一時停電",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162121000",
+      "pubDate": "2026-06-26T15:48:50+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260626/k00/00m/040/406000c",
+      "title": "東海道新幹線が一部区間で運転見合わせ　山梨で震度6弱",
+      "link": "https://mainichi.jp/articles/20260626/k00/00m/040/406000c",
+      "pubDate": "2026-06-26T15:46:35+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260627/k00/00m/040/001000c",
+      "title": "専門家「斜面崩壊の可能性も」　警戒呼びかけ　山梨震度6弱",
+      "link": "https://mainichi.jp/articles/20260627/k00/00m/040/001000c",
+      "pubDate": "2026-06-26T15:45:23+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV6V4STQV6VUHBI022M.html?ref=rss",
+      "title": "プーチン氏の「盟友」イワノフ元国防相死去　KGB出身、副首相など",
+      "link": "http://www.asahi.com/articles/ASV6V4STQV6VUHBI022M.html?ref=rss",
+      "pubDate": "2026-06-26T15:42:54+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161951000",
-      "title": "東海道新幹線 運転見合わせ 東京～静岡 地震の影響で",
+      "title": "東海道新幹線 運転見合わせ 上り豊橋～東京・下り東京～名古屋",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161951000",
-      "pubDate": "2026-06-26T13:50:55+00:00",
+      "pubDate": "2026-06-26T15:37:40+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=9I4NDJOo_b0",
-      "title": "【地震発生時の映像】小田原の様子【山梨県・富士河口湖町で震度6弱】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=9I4NDJOo_b0",
-      "pubDate": "2026-06-26T13:50:49+00:00",
-      "image": "https://i2.ytimg.com/vi/9I4NDJOo_b0/hqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=-Y99d2_Ixg8",
+      "title": "川と川をホースで“氾濫”対策 道路陥没や冠水被害も…ダブル台風 関東“連続”直撃へ【報道ステーション】(2026年6月26日)",
+      "link": "https://www.youtube.com/watch?v=-Y99d2_Ixg8",
+      "pubDate": "2026-06-26T15:36:30+00:00",
+      "image": "https://i2.ytimg.com/vi/-Y99d2_Ixg8/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=yps7Ua79Jg0",
+      "title": "ビルの壁が地震で崩落 道路にがれき散乱 鉄筋がむき出し 山梨で80代女性が転倒しけが 【山梨・震度6弱】｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=yps7Ua79Jg0",
+      "pubDate": "2026-06-26T15:31:47+00:00",
+      "image": "https://i2.ytimg.com/vi/yps7Ua79Jg0/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=92Zw3miYhj8",
+      "title": "【山梨で震度6弱】台風接近・地震頻発…注意点は　専門家に聞く",
+      "link": "https://www.youtube.com/watch?v=92Zw3miYhj8",
+      "pubDate": "2026-06-26T15:31:40+00:00",
+      "image": "https://i2.ytimg.com/vi/92Zw3miYhj8/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=SWZmnNZAYjA",
+      "title": "【山梨で震度6弱】M5.6と推定…神奈川や静岡でも震度5弱を観測　富士山の観測データに変化なし",
+      "link": "https://www.youtube.com/watch?v=SWZmnNZAYjA",
+      "pubDate": "2026-06-26T15:26:40+00:00",
+      "image": "https://i4.ytimg.com/vi/SWZmnNZAYjA/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=juHzNWMK3rQ",
+      "title": "「縦じゃなくて“横揺れ” 10秒くらい揺れた」山梨・富士河口湖町で震度6弱の地震　首都圏各地で揺れ｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=juHzNWMK3rQ",
+      "pubDate": "2026-06-26T15:25:03+00:00",
+      "image": "https://i3.ytimg.com/vi/juHzNWMK3rQ/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV6V4V6NV6VUTFL027M.html?ref=rss",
+      "title": "震度6弱の山梨東部、富士山の活動とは関連否定　専門家「地震の巣」",
+      "link": "http://www.asahi.com/articles/ASV6V4V6NV6VUTFL027M.html?ref=rss",
+      "pubDate": "2026-06-26T15:12:04+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/oaBHusqxKiY",
+      "title": "【速報】東北・上越・北陸新幹線が全て運転再開 地震の影響で一時運転見合わせ JR東日本【山梨・富士河口湖町で震度6弱の地震】｜TBS NEWS DIG #shorts",
+      "link": "https://www.youtube.com/shorts/oaBHusqxKiY",
+      "pubDate": "2026-06-26T15:11:48+00:00",
+      "image": "https://i4.ytimg.com/vi/oaBHusqxKiY/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=lnlpqcKZ4wc",
+      "title": "【山梨県で震度6弱】医療機関に異常なし(2026年6月26日)",
+      "link": "https://www.youtube.com/watch?v=lnlpqcKZ4wc",
+      "pubDate": "2026-06-26T15:09:47+00:00",
+      "image": "https://i1.ytimg.com/vi/lnlpqcKZ4wc/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/_hPuMQ7R6Mk",
+      "title": "【速報】東海道新幹線 東京－静岡駅間で停電発生し運転見合わせ 停電すでに復旧も運転再開の見込みたたず【山梨・富士河口湖町で震度6弱の地震】｜TBS NEWS DIG #shorts",
+      "link": "https://www.youtube.com/shorts/_hPuMQ7R6Mk",
+      "pubDate": "2026-06-26T15:08:55+00:00",
+      "image": "https://i4.ytimg.com/vi/_hPuMQ7R6Mk/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162011000",
+      "title": "【映像】山梨で震度6弱 地震発生時 各地の揺れの様子",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162011000",
+      "pubDate": "2026-06-26T15:05:47+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260626/k00/00m/010/411000c",
+      "title": "「同程度の地震の発生に注意を」　高市首相、山梨震度6弱受け",
+      "link": "https://mainichi.jp/articles/20260626/k00/00m/010/411000c",
+      "pubDate": "2026-06-26T15:02:50+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=kAot8whJWks",
+      "title": "【動画】木原官房長官が会見…山梨で震度6弱",
+      "link": "https://www.youtube.com/watch?v=kAot8whJWks",
+      "pubDate": "2026-06-26T15:02:43+00:00",
+      "image": "https://i4.ytimg.com/vi/kAot8whJWks/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=DSvisSzKgFU",
+      "title": "【緊急地震ライブ】山梨県富士河口湖町で震度6弱 被害状況は？木原官房長官 2回目の緊急会見【LIVE】 (2026年6月27日) ANN/テレ朝",
+      "link": "https://www.youtube.com/watch?v=DSvisSzKgFU",
+      "pubDate": "2026-06-26T15:01:34+00:00",
+      "image": "https://i1.ytimg.com/vi/DSvisSzKgFU/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=vkHYBnTx-1A",
+      "title": "【山梨県で震度6弱】「富士山の火山活動に異常なし」木原官房長官(2026年6月26日)",
+      "link": "https://www.youtube.com/watch?v=vkHYBnTx-1A",
+      "pubDate": "2026-06-26T14:57:12+00:00",
+      "image": "https://i3.ytimg.com/vi/vkHYBnTx-1A/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=xpp6Mes-nVE",
+      "title": "【原発】中部電力・浜岡原発…異常確認されず　放射線量測定のモニタリングポストの値にも変化なし",
+      "link": "https://www.youtube.com/watch?v=xpp6Mes-nVE",
+      "pubDate": "2026-06-26T14:56:57+00:00",
+      "image": "https://i1.ytimg.com/vi/xpp6Mes-nVE/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/TB1jQMw7KPg",
+      "title": "【山梨・富士河口湖町で震度6弱の地震】木原官房長官が会見【ノーカット】（2026年6月26日）#shorts",
+      "link": "https://www.youtube.com/shorts/TB1jQMw7KPg",
+      "pubDate": "2026-06-26T14:56:02+00:00",
+      "image": "https://i1.ytimg.com/vi/TB1jQMw7KPg/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=dH9ubcL-wSI",
+      "title": "【緊急地震ライブ】山梨県の現在の様子｜山梨県富士河口湖町で震度6弱【LIVE】 (2026年6月26日) ANN/テレ朝",
+      "link": "https://www.youtube.com/watch?v=dH9ubcL-wSI",
+      "pubDate": "2026-06-26T14:55:34+00:00",
+      "image": "https://i1.ytimg.com/vi/dH9ubcL-wSI/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=YHpTYaVKxKY",
+      "title": "【速報】東海道新幹線 東京－静岡駅間で停電発生し運転見合わせ 停電すでに復旧も運転再開の見込みたたず【山梨・富士河口湖町で震度6弱の地震】｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=YHpTYaVKxKY",
+      "pubDate": "2026-06-26T14:55:23+00:00",
+      "image": "https://i2.ytimg.com/vi/YHpTYaVKxKY/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=yx29YR5cbuA",
+      "title": "「突き上げたドンという衝撃が強かった」「ミシミシと揺れるような音が」【山梨県・富士河口湖町で震度6弱の地震】｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=yx29YR5cbuA",
+      "pubDate": "2026-06-26T14:54:59+00:00",
+      "image": "https://i2.ytimg.com/vi/yx29YR5cbuA/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/WoK8kDMWT9Y",
+      "title": "【ニュース】【山梨県で震度6弱】高市総理「人命第一に政府として対応」#shorts",
+      "link": "https://www.youtube.com/shorts/WoK8kDMWT9Y",
+      "pubDate": "2026-06-26T14:54:05+00:00",
+      "image": "https://i4.ytimg.com/vi/WoK8kDMWT9Y/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=F0S7VlVgkkA",
+      "title": "【速報】東北・上越・北陸新幹線が全て運転再開 地震の影響で一時運転見合わせ JR東日本【山梨・富士河口湖町で震度6弱の地震】｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=F0S7VlVgkkA",
+      "pubDate": "2026-06-26T14:51:27+00:00",
+      "image": "https://i3.ytimg.com/vi/F0S7VlVgkkA/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260626/k00/00m/040/396000c",
+      "title": "山梨県富士河口湖町で震度6弱　マグニチュード5.6",
+      "link": "https://mainichi.jp/articles/20260626/k00/00m/040/396000c",
+      "pubDate": "2026-06-26T14:50:05+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162101000",
+      "title": "東京メトロ 首都圏の私鉄各線 おおむね平常通り運転",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162101000",
+      "pubDate": "2026-06-26T14:46:29+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=X6EoBMYPsAE",
+      "title": "【山梨県で震度6弱】高市総理「人命第一に政府として対応」(2026年6月26日)",
+      "link": "https://www.youtube.com/watch?v=X6EoBMYPsAE",
+      "pubDate": "2026-06-26T14:42:17+00:00",
+      "image": "https://i1.ytimg.com/vi/X6EoBMYPsAE/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260626/k00/00m/030/408000c",
+      "title": "北京で小型機が108階建て高層ビルに衝突か　米CNN報道",
+      "link": "https://mainichi.jp/articles/20260626/k00/00m/030/408000c",
+      "pubDate": "2026-06-26T14:41:51+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=kUC-J5e5UQI",
+      "title": "【山梨・富士河口湖町で震度6弱の地震】木原官房長官が会見【ノーカット】（2026年6月26日）｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=kUC-J5e5UQI",
+      "pubDate": "2026-06-26T14:41:33+00:00",
+      "image": "https://i4.ytimg.com/vi/kUC-J5e5UQI/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162091000",
+      "title": "山梨で震度6弱 高市首相「被害状況把握と救命救助などに総力」",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162091000",
+      "pubDate": "2026-06-26T14:40:18+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015161831000",
+      "title": "米と湾岸諸国の共同声明にイラン「介入主義」と非難",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015161831000",
+      "pubDate": "2026-06-26T14:39:53+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=r_NEhcvK0t0",
+      "title": "【地震最新情報】震度6弱 山梨県東部・富士五湖 津波の心配なし【随時更新】 (2026年6月26日) ANN/テレ朝 LIVE",
+      "link": "https://www.youtube.com/watch?v=r_NEhcvK0t0",
+      "pubDate": "2026-06-26T14:38:45+00:00",
+      "image": "https://i3.ytimg.com/vi/r_NEhcvK0t0/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/pzi8IkNAhi4",
+      "title": "【山梨・富士河口湖町で震度6弱】高市総理コメント【ノーカット】（2026年6月26日）｜TBS NEWS DIG #shorts",
+      "link": "https://www.youtube.com/shorts/pzi8IkNAhi4",
+      "pubDate": "2026-06-26T14:36:55+00:00",
+      "image": "https://i1.ytimg.com/vi/pzi8IkNAhi4/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Oq6DQdlcK20",
+      "title": "「東海道新幹線」下り・東京～浜松、上り・静岡～東京で運転見合わせ",
+      "link": "https://www.youtube.com/watch?v=Oq6DQdlcK20",
+      "pubDate": "2026-06-26T14:36:53+00:00",
+      "image": "https://i4.ytimg.com/vi/Oq6DQdlcK20/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=BowK8h7ErrA",
+      "title": "【山梨県で震度6弱】今回の地震のメカニズムは？　元気象庁長官に聞く【報道ステーション】(2026年6月26日)",
+      "link": "https://www.youtube.com/watch?v=BowK8h7ErrA",
+      "pubDate": "2026-06-26T14:34:08+00:00",
+      "image": "https://i3.ytimg.com/vi/BowK8h7ErrA/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Imq5h01o8jI",
+      "title": "【山梨で震度6弱】高市首相がコメント　被害状況の把握などを関係省庁に指示",
+      "link": "https://www.youtube.com/watch?v=Imq5h01o8jI",
+      "pubDate": "2026-06-26T14:33:03+00:00",
+      "image": "https://i2.ytimg.com/vi/Imq5h01o8jI/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Xpr2l-uGP0c",
+      "title": "【速報】京急線 上下線の一部で遅れも通常通り運行【山梨・富士河口湖町で震度6弱の地震】｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=Xpr2l-uGP0c",
+      "pubDate": "2026-06-26T14:31:23+00:00",
+      "image": "https://i1.ytimg.com/vi/Xpr2l-uGP0c/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260626/k00/00m/040/405000c",
+      "title": "震源付近は「地震の巣」　専門家「海溝型に近い」　山梨震度6弱",
+      "link": "https://mainichi.jp/articles/20260626/k00/00m/040/405000c",
+      "pubDate": "2026-06-26T14:29:59+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=wMhp32BabFo",
+      "title": "【リプレイ】気象庁 記者会見　山梨・富士河口湖町で震度6弱について──社会ニュースライブ（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=wMhp32BabFo",
+      "pubDate": "2026-06-26T14:25:52+00:00",
+      "image": "https://i4.ytimg.com/vi/wMhp32BabFo/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/Ee-fwb7AI3A",
+      "title": "【ニュース】山梨県東部・富士五湖で震度6弱 #shorts",
+      "link": "https://www.youtube.com/shorts/Ee-fwb7AI3A",
+      "pubDate": "2026-06-26T14:25:24+00:00",
+      "image": "https://i2.ytimg.com/vi/Ee-fwb7AI3A/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162071000",
+      "title": "山梨 震度6弱 専門家「周辺でたびたび地震 降雨で崖崩れ心配」",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162071000",
+      "pubDate": "2026-06-26T14:24:37+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162031000",
+      "title": "【地震速報】山梨県で震度3 津波の心配なし（23:17）",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162031000",
+      "pubDate": "2026-06-26T14:22:56+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162081000",
+      "title": "気象庁「富士山の観測データに特段の変化なし」",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162081000",
+      "pubDate": "2026-06-26T14:22:27+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=DXaxA6AeDvc",
+      "title": "【ライブ】山梨で震度6弱の地震　高市総理が会見",
+      "link": "https://www.youtube.com/watch?v=DXaxA6AeDvc",
+      "pubDate": "2026-06-26T14:17:43+00:00",
+      "image": "https://i1.ytimg.com/vi/DXaxA6AeDvc/hqdefault.jpg",
+      "source": "FNNプライムオンライン",
+      "sid": "s6"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=ePzSnuZ-idI",
+      "title": "【緊急ライブ】高市総理がコメント｜山梨県富士河口湖町で震度6弱【LIVE】 (2026年6月26日) ANN/テレ朝",
+      "link": "https://www.youtube.com/watch?v=ePzSnuZ-idI",
+      "pubDate": "2026-06-26T14:17:22+00:00",
+      "image": "https://i2.ytimg.com/vi/ePzSnuZ-idI/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162051000",
+      "title": "震度5弱 神奈川 中井町「崖崩れが起きている」通報",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162051000",
+      "pubDate": "2026-06-26T14:14:22+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=UpHA-xmNqZQ",
+      "title": "【速報】富士山の観測データに変化なし　火山活動にも特段の変化なし　気象庁",
+      "link": "https://www.youtube.com/watch?v=UpHA-xmNqZQ",
+      "pubDate": "2026-06-26T14:14:13+00:00",
+      "image": "https://i2.ytimg.com/vi/UpHA-xmNqZQ/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162041000",
+      "title": "大手携帯電話会社 “地震による通話・通信への影響なし”",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162041000",
+      "pubDate": "2026-06-26T14:13:30+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015161931000",
+      "title": "政府 山梨 震度6弱の地震を受けて官邸対策室設置",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015161931000",
+      "pubDate": "2026-06-26T14:12:58+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=ShH4zC-wg7k",
+      "title": "【山梨で震度6弱】中央道など高速道路一部が通行止め",
+      "link": "https://www.youtube.com/watch?v=ShH4zC-wg7k",
+      "pubDate": "2026-06-26T14:11:38+00:00",
+      "image": "https://i4.ytimg.com/vi/ShH4zC-wg7k/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015161911000",
+      "title": "香川 観音寺 避難指示を解除",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015161911000",
+      "pubDate": "2026-06-26T14:10:58+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Us_ki1pQ0tI",
+      "title": "【2回目　地震会見リプレイ】木原官房長官 会見　山梨・富士河口湖町で震度6弱について──緊急ニュースライブ（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=Us_ki1pQ0tI",
+      "pubDate": "2026-06-26T14:09:43+00:00",
+      "image": "https://i2.ytimg.com/vi/Us_ki1pQ0tI/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015161901000",
+      "title": "茂木外相 “核問題めぐるIAEAの取り組み 積極支援”",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015161901000",
+      "pubDate": "2026-06-26T14:06:21+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015161991000",
+      "title": "静岡 浜岡原発 地震による異常は確認されず",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015161991000",
+      "pubDate": "2026-06-26T14:03:58+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Hy6AqFagmUM",
+      "title": "【山梨で震度6弱】東海道新幹線  東京～静岡間の上下線で運転見合わせ  停電発生のため",
+      "link": "https://www.youtube.com/watch?v=Hy6AqFagmUM",
+      "pubDate": "2026-06-26T14:03:16+00:00",
+      "image": "https://i1.ytimg.com/vi/Hy6AqFagmUM/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/KRmcMSzNnHE",
+      "title": "【山梨県東部で震度6弱の地震】6月26日午後10時29分ごろ発生、推定M5.6 #shorts",
+      "link": "https://www.youtube.com/shorts/KRmcMSzNnHE",
+      "pubDate": "2026-06-26T14:01:58+00:00",
+      "image": "https://i4.ytimg.com/vi/KRmcMSzNnHE/hqdefault.jpg",
+      "source": "日本経済新聞",
+      "sid": "s10"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=wf1Q_bxVoZ0",
+      "title": "【名物店主】熱烈アモ～レ！おしゃべり好き店主のこだわりイタリア料理 / 富士山絶景！名物店主のこだわり蕎麦",
+      "link": "https://www.youtube.com/watch?v=wf1Q_bxVoZ0",
+      "pubDate": "2026-06-26T14:00:28+00:00",
+      "image": "https://i4.ytimg.com/vi/wf1Q_bxVoZ0/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015162001000",
+      "title": "山梨県で震度6弱 専門家「富士山の活動と関係なしか」",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015162001000",
+      "pubDate": "2026-06-26T13:58:38+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=QvPgeEctLeE",
+      "title": "【ライブ】山梨県で震度6弱の地震 気象庁が会見　津波の心配なし（6月27日0時40分～LIVE配信）｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=QvPgeEctLeE",
+      "pubDate": "2026-06-26T13:52:10+00:00",
+      "image": "https://i2.ytimg.com/vi/QvPgeEctLeE/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
     },
@@ -65,51 +704,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015161941000",
-      "title": "山梨県で震度6弱 気象庁 午前0時半から記者会見へ",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015161941000",
-      "pubDate": "2026-06-26T13:48:57+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015161931000",
-      "title": "政府 地震を受けて官邸対策室設置",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015161931000",
-      "pubDate": "2026-06-26T13:48:29+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=0MGfIWU-c5Q",
-      "title": "【速報】震源地は山梨県東部・富士五湖  津波の心配なし",
-      "link": "https://www.youtube.com/watch?v=0MGfIWU-c5Q",
-      "pubDate": "2026-06-26T13:47:50+00:00",
-      "image": "https://i1.ytimg.com/vi/0MGfIWU-c5Q/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=X1DxLNpC8c8",
-      "title": "TBS NEWS DIGのライブストリーム",
-      "link": "https://www.youtube.com/watch?v=X1DxLNpC8c8",
-      "pubDate": "2026-06-26T13:43:57+00:00",
-      "image": "https://i1.ytimg.com/vi/X1DxLNpC8c8/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260626/k00/00m/040/396000c",
-      "title": "山梨県東部・富士五湖で震度6弱　マグニチュード5.6",
-      "link": "https://mainichi.jp/articles/20260626/k00/00m/040/396000c",
-      "pubDate": "2026-06-26T13:43:53+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161921000",
       "title": "震度6弱 揺れの注意点は",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161921000",
@@ -119,42 +713,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=7m25JG5QdFg",
-      "title": "【ダブル台風】27日朝に8号、夜に7号が関東接近の見込み  農園で｢急ピッチ｣水路作りも",
-      "link": "https://www.youtube.com/watch?v=7m25JG5QdFg",
-      "pubDate": "2026-06-26T13:39:12+00:00",
-      "image": "https://i4.ytimg.com/vi/7m25JG5QdFg/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=1lfsey3GRKw",
-      "title": "【台風解説】大雨の車での避難の注意ポイントは？｢キキクル｣でみる最新の大雨避難情報",
-      "link": "https://www.youtube.com/watch?v=1lfsey3GRKw",
-      "pubDate": "2026-06-26T13:38:00+00:00",
-      "image": "https://i2.ytimg.com/vi/1lfsey3GRKw/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=arSJBQLylJs",
-      "title": "【ライブ24】台風7号・8号が関東直撃へ 各地の様子　東京・神奈川・埼玉・千葉・茨城・栃木・群馬・山梨【LIVE】(2026年6月26日～) ANN/テレ朝",
-      "link": "https://www.youtube.com/watch?v=arSJBQLylJs",
-      "pubDate": "2026-06-26T13:37:10+00:00",
-      "image": "https://i2.ytimg.com/vi/arSJBQLylJs/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=6Adw8B4tJW0",
-      "title": "【緊急ライブ】山梨・富士河口湖町で震度6弱 ──緊急ニュースライブ（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=6Adw8B4tJW0",
-      "pubDate": "2026-06-26T13:37:02+00:00",
-      "image": "https://i3.ytimg.com/vi/6Adw8B4tJW0/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260626/k00/00m/050/392000c",
       "title": "西武・カナリオ、サヨナラ弾で連敗止める　首位のチームで存在感",
       "link": "https://mainichi.jp/articles/20260626/k00/00m/050/392000c",
@@ -162,15 +720,6 @@
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=qa4-E_L6Ekc",
-      "title": "【ライブ】6/29 昼ニュースまとめ 最新情報を厳選してお届け  ANN/テレ朝【LIVE】",
-      "link": "https://www.youtube.com/watch?v=qa4-E_L6Ekc",
-      "pubDate": "2026-06-26T13:30:15+00:00",
-      "image": "https://i2.ytimg.com/vi/qa4-E_L6Ekc/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "http://www.asahi.com/articles/ASV6V2DJVV6VUTFK00HM.html?ref=rss",
@@ -209,33 +758,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=0Pguv7dehFY",
-      "title": "【二男を逮捕】民家の庭に埋められた男性2人の遺体、親子か  穴の深さは“30センチ”  島根・出雲市",
-      "link": "https://www.youtube.com/watch?v=0Pguv7dehFY",
-      "pubDate": "2026-06-26T13:16:04+00:00",
-      "image": "https://i1.ytimg.com/vi/0Pguv7dehFY/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/tC5rgi0vlXQ",
-      "title": "【ベネズエラ】地震で甚大な被害  マグニチュード7超の地震相次ぐ  死者1万人超える可能性も  #shorts",
-      "link": "https://www.youtube.com/shorts/tC5rgi0vlXQ",
-      "pubDate": "2026-06-26T13:15:04+00:00",
-      "image": "https://i1.ytimg.com/vi/tC5rgi0vlXQ/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/XM28yuf00Vc",
-      "title": "【ポルシェ暴走事故】危険運転致傷疑いで中国籍の男を送検  日本の免許持っていなかったか  3人けが  #shorts",
-      "link": "https://www.youtube.com/shorts/XM28yuf00Vc",
-      "pubDate": "2026-06-26T13:14:59+00:00",
-      "image": "https://i1.ytimg.com/vi/XM28yuf00Vc/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161861000",
       "title": "【プロ野球結果】 西武がサヨナラ勝ちで連敗を3で止める",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161861000",
@@ -254,15 +776,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015160621000",
-      "title": "2つの台風 相次ぎ接近 総雨量多くなるおそれ 土砂災害厳重警戒",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015160621000",
-      "pubDate": "2026-06-26T13:11:23+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161891000",
       "title": "ベネズエラ M7超地震 589人死亡 2980人けが 暫定大統領が発表",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161891000",
@@ -270,15 +783,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=iG-1nKDGepo",
-      "title": "【朝ニュースライブ】最新ニュースと生活情報（6月27日） ──THE LATEST NEWS SUMMARY（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=iG-1nKDGepo",
-      "pubDate": "2026-06-26T13:08:01+00:00",
-      "image": "https://i2.ytimg.com/vi/iG-1nKDGepo/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
     },
     {
       "id": "https://mainichi.jp/articles/20260626/k00/00m/020/387000c",
@@ -344,15 +848,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://mainichi.jp/articles/20260626/k00/00m/010/344000c",
-      "title": "「養子の男系男子子孫に皇位継承資格」　皇室典範改正案全容判明",
-      "link": "https://mainichi.jp/articles/20260626/k00/00m/010/344000c",
-      "pubDate": "2026-06-26T12:46:07+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV6V4225V6VUEFT00ZM.html?ref=rss",
       "title": "【解説人語】Ｗ杯決勝トーナメント進出　「王国ブラジル」攻略法は",
       "link": "http://www.asahi.com/articles/ASV6V4225V6VUEFT00ZM.html?ref=rss",
@@ -362,15 +857,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/shorts/KAMliZXQ_R8",
-      "title": "「車内はサウナ状態」地下鉄の6割にエアコンなし イギリスで36.1℃“赤色警報を発表” 専門家「猛暑への備えが脆弱」｜TBS NEWS DIG #shorts",
-      "link": "https://www.youtube.com/shorts/KAMliZXQ_R8",
-      "pubDate": "2026-06-26T12:45:05+00:00",
-      "image": "https://i4.ytimg.com/vi/KAMliZXQ_R8/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV6V4105V6VUHBI01LM.html?ref=rss",
       "title": "VW、ドイツで人員削減「最大10万人」　4工場の閉鎖も　英紙報道",
       "link": "http://www.asahi.com/articles/ASV6V4105V6VUHBI01LM.html?ref=rss",
@@ -378,15 +864,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=sv-pQxY7DpY",
-      "title": "滝沢秀明氏に感謝、TOBE所属のCLASS SEVENがもうすぐデビュー1周年【芸能動画】(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=sv-pQxY7DpY",
-      "pubDate": "2026-06-26T12:23:26+00:00",
-      "image": "https://i4.ytimg.com/vi/sv-pQxY7DpY/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://www.youtube.com/watch?v=C12PKIalDMU",
@@ -425,15 +902,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://www.youtube.com/watch?v=1KqQHoeleUw",
-      "title": "【LIVE】夜のニュース（Japan News Digest Live）最新情報など（6月26日）｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=1KqQHoeleUw",
-      "pubDate": "2026-06-26T12:10:13+00:00",
-      "image": "https://i2.ytimg.com/vi/1KqQHoeleUw/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=ADOKYA1oLzY",
       "title": "【イッキ見】最新ニュース 6月26日夜〈FNNプライムオンライン〉",
       "link": "https://www.youtube.com/watch?v=ADOKYA1oLzY",
@@ -441,24 +909,6 @@
       "image": "https://i2.ytimg.com/vi/ADOKYA1oLzY/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=97WICnfXPsk",
-      "title": "【木原さん解説】W台風大雨のピークは｢27日朝6時頃｣と｢27日夕方｣の2度  東海地方で350ミリ予想",
-      "link": "https://www.youtube.com/watch?v=97WICnfXPsk",
-      "pubDate": "2026-06-26T12:06:30+00:00",
-      "image": "https://i2.ytimg.com/vi/97WICnfXPsk/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=u90TKNN0_bg",
-      "title": "三重・尾鷲市で200ミリ超“梅雨前線の影響”すでに雨強まる【ダブル台風7号・8号 本州接近】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=u90TKNN0_bg",
-      "pubDate": "2026-06-26T12:05:49+00:00",
-      "image": "https://i2.ytimg.com/vi/u90TKNN0_bg/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "https://mainichi.jp/articles/20260626/k00/00m/050/370000c",
@@ -488,42 +938,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/watch?v=ebvX1B2WWgY",
-      "title": "【消費減税】国民会議｢難航｣  自民･小野寺税調会長“首相からとりまとめ案の修正など具体的指示なく”",
-      "link": "https://www.youtube.com/watch?v=ebvX1B2WWgY",
-      "pubDate": "2026-06-26T11:57:43+00:00",
-      "image": "https://i2.ytimg.com/vi/ebvX1B2WWgY/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/ONaAjGmKlGY",
-      "title": "【俳優･村上虹郎さん】傷害の疑いで書類送検  当時交際の同居女性に暴行しケガさせたか  #shorts",
-      "link": "https://www.youtube.com/shorts/ONaAjGmKlGY",
-      "pubDate": "2026-06-26T11:57:32+00:00",
-      "image": "https://i4.ytimg.com/vi/ONaAjGmKlGY/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015161831000",
-      "title": "米と湾岸諸国の共同声明にイラン「介入主義」と非難",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015161831000",
-      "pubDate": "2026-06-26T11:54:41+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=7zhuOEVwe-w",
-      "title": "台風7号・8号 関東に連続直撃へ　雨のピークはいつ？ 終日運休や“運転見合わせの可能性”も…最新情報に注意【Nスタ解説】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=7zhuOEVwe-w",
-      "pubDate": "2026-06-26T11:53:01+00:00",
-      "image": "https://i4.ytimg.com/vi/7zhuOEVwe-w/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161851000",
       "title": "国際刑事裁判所とアジアの大学の共同拠点が慶應大に開設",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161851000",
@@ -551,15 +965,6 @@
       "sid": "s6"
     },
     {
-      "id": "https://www.youtube.com/watch?v=6k4E33zp5U0",
-      "title": "【期間限定公開】　Juice＝Juice　『盛れミ旋風』　発売記念イベント(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=6k4E33zp5U0",
-      "pubDate": "2026-06-26T11:46:03+00:00",
-      "image": "https://i3.ytimg.com/vi/6k4E33zp5U0/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=cuM3SJ8S9h0",
       "title": "【台風情報】ダブル台風、7号は午後4時奄美大島付近に 接近前から各地で冠水 長野では住宅地で土砂災害 あす関東を“連続”直撃か（2026年06月26日）",
       "link": "https://www.youtube.com/watch?v=cuM3SJ8S9h0",
@@ -569,15 +974,6 @@
       "sid": "s6"
     },
     {
-      "id": "https://www.youtube.com/shorts/YfIuqSBDyA8",
-      "title": "最大15％程度「ポテトチップス」「かっぱえびせん」など75品目 カルビー10月1日納品分から順次値上げへ｜TBS NEWS DIG #shorts",
-      "link": "https://www.youtube.com/shorts/YfIuqSBDyA8",
-      "pubDate": "2026-06-26T11:45:15+00:00",
-      "image": "https://i2.ytimg.com/vi/YfIuqSBDyA8/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV6V3R4FV6VUTFK01JM.html?ref=rss",
       "title": "岸田元首相、高市政権に「国民の身近な課題にも政治資産を」と求める",
       "link": "http://www.asahi.com/articles/ASV6V3R4FV6VUTFK01JM.html?ref=rss",
@@ -585,60 +981,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=I0WcW9EWaoE",
-      "title": "【立憲民主党】党首討論や集中審議など開催要求  高市首相を追及",
-      "link": "https://www.youtube.com/watch?v=I0WcW9EWaoE",
-      "pubDate": "2026-06-26T11:44:51+00:00",
-      "image": "https://i2.ytimg.com/vi/I0WcW9EWaoE/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=0BtDrVF6Sbc",
-      "title": "7月使用分の電気ガス料金　大手14社ですべて値下がり　政府補助で(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=0BtDrVF6Sbc",
-      "pubDate": "2026-06-26T11:43:44+00:00",
-      "image": "https://i1.ytimg.com/vi/0BtDrVF6Sbc/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=tKtAsl8OTzI",
-      "title": "カルビー　ポテトチップスなど値上げ　中東情勢などの影響で(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=tKtAsl8OTzI",
-      "pubDate": "2026-06-26T11:43:33+00:00",
-      "image": "https://i1.ytimg.com/vi/tKtAsl8OTzI/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=r9kfEBHfXJg",
-      "title": "航空自衛隊が「航空宇宙自衛隊」へ　来年3月までに　自衛官確保も狙い(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=r9kfEBHfXJg",
-      "pubDate": "2026-06-26T11:43:26+00:00",
-      "image": "https://i3.ytimg.com/vi/r9kfEBHfXJg/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=uqh1OA0t0gU",
-      "title": "【ベネズエラ】地震で甚大な被害  マグニチュード7超の地震相次ぐ  死者1万人超える可能性も",
-      "link": "https://www.youtube.com/watch?v=uqh1OA0t0gU",
-      "pubDate": "2026-06-26T11:43:16+00:00",
-      "image": "https://i2.ytimg.com/vi/uqh1OA0t0gU/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/3xiZbd5SUQc",
-      "title": "【ニュース】両陛下がオランダ・ベルギーから帰国し感想「次の世代に橋渡しができた」(2026年6月26日) #shorts",
-      "link": "https://www.youtube.com/shorts/3xiZbd5SUQc",
-      "pubDate": "2026-06-26T11:40:47+00:00",
-      "image": "https://i4.ytimg.com/vi/3xiZbd5SUQc/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161821000",
@@ -695,15 +1037,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://www.youtube.com/watch?v=7LkcwVfMpu8",
-      "title": "有名ブランド米　なぜ値下げ？　新潟産コシヒカリ“2000円台”【スーパーJチャンネル】(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=7LkcwVfMpu8",
-      "pubDate": "2026-06-26T11:30:26+00:00",
-      "image": "https://i4.ytimg.com/vi/7LkcwVfMpu8/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260626/k00/00m/050/360000c",
       "title": "敗退のTDK監督「出ている選手は年上が…」　都市対抗東北2次",
       "link": "https://mainichi.jp/articles/20260626/k00/00m/050/360000c",
@@ -713,33 +1046,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://www.youtube.com/watch?v=bUb4nslB10w",
-      "title": "最低賃金　今年度の引き上げの議論開始　原油高など踏まえ検討へ(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=bUb4nslB10w",
-      "pubDate": "2026-06-26T11:28:28+00:00",
-      "image": "https://i3.ytimg.com/vi/bUb4nslB10w/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=79cRJVGbUhE",
-      "title": "台風7号　台湾南部で洪水発生　約6万世帯が停電　約500件の浸水被害(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=79cRJVGbUhE",
-      "pubDate": "2026-06-26T11:28:13+00:00",
-      "image": "https://i4.ytimg.com/vi/79cRJVGbUhE/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=Ph_s4wJ5c7M",
-      "title": "ダブル台風が東海や関東へ　警報級の大雨のおそれ(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=Ph_s4wJ5c7M",
-      "pubDate": "2026-06-26T11:28:13+00:00",
-      "image": "https://i1.ytimg.com/vi/Ph_s4wJ5c7M/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161541000",
       "title": "日本代表“誰が出ても 誰と組んでも” 全員の力を結集【解説】",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161541000",
@@ -747,15 +1053,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=DaiG6yDjIN8",
-      "title": "ブタだって空を舞う！2万5000の独創的な凧が空を埋め尽くす　世界最大規模 デンマークの“凧揚げ祭り”｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=DaiG6yDjIN8",
-      "pubDate": "2026-06-26T11:21:20+00:00",
-      "image": "https://i1.ytimg.com/vi/DaiG6yDjIN8/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "https://mainichi.jp/articles/20260626/k00/00m/040/355000c",
@@ -774,78 +1071,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=czkONZnhzCI",
-      "title": "“W台風”直撃　あす東京は「2度大雨」【スーパーJチャンネル】(2026年6月26日)",
-      "link": "https://www.youtube.com/watch?v=czkONZnhzCI",
-      "pubDate": "2026-06-26T11:14:02+00:00",
-      "image": "https://i4.ytimg.com/vi/czkONZnhzCI/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260626/k00/00m/040/354000c",
-      "title": "妊婦死亡事故受け市議会が法整備求める意見書可決　愛知・一宮",
-      "link": "https://mainichi.jp/articles/20260626/k00/00m/040/354000c",
-      "pubDate": "2026-06-26T11:13:51+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=96dpxzpZgLU",
-      "title": "【政治ライブ】党首討論や集中審議など開催要求 　立憲民主党が高市首相を追及──政治ニュースまとめ （日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=96dpxzpZgLU",
-      "pubDate": "2026-06-26T11:11:47+00:00",
-      "image": "https://i2.ytimg.com/vi/96dpxzpZgLU/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/GM4fYVqPEFI",
-      "title": "【ニュース】“死者1万～10万人”推計も“M7超”地震　1分に2回発生　ベネズエラ #shorts",
-      "link": "https://www.youtube.com/shorts/GM4fYVqPEFI",
-      "pubDate": "2026-06-26T11:09:57+00:00",
-      "image": "https://i4.ytimg.com/vi/GM4fYVqPEFI/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=9SYFwds0Yw8",
-      "title": "朝と夜「W台風」時間差で関東直撃へ　大荒れ警戒 雨はいつ？どこで？“停電の備え”できること【Nスタ解説】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=9SYFwds0Yw8",
-      "pubDate": "2026-06-26T11:03:16+00:00",
-      "image": "https://i2.ytimg.com/vi/9SYFwds0Yw8/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260626/k00/00m/050/350000c",
-      "title": "ダラスで調和した攻守の前線トライアングル　サッカーW杯",
-      "link": "https://mainichi.jp/articles/20260626/k00/00m/050/350000c",
-      "pubDate": "2026-06-26T11:00:43+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=uZGSZ1UwjHI",
-      "title": "【台風6号で見えた課題：5月28日に変わった防災気象情報の見方：数字と色で直観的にわかる警戒レベル】気象・災害担当記者の本杉美樹が解説／主体的な情報収集「キキクル」を確認し災害に備える【CRISIS】",
-      "link": "https://www.youtube.com/watch?v=uZGSZ1UwjHI",
-      "pubDate": "2026-06-26T11:00:37+00:00",
-      "image": "https://i2.ytimg.com/vi/uZGSZ1UwjHI/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260625/k00/00m/200/030000c",
-      "title": "映画の推し事:「鉄槌教師」はなぜ通用しないのか　「四月の余白」が突きつける教育の現実",
-      "link": "https://mainichi.jp/articles/20260625/k00/00m/200/030000c",
-      "pubDate": "2026-06-26T11:00:30+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015160201000",
@@ -875,15 +1100,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://mainichi.jp/articles/20260626/k00/00m/010/346000c",
-      "title": "中道・立憲・公明、3党の合流に向け新たな協議体設置で合意",
-      "link": "https://mainichi.jp/articles/20260626/k00/00m/010/346000c",
-      "pubDate": "2026-06-26T10:56:02+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161711000",
       "title": "有事の弾薬など安定供給へ 国が施設保有し生産民間委託も検討",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161711000",
@@ -891,15 +1107,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=8MGvmA3Eu1M",
-      "title": "雨の日の強い味方「防水グッズ」が進化　傘・防水スプレーだけじゃない！クツやカバンもお悩み解消【Nスタ】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=8MGvmA3Eu1M",
-      "pubDate": "2026-06-26T10:55:12+00:00",
-      "image": "https://i1.ytimg.com/vi/8MGvmA3Eu1M/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015160971000",
@@ -992,15 +1199,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/watch?v=kQBQyKks3yY",
-      "title": "【速報】天皇皇后両陛下　オランダ・ベルギーから帰国「次の世代への橋渡しに」2週間の国賓訪問終え　戦争の歴史とも向き合い｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=kQBQyKks3yY",
-      "pubDate": "2026-06-26T10:42:48+00:00",
-      "image": "https://i4.ytimg.com/vi/kQBQyKks3yY/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161731000",
       "title": "日韓議連会長の自民 武田元総務相が韓国を訪れ大統領と会談",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161731000",
@@ -1008,15 +1206,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260626/k00/00m/040/327000c",
-      "title": "リニア中央新幹線工事着工　静岡知事、7月7日に「容認」表明へ",
-      "link": "https://mainichi.jp/articles/20260626/k00/00m/040/327000c",
-      "pubDate": "2026-06-26T10:40:38+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "http://www.asahi.com/articles/ASV6V3F5BV6VUCVL02QM.html?ref=rss",
@@ -1179,15 +1368,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=dg9rbCza2LQ",
-      "title": "「査察を行う準備できている」IAEA事務局長が都内で会見 イラン核施設査察めぐり「実務者レベルの協議を行った」｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=dg9rbCza2LQ",
-      "pubDate": "2026-06-26T10:21:49+00:00",
-      "image": "https://i1.ytimg.com/vi/dg9rbCza2LQ/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "http://www.asahi.com/articles/ASV6V35N9V6VPTIL00YM.html?ref=rss",
@@ -1370,15 +1550,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=ezgdWhHJ5RA",
-      "title": "ペッパーランチ「29％」肉増量　輸入牛肉価格が過去最高を更新する中、きょうから5日間のお得なキャンペーン（2026年06月26日）",
-      "link": "https://www.youtube.com/watch?v=ezgdWhHJ5RA",
-      "pubDate": "2026-06-26T09:32:06+00:00",
-      "image": "https://i2.ytimg.com/vi/ezgdWhHJ5RA/hqdefault.jpg",
-      "source": "FNNプライムオンライン",
-      "sid": "s6"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV6V2VSJV6VOXIE024M.html?ref=rss",
       "title": "林健治さんが死去、和歌山カレー事件の林真須美死刑囚の夫　81歳",
       "link": "http://www.asahi.com/articles/ASV6V2VSJV6VOXIE024M.html?ref=rss",
@@ -1386,15 +1557,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=7hdaOWztPtM",
-      "title": "天皇皇后両陛下が帰国　「とても意義深く思い出深いものに」　オランダ・ベルギー公式訪問　皇后さま24年ぶり2カ国歴訪（2026年06月26日）",
-      "link": "https://www.youtube.com/watch?v=7hdaOWztPtM",
-      "pubDate": "2026-06-26T09:29:20+00:00",
-      "image": "https://i4.ytimg.com/vi/7hdaOWztPtM/hqdefault.jpg",
-      "source": "FNNプライムオンライン",
-      "sid": "s6"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161501000",
@@ -1739,15 +1901,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=h53lk_Vulw4",
-      "title": "【LIVE】最新ニュースまとめ（Japan News Digest）（6月26日）｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=h53lk_Vulw4",
-      "pubDate": "2026-06-26T06:34:30+00:00",
-      "image": "https://i1.ytimg.com/vi/h53lk_Vulw4/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161271000",
       "title": "韓国イ・ジェミョン大統領の支持率過去最低 物価高騰など受け",
       "link": "https://news.web.nhk/newsweb/na/na-k10015161271000",
@@ -1773,15 +1926,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV6V1VH8V6VUHBI00HM.html?ref=rss",
-      "title": "「家賃上昇の凍結」が実現へ　ニューヨーク・マムダニ市長の看板政策",
-      "link": "http://www.asahi.com/articles/ASV6V1VH8V6VUHBI00HM.html?ref=rss",
-      "pubDate": "2026-06-26T06:30:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161341000",
@@ -1854,15 +1998,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV6V1F20V6VUTFL009M.html?ref=rss",
-      "title": "「事業者に高圧的に接してはならない」　原子力規制庁のガイド改正案",
-      "link": "http://www.asahi.com/articles/ASV6V1F20V6VUTFL009M.html?ref=rss",
-      "pubDate": "2026-06-26T05:43:17+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015161151000",
@@ -3540,10 +3675,19 @@
     },
     {
       "id": "https://www.youtube.com/watch?v=DNJ_xHu1qXI",
-      "title": "【緊急ライブ】震度6弱 山梨県東部・富士五湖 津波の心配なし 【LIVE】 (2026年6月26日) ANN/テレ朝",
+      "title": "【緊急地震ライブ】震度6弱 山梨県東部・富士五湖 津波の心配なし【LIVE】 (2026年6月26日) ANN/テレ朝",
       "link": "https://www.youtube.com/watch?v=DNJ_xHu1qXI",
       "pubDate": "2026-06-25T01:11:43+00:00",
       "image": "https://i1.ytimg.com/vi/DNJ_xHu1qXI/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=osqia-PrOEg",
+      "title": "【緊急地震ライブ】気象庁会見｜山梨県富士河口湖町で震度6弱【LIVE】 (2026年6月26日) ANN/テレ朝",
+      "link": "https://www.youtube.com/watch?v=osqia-PrOEg",
+      "pubDate": "2026-06-25T01:07:54+00:00",
+      "image": "https://i4.ytimg.com/vi/osqia-PrOEg/hqdefault.jpg",
       "source": "テレ朝NEWS",
       "sid": "s4"
     },
@@ -3717,15 +3861,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/99_ovG0sVzg",
-      "title": "【自衛隊、機密システムにウイルス感染USB接続】#shorts",
-      "link": "https://www.youtube.com/shorts/99_ovG0sVzg",
-      "pubDate": "2026-06-24T23:03:30+00:00",
-      "image": "https://i2.ytimg.com/vi/99_ovG0sVzg/hqdefault.jpg",
-      "source": "日本経済新聞",
-      "sid": "s10"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015159021000",
