@@ -1,6 +1,96 @@
 {
-  "updated": "2026-06-29T16:32:36.588644+00:00",
+  "updated": "2026-06-29T18:57:02.574534+00:00",
   "items": [
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015163871000",
+      "title": "【速報中】W杯 日本が先制もブラジルに追いつかれる",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015163871000",
+      "pubDate": "2026-06-29T18:51:13+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV6Y1G39V6YUTQP01RM.html?ref=rss",
+      "title": "日本、カゼミロに同点ゴール決められて1-1　ブラジル戦は後半",
+      "link": "http://www.asahi.com/articles/ASV6Y1G39V6YUTQP01RM.html?ref=rss",
+      "pubDate": "2026-06-29T18:46:18+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260630/k00/00m/050/018000c",
+      "title": "牙むくブラジルの波状攻撃　日本、追いつかれる　サッカーW杯",
+      "link": "https://mainichi.jp/articles/20260630/k00/00m/050/018000c",
+      "pubDate": "2026-06-29T18:41:33+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260630/k00/00m/050/012000c",
+      "title": "日本、運命のブラジル戦は「世界2位」の白ユニで　サッカーW杯",
+      "link": "https://mainichi.jp/articles/20260630/k00/00m/050/012000c",
+      "pubDate": "2026-06-29T18:13:27+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260630/k00/00m/050/016000c",
+      "title": "日本は前半1－0で折り返す、ブラジル戦　サッカーW杯",
+      "link": "https://mainichi.jp/articles/20260630/k00/00m/050/016000c",
+      "pubDate": "2026-06-29T18:08:42+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260630/k00/00m/050/014000c",
+      "title": "佐野海舟が豪快ゴール　ブラジルに圧巻先制劇　サッカーW杯",
+      "link": "https://mainichi.jp/articles/20260630/k00/00m/050/014000c",
+      "pubDate": "2026-06-29T18:02:59+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015164231000",
+      "title": "外国為替市場で39年半ぶり円安水準 1ドル＝161円90銭台後半",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015164231000",
+      "pubDate": "2026-06-29T16:55:41+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260630/k00/00m/050/008000c",
+      "title": "ブラジル戦、日本は4人入れ替え　冨安、佐野ら先発　W杯",
+      "link": "https://mainichi.jp/articles/20260630/k00/00m/050/008000c",
+      "pubDate": "2026-06-29T16:53:41+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=z9czo22i2wE",
+      "title": "【国会ライブ】衆議院 政治改革委｜議員定数削減法案 与党採決の構え 野党は欠席【LIVE】(2026年6月30日) ANN/テレ朝",
+      "link": "https://www.youtube.com/watch?v=z9czo22i2wE",
+      "pubDate": "2026-06-29T16:51:13+00:00",
+      "image": "https://i3.ytimg.com/vi/z9czo22i2wE/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=fRJ0IctceTI",
+      "title": "野党11会派「国会軽視だ」　与野党対立が激化(2026年6月30日)",
+      "link": "https://www.youtube.com/watch?v=fRJ0IctceTI",
+      "pubDate": "2026-06-29T16:44:22+00:00",
+      "image": "https://i3.ytimg.com/vi/fRJ0IctceTI/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015163391000",
       "title": "【解説】“攻撃力に注意” 今大会 ブラジルの強みは",
@@ -11,13 +101,40 @@
       "sid": "s1"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015163871000",
-      "title": "W杯 日本×ブラジル【速報予定 2:00】日本 先発4人入れ替え",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015163871000",
-      "pubDate": "2026-06-29T16:20:19+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
+      "id": "https://www.youtube.com/watch?v=3gWbjDEAIdU",
+      "title": "広島・三原市の地中の男性遺体…強盗殺人容疑で29歳の男逮捕　別の殺人・放火事件の“口封じ”で男性殺害か【news23】｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=3gWbjDEAIdU",
+      "pubDate": "2026-06-29T16:29:03+00:00",
+      "image": "https://i4.ytimg.com/vi/3gWbjDEAIdU/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=OTJ50UpnVbg",
+      "title": "近鉄京都駅構内で始発列車が脱線…終日一部運転見合わせ　傾いた車両は「くの字」に…運転士「後ろから引っ張られるように感じて停車」【news23】｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=OTJ50UpnVbg",
+      "pubDate": "2026-06-29T16:28:04+00:00",
+      "image": "https://i4.ytimg.com/vi/OTJ50UpnVbg/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=UhHnXM8Npog",
+      "title": "【ベネズエラ地震】壊滅被害も  がれきの中から生後18日の赤ちゃん救出",
+      "link": "https://www.youtube.com/watch?v=UhHnXM8Npog",
+      "pubDate": "2026-06-29T16:25:03+00:00",
+      "image": "https://i2.ytimg.com/vi/UhHnXM8Npog/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=uQkRnzCEK3o",
+      "title": "【消費税減税】月内とりまとめ断念「消費税1％」の行方は？　終盤国会が空転…議員定数削減や“中傷動画”答弁めぐり野党側が反発【news23】｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=uQkRnzCEK3o",
+      "pubDate": "2026-06-29T16:18:58+00:00",
+      "image": "https://i2.ytimg.com/vi/uQkRnzCEK3o/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
     },
     {
       "id": "http://www.asahi.com/articles/ASV6Y3JHTV6YPTIL019M.html?ref=rss",
@@ -54,15 +171,6 @@
       "image": "https://i1.ytimg.com/vi/8Xdwy2OV2LQ/hqdefault.jpg",
       "source": "日テレNEWS",
       "sid": "s3"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV6Y1G39V6YUTQP01RM.html?ref=rss",
-      "title": "冨安、佐野、谷口ら先発、4人入れ替え　日本―ブラジルは2時開始",
-      "link": "http://www.asahi.com/articles/ASV6Y1G39V6YUTQP01RM.html?ref=rss",
-      "pubDate": "2026-06-29T15:54:26+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://mainichi.jp/articles/20260630/k00/00m/020/006000c",
@@ -272,15 +380,6 @@
       "sid": "s3"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015164231000",
-      "title": "外国為替市場で39年半ぶり円安水準 1ドル＝161円90銭台後半",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015164231000",
-      "pubDate": "2026-06-29T14:08:11+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=wybleVkR2So",
       "title": "【土の中に男性遺体】“殺人・放火の共犯”で口封じか  29歳男を逮捕  広島･三原市",
       "link": "https://www.youtube.com/watch?v=wybleVkR2So",
@@ -335,15 +434,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://mainichi.jp/articles/20260629/k00/00m/040/280000c",
-      "title": "争点は被告の「犯人性」　公判結審、判決は10月に　王将社長射殺",
-      "link": "https://mainichi.jp/articles/20260629/k00/00m/040/280000c",
-      "pubDate": "2026-06-29T13:48:36+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=hG_-QbTCbZw",
       "title": "【緊急取材】W杯ブラジルのホンネ　「日本代表は強い」って本当？　上田？中村？名前が出た「あの選手」",
       "link": "https://www.youtube.com/watch?v=hG_-QbTCbZw",
@@ -389,15 +479,6 @@
       "sid": "s3"
     },
     {
-      "id": "https://mainichi.jp/articles/20260629/k00/00m/010/298000c",
-      "title": "読む政治:維新、政府案への反発なぜ?　「総意」にも不満、「先送り論」も",
-      "link": "https://mainichi.jp/articles/20260629/k00/00m/010/298000c",
-      "pubDate": "2026-06-29T13:31:55+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/shorts/vspm4XVbrqo",
       "title": "【UFOや心霊、幽体離脱…】超常現象の正体に科学で迫る #shorts",
       "link": "https://www.youtube.com/shorts/vspm4XVbrqo",
@@ -407,29 +488,11 @@
       "sid": "s10"
     },
     {
-      "id": "https://www.youtube.com/watch?v=_Knv7Osqq38",
-      "title": "【ライブ】7/2 昼ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
-      "link": "https://www.youtube.com/watch?v=_Knv7Osqq38",
-      "pubDate": "2026-06-29T13:30:18+00:00",
-      "image": "https://i4.ytimg.com/vi/_Knv7Osqq38/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=jqLOssp-U4g",
       "title": "【アメリカライブ】米イラン“攻撃停止で合意”　30日にカタールで協議へ　米メディア報道──国際ニュースライブ（日テレNEWS LIVE）",
       "link": "https://www.youtube.com/watch?v=jqLOssp-U4g",
       "pubDate": "2026-06-29T13:25:18+00:00",
       "image": "https://i3.ytimg.com/vi/jqLOssp-U4g/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=8CXnAfgGjLI",
-      "title": "【政府】省庁横断で海外投資の審査適正化へ  ｢対日外国投資委員会｣を創設",
-      "link": "https://www.youtube.com/watch?v=8CXnAfgGjLI",
-      "pubDate": "2026-06-29T13:24:30+00:00",
-      "image": "https://i1.ytimg.com/vi/8CXnAfgGjLI/hqdefault.jpg",
       "source": "日テレNEWS",
       "sid": "s3"
     },
@@ -650,15 +713,6 @@
       "sid": "s6"
     },
     {
-      "id": "https://mainichi.jp/articles/20260629/k00/00m/010/268000c",
-      "title": "衆院比例45減、試算すると…維新の減少率最低、中小政党に打撃",
-      "link": "https://mainichi.jp/articles/20260629/k00/00m/010/268000c",
-      "pubDate": "2026-06-29T12:09:10+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=LRRwzqA8NsA",
       "title": "【LIVE】夜のニュース（Japan News Digest Live）最新情報など（6月29日）｜TBS NEWS DIG",
       "link": "https://www.youtube.com/watch?v=LRRwzqA8NsA",
@@ -672,15 +726,6 @@
       "title": "定数削減法案、野党不在で審議入り　与野党の溝は深刻化",
       "link": "https://mainichi.jp/articles/20260629/k00/00m/010/305000c",
       "pubDate": "2026-06-29T12:07:23+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260629/k00/00m/010/269000c",
-      "title": "読む政治:国民民主、維新と「ガチンコ」へ　都構想と副首都で対案を提出",
-      "link": "https://mainichi.jp/articles/20260629/k00/00m/010/269000c",
-      "pubDate": "2026-06-29T12:07:02+00:00",
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
@@ -713,15 +758,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://mainichi.jp/articles/20260629/k00/00m/050/281000c",
-      "title": "football life:40代は倍増　ロナルド、モドリッチにあのGKも…サッカーW杯",
-      "link": "https://mainichi.jp/articles/20260629/k00/00m/050/281000c",
-      "pubDate": "2026-06-29T12:00:13+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV6Y3RKQV6YUTFK003M.html?ref=rss",
       "title": "「全野党が疑問」の審議入り強行　定数削減で対立、国会は不正常に",
       "link": "http://www.asahi.com/articles/ASV6Y3RKQV6YUTFK003M.html?ref=rss",
@@ -729,24 +765,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=eL3WYtn-U1U",
-      "title": "「無理だ～」戻れない海の危険「離岸流」を体験 もし溺れた時は？ 無理に浮こうとせず“呼吸の確保”を【Nスタ解説】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=eL3WYtn-U1U",
-      "pubDate": "2026-06-29T11:46:59+00:00",
-      "image": "https://i2.ytimg.com/vi/eL3WYtn-U1U/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=6u5ExbjCRGM",
-      "title": "「風が強くて波も高いのに」男子高校生6人が海の中を歩き風で流され足がつかなくなる 1人おぼれ心肺停止 新潟市西区の海｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=6u5ExbjCRGM",
-      "pubDate": "2026-06-29T11:45:38+00:00",
-      "image": "https://i3.ytimg.com/vi/6u5ExbjCRGM/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "https://www.youtube.com/shorts/lfvsR0OOLI0",
@@ -891,15 +909,6 @@
       "image": "https://i4.ytimg.com/vi/SSgy8vGGv4M/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=1sOHq8itdlk",
-      "title": "議員定数削減法案が審議入り　野党は欠席　与党30日採決の構え(2026年6月29日)",
-      "link": "https://www.youtube.com/watch?v=1sOHq8itdlk",
-      "pubDate": "2026-06-29T11:10:41+00:00",
-      "image": "https://i2.ytimg.com/vi/1sOHq8itdlk/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015163181000",
@@ -1154,15 +1163,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=aMea2IIY2QA",
-      "title": "【LIVE】最新ニュースまとめ（Japan News Digest）（6月29日）｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=aMea2IIY2QA",
-      "pubDate": "2026-06-29T10:02:55+00:00",
-      "image": "https://i2.ytimg.com/vi/aMea2IIY2QA/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=6lKAN9ufEL4",
       "title": "【異種移植】ブタの臓器を人に移植、2028年にも国内初治験へ【クイック解説】　#異種移植 #ブタ #ドナー不足",
       "link": "https://www.youtube.com/watch?v=6lKAN9ufEL4",
@@ -1290,7 +1290,7 @@
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015163361000",
-      "title": "このあとW杯 ブラジル戦 森保監督「勝って歴史変えたい」",
+      "title": "W杯 ブラジル戦を前に森保監督「勝って歴史変えたい」",
       "link": "https://news.web.nhk/newsweb/na/na-k10015163361000",
       "pubDate": "2026-06-29T09:10:59+00:00",
       "image": "",
@@ -1542,7 +1542,7 @@
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015132991000",
-      "title": "【随時更新】ロシア ウクライナに軍事侵攻（6月29日の動き）",
+      "title": "【詳細】ロシア ウクライナに軍事侵攻（6月29日の動き）",
       "link": "https://news.web.nhk/newsweb/na/na-k10015132991000",
       "pubDate": "2026-06-29T04:47:02+00:00",
       "image": "",
