@@ -1,14 +1,311 @@
 {
-  "updated": "2026-08-01T12:52:01.518957+00:00",
+  "updated": "2026-08-01T14:20:15.982170+00:00",
   "items": [
     {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015193851000",
-      "title": "【地震速報】熊本地方で震度５弱",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015193851000",
-      "pubDate": "2026-08-01T12:49:42+00:00",
+      "id": "https://www.youtube.com/watch?v=uPRT_x90C5Q",
+      "title": "石破前総理 「財源なき減税は無責任」(2026年8月1日)",
+      "link": "https://www.youtube.com/watch?v=uPRT_x90C5Q",
+      "pubDate": "2026-08-01T14:16:14+00:00",
+      "image": "https://i2.ytimg.com/vi/uPRT_x90C5Q/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=6NI2UhfqHTI",
+      "title": "ロシアのミサイル攻撃で9人死亡　ゼレンスキー氏「1発しか撃墜出来ず」(2026年8月1日)",
+      "link": "https://www.youtube.com/watch?v=6NI2UhfqHTI",
+      "pubDate": "2026-08-01T14:14:30+00:00",
+      "image": "https://i3.ytimg.com/vi/6NI2UhfqHTI/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=F8P0SAnf5K8",
+      "title": "【ライブ】8/1 夜ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=F8P0SAnf5K8",
+      "pubDate": "2026-08-01T14:13:02+00:00",
+      "image": "https://i3.ytimg.com/vi/F8P0SAnf5K8/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193461000",
+      "title": "FIFAが子会社設立計画を撤回 UEFAなどの反発受け",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193461000",
+      "pubDate": "2026-08-01T13:55:39+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193161000",
+      "title": "熊本震度7 同程度の地震注意 猛暑予想 熱中症対策を",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193161000",
+      "pubDate": "2026-08-01T13:52:06+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015192981000",
+      "title": "夏の甲子園 連覇目指す沖縄尚学は横浜と【全組み合わせ】",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015192981000",
+      "pubDate": "2026-08-01T13:49:10+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193191000",
+      "title": "40度に迫る暑さ 2日は大分で酷暑日予想 熱中症対策の徹底を",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193191000",
+      "pubDate": "2026-08-01T13:47:05+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/133000c",
+      "title": "夏の甲子園、組み合わせ決まる　注目の対決は…全カード詳報",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/133000c",
+      "pubDate": "2026-08-01T13:45:37+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/139000c",
+      "title": "選手宣誓は八王子実践の矢沢主将「歴代に負けない」　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/139000c",
+      "pubDate": "2026-08-01T13:44:27+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193351000",
+      "title": "台風13号 非常に強い勢力で西へ 小笠原は3日ごろから影響か",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193351000",
+      "pubDate": "2026-08-01T13:42:51+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/161000c",
+      "title": "開幕試合の仙台育英・須江監督「一番思い出に残る」　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/161000c",
+      "pubDate": "2026-08-01T13:42:43+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/168000c",
+      "title": "57年ぶり夏の甲子園　横手監督「選手たちと、より長い夏を」",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/168000c",
+      "pubDate": "2026-08-01T13:41:44+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/174000c",
+      "title": "八王子実践・ロバート監督「試合日は部長の誕生日」　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/174000c",
+      "pubDate": "2026-08-01T13:39:46+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/179000c",
+      "title": "「最高だ」横浜・村田監督、沖縄尚学との対戦歓迎　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/179000c",
+      "pubDate": "2026-08-01T13:38:57+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/040/198000c",
+      "title": "熊本・宇城で震度5弱　推定M4.7",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/040/198000c",
+      "pubDate": "2026-08-01T13:37:17+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=F_aJHOACa3E",
+      "title": "【緊急ライブ】熊本県で震度5弱 津波の心配なし 午後9時47分ごろ マグニチュード4.7 震源の深さ10km 【LIVE】 (2026年8月1日) ANN/テレ朝",
+      "link": "https://www.youtube.com/watch?v=F_aJHOACa3E",
+      "pubDate": "2026-08-01T13:36:36+00:00",
+      "image": "https://i3.ytimg.com/vi/F_aJHOACa3E/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/180000c",
+      "title": "仙台育英・倉田主将「しっかり準備していこうと」　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/180000c",
+      "pubDate": "2026-08-01T13:36:01+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/171000c",
+      "title": "対戦は松坂世代以来　明徳義塾・馬淵史郎監督「寺本が打って…」",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/171000c",
+      "pubDate": "2026-08-01T13:33:10+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=tjW-2BgTODE",
+      "title": "【ライブ】8/4 昼ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=tjW-2BgTODE",
+      "pubDate": "2026-08-01T13:30:08+00:00",
+      "image": "https://i1.ytimg.com/vi/tjW-2BgTODE/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193851000",
+      "title": "【地震速報】熊本 宇城市で震度5弱 津波の心配なし",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193851000",
+      "pubDate": "2026-08-01T13:25:45+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=c-FFVMalOAQ",
+      "title": "【地震ライブ】熊本で最大震度5弱の強い地震　津波の心配なし（2026年8月1日）｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=c-FFVMalOAQ",
+      "pubDate": "2026-08-01T13:23:04+00:00",
+      "image": "https://i4.ytimg.com/vi/c-FFVMalOAQ/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193861000",
+      "title": "【地震情報】川内原発 地震による異常確認されず 原子力規制庁",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193861000",
+      "pubDate": "2026-08-01T13:16:37+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=TW8aITzy8n0",
+      "title": "TBS NEWS DIGのライブストリーム",
+      "link": "https://www.youtube.com/watch?v=TW8aITzy8n0",
+      "pubDate": "2026-08-01T13:14:41+00:00",
+      "image": "https://i1.ytimg.com/vi/TW8aITzy8n0/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV814CLDV81DIFI00VM.html?ref=rss",
+      "title": "熊本県宇城市で最大震度5弱　M4.7、津波の心配なし",
+      "link": "http://www.asahi.com/articles/ASV814CLDV81DIFI00VM.html?ref=rss",
+      "pubDate": "2026-08-01T13:10:08+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=JTftNaoK76E",
+      "title": "熊本・宇城市で震度5弱を観測する地震　マグニチュード4.7　津波の心配なし(2026年8月1日)",
+      "link": "https://www.youtube.com/watch?v=JTftNaoK76E",
+      "pubDate": "2026-08-01T13:09:48+00:00",
+      "image": "https://i3.ytimg.com/vi/JTftNaoK76E/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=nDtUdS7vSAM",
+      "title": "【リピート】熊本地震から5日目 イオンモール熊本での救助活動終了 災害対策本部会議 (2026年8月1日) ANN/テレ朝 LIVE",
+      "link": "https://www.youtube.com/watch?v=nDtUdS7vSAM",
+      "pubDate": "2026-08-01T13:08:28+00:00",
+      "image": "https://i3.ytimg.com/vi/nDtUdS7vSAM/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193651000",
+      "title": "イオンモール熊本での捜索活動が終了 7人が死亡 5人がけが",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193651000",
+      "pubDate": "2026-08-01T13:07:10+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260801/k00/00m/040/193000c",
+      "title": "「高野山夏季大学」に矢野燿大さん、柏木由紀子さん、北川進さん",
+      "link": "https://mainichi.jp/articles/20260801/k00/00m/040/193000c",
+      "pubDate": "2026-08-01T13:06:17+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193811000",
+      "title": "岡山 矢掛町 2歳の男の子が行方不明 祖母の家に帰省中",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193811000",
+      "pubDate": "2026-08-01T13:05:44+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193821000",
+      "title": "フィリピン スカボロー礁海図を国連に 中国は反発し軍事演習も",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193821000",
+      "pubDate": "2026-08-01T13:04:42+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015193281000",
+      "title": "熊本県内 給水所の設置状況【8月1日】",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015193281000",
+      "pubDate": "2026-08-01T13:02:44+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/m2fM5QLkGM8",
+      "title": "【SNS投資詐欺急増】「絶対もうかる」はウソ #shorts",
+      "link": "https://www.youtube.com/shorts/m2fM5QLkGM8",
+      "pubDate": "2026-08-01T13:01:41+00:00",
+      "image": "https://i2.ytimg.com/vi/m2fM5QLkGM8/hqdefault.jpg",
+      "source": "日本経済新聞",
+      "sid": "s10"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=bLrbWoicuus",
+      "title": "【梶裕貴＆下野紘】「アフレコ中に…」、声優あるあるを明かす＜芸能動画＞(2026年8月1日)",
+      "link": "https://www.youtube.com/watch?v=bLrbWoicuus",
+      "pubDate": "2026-08-01T12:48:31+00:00",
+      "image": "https://i3.ytimg.com/vi/bLrbWoicuus/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=2XtEED9w8Vo",
+      "title": "【松平健】「色々なことができればいいな」、若々しさの原動力は？＜芸能動画＞(2026年8月1日)",
+      "link": "https://www.youtube.com/watch?v=2XtEED9w8Vo",
+      "pubDate": "2026-08-01T12:46:47+00:00",
+      "image": "https://i3.ytimg.com/vi/2XtEED9w8Vo/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
     },
     {
       "id": "https://mainichi.jp/articles/20260801/k00/00m/050/185000c",
@@ -56,15 +353,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015193161000",
-      "title": "熊本震度7 同程度の地震注意 2日も猛暑予想 熱中症対策を",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015193161000",
-      "pubDate": "2026-08-01T12:33:38+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=jroB55MDJnw",
       "title": "最大震度7 被災地・熊本のいま　再建阻む暑さ　専門家指摘「残る地震のリスク」も【報道特集】｜TBS NEWS DIG",
       "link": "https://www.youtube.com/watch?v=jroB55MDJnw",
@@ -72,24 +360,6 @@
       "image": "https://i3.ytimg.com/vi/jroB55MDJnw/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/180000c",
-      "title": "仙台育英・倉田主将「しっかり準備していこうと」　夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/180000c",
-      "pubDate": "2026-08-01T12:33:00+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015192981000",
-      "title": "夏の甲子園 連覇目指す沖縄尚学は横浜と【全組み合わせ】",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015192981000",
-      "pubDate": "2026-08-01T12:32:20+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://www.youtube.com/watch?v=fDTdkf90lek",
@@ -110,15 +380,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/179000c",
-      "title": "「最高だ」横浜・村田監督、沖縄尚学との対戦歓迎　夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/179000c",
-      "pubDate": "2026-08-01T12:12:02+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=OxOZ5jZNDzo",
       "title": "【LIVE】夜のニュース（Japan News Digest Live）最新情報など（8月1日）｜TBS NEWS DIG",
       "link": "https://www.youtube.com/watch?v=OxOZ5jZNDzo",
@@ -126,15 +387,6 @@
       "image": "https://i4.ytimg.com/vi/OxOZ5jZNDzo/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/174000c",
-      "title": "八王子実践・ロバート監督「試合日は部長の誕生日」　夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/174000c",
-      "pubDate": "2026-08-01T12:06:23+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://mainichi.jp/articles/20260801/k00/00m/050/159000c",
@@ -159,15 +411,6 @@
       "title": "愛知 弥富 木曽川で60～70代とみられる男性が溺れ死亡",
       "link": "https://news.web.nhk/newsweb/na/na-k10015193791000",
       "pubDate": "2026-08-01T11:58:43+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015193651000",
-      "title": "イオンモール熊本での捜索活動が終了 7人が死亡 5人がけが",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015193651000",
-      "pubDate": "2026-08-01T11:56:58+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
@@ -200,15 +443,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/040/127000c",
-      "title": "住宅被害、3429棟に倍増　初の週末、片付けに追われる被災者",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/040/127000c",
-      "pubDate": "2026-08-01T11:38:27+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV81040GV81PTIL007M.html?ref=rss",
       "title": "猛暑の中の断水生活　湧き水も止まった　89歳女性「風呂入りたい」",
       "link": "http://www.asahi.com/articles/ASV81040GV81PTIL007M.html?ref=rss",
@@ -234,15 +468,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/171000c",
-      "title": "対戦は松坂世代以来　明徳義塾・馬淵史郎監督「寺本が打って…」",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/171000c",
-      "pubDate": "2026-08-01T11:33:05+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://mainichi.jp/articles/20260801/k00/00m/040/144000c",
@@ -276,15 +501,6 @@
       "title": "愛子さま、三重・鳥羽水族館を訪問　ジュゴンやラッコを見学",
       "link": "https://mainichi.jp/articles/20260731/k00/00m/040/483000c",
       "pubDate": "2026-08-01T11:21:15+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/168000c",
-      "title": "57年ぶり夏の甲子園　横手監督「選手たちと、より長い夏を」",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/168000c",
-      "pubDate": "2026-08-01T11:19:49+00:00",
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
@@ -353,15 +569,6 @@
       "sid": "s3"
     },
     {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/161000c",
-      "title": "開幕試合の仙台育英・須江監督「一番思い出に残る」　夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/161000c",
-      "pubDate": "2026-08-01T10:49:58+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260801/k00/00m/030/162000c",
       "title": "熊本へのお見舞いも　大地震のベネズエラから日本医療チーム帰国",
       "link": "https://mainichi.jp/articles/20260801/k00/00m/030/162000c",
@@ -414,15 +621,6 @@
       "image": "https://i4.ytimg.com/vi/gSuLYhVHfdY/hqdefault.jpg",
       "source": "日テレNEWS",
       "sid": "s3"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015193191000",
-      "title": "40度に迫る暑さ 2日は大分で酷暑日予想 熱中症対策の徹底を",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015193191000",
-      "pubDate": "2026-08-01T10:31:18+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "http://www.asahi.com/articles/ASV7Q05JFV7QPTIL002M.html?ref=rss",
@@ -522,15 +720,6 @@
       "image": "https://i1.ytimg.com/vi/0ml8PbR290w/hqdefault.jpg",
       "source": "日テレNEWS",
       "sid": "s3"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015193351000",
-      "title": "台風13号 非常に強い勢力で西へ 小笠原は3日ごろから影響か",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015193351000",
-      "pubDate": "2026-08-01T10:14:05+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://www.youtube.com/watch?v=4qIZKwBp8bU",
@@ -659,15 +848,6 @@
       "sid": "s3"
     },
     {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/139000c",
-      "title": "選手宣誓は八王子実践の矢沢主将「歴代に負けない」　夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/139000c",
-      "pubDate": "2026-08-01T09:52:11+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=hURQm4AOryk",
       "title": "日米が約28年ぶり協調介入か　円が1ドル＝157円に急騰【スーパーJチャンネル】(2026年8月1日)",
       "link": "https://www.youtube.com/watch?v=hURQm4AOryk",
@@ -711,15 +891,6 @@
       "image": "https://i2.ytimg.com/vi/y05nf7WwVXM/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/050/133000c",
-      "title": "夏の甲子園、組み合わせ決まる　注目の対決は…全カード詳報",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/050/133000c",
-      "pubDate": "2026-08-01T09:39:01+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://www.youtube.com/watch?v=v5hp7Mxr-fI",
@@ -776,15 +947,6 @@
       "sid": "s5"
     },
     {
-      "id": "https://mainichi.jp/articles/20260801/k00/00m/040/126000c",
-      "title": "愛子さま、宮大工の作業見学　伊勢神宮「式年遷宮」参加へ",
-      "link": "https://mainichi.jp/articles/20260801/k00/00m/040/126000c",
-      "pubDate": "2026-08-01T09:26:20+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=zusjKrxKKwY",
       "title": "「ドカンという音が…」千葉・市川市のマンションで爆発　ガス漏れが原因か　22人ケガ、100メートル先の中学校でも窓ガラス割れる（2026年08月01日）",
       "link": "https://www.youtube.com/watch?v=zusjKrxKKwY",
@@ -821,15 +983,6 @@
       "sid": "s6"
     },
     {
-      "id": "https://www.youtube.com/watch?v=nsAoWEbE4E0",
-      "title": "イランのインフラ攻撃計画か　米・イスラエル　今週末にも【スーパーJチャンネル】(2026年8月1日)",
-      "link": "https://www.youtube.com/watch?v=nsAoWEbE4E0",
-      "pubDate": "2026-08-01T09:18:53+00:00",
-      "image": "https://i3.ytimg.com/vi/nsAoWEbE4E0/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=fQZjk94Z44o",
       "title": "【熊本の今後の天気】これまで経験したことのないような危険な暑さに　熊本市は月曜日に40℃予想「酷暑日」か　夜間も25℃下回らず熱帯夜が続く【予報士解説】｜TBS NEWS DIG",
       "link": "https://www.youtube.com/watch?v=fQZjk94Z44o",
@@ -839,15 +992,6 @@
       "sid": "s5"
     },
     {
-      "id": "https://www.youtube.com/watch?v=2P6ynGHWOiM",
-      "title": "九州では観測史上“最高気温”も　関東から西で猛暑日続出【スーパーJチャンネル】(2026年8月1日)",
-      "link": "https://www.youtube.com/watch?v=2P6ynGHWOiM",
-      "pubDate": "2026-08-01T09:14:21+00:00",
-      "image": "https://i3.ytimg.com/vi/2P6ynGHWOiM/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015193241000",
       "title": "千葉 市川 マンション爆発2人けが ガス漏れか",
       "link": "https://news.web.nhk/newsweb/na/na-k10015193241000",
@@ -855,15 +999,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=P1akYkq5nqk",
-      "title": "地震から丸4日　さきほど救助終了　イオンモール“直前までいた”女性は…【スーパーJチャンネル】(2026年8月1日)",
-      "link": "https://www.youtube.com/watch?v=P1akYkq5nqk",
-      "pubDate": "2026-08-01T09:07:44+00:00",
-      "image": "https://i1.ytimg.com/vi/P1akYkq5nqk/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015192401000",
@@ -938,15 +1073,6 @@
       "sid": "s5"
     },
     {
-      "id": "https://www.youtube.com/watch?v=VPbFhLVPcNY",
-      "title": "「落とし穴」史上最悪のえん罪“袴田事件”発生から60年　再審法は“改正”か“改悪”か？ 無罪確定の巖さんは今…　姉ひで子さんはフランス・パリへ　何を訴える⁉【テレメンタリー】",
-      "link": "https://www.youtube.com/watch?v=VPbFhLVPcNY",
-      "pubDate": "2026-08-01T09:00:03+00:00",
-      "image": "https://i3.ytimg.com/vi/VPbFhLVPcNY/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV7X7SFLV7XUEFT013M.html?ref=rss",
       "title": "【まとめてわかる】熊本地震　被害状況、イオン、震源、経済、寄付は",
       "link": "http://www.asahi.com/articles/ASV7X7SFLV7XUEFT013M.html?ref=rss",
@@ -954,33 +1080,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=FUUeolt3xz0",
-      "title": "熊本県内8の市や町で約6万9000戸が断水続く　九州ガスは八代市の約8900戸に都市ガスの供給停止も、3日には復旧の見通し　最大震度7の地震受け｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=FUUeolt3xz0",
-      "pubDate": "2026-08-01T08:56:15+00:00",
-      "image": "https://i3.ytimg.com/vi/FUUeolt3xz0/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=r7kbYja8hvg",
-      "title": "「避難した人の見回りを強化」高市総理、非常災害対策本部会議で表明　3日に熊本県を訪問し被災状況の確認へ｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=r7kbYja8hvg",
-      "pubDate": "2026-08-01T08:52:51+00:00",
-      "image": "https://i3.ytimg.com/vi/r7kbYja8hvg/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=wJYqn5pDrvw",
-      "title": "山形・最上町に「レベル4」土砂災害危険警報(2026年8月1日)",
-      "link": "https://www.youtube.com/watch?v=wJYqn5pDrvw",
-      "pubDate": "2026-08-01T08:45:57+00:00",
-      "image": "https://i4.ytimg.com/vi/wJYqn5pDrvw/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015193631000",
@@ -1010,15 +1109,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/watch?v=8vEKnHDYxTM",
-      "title": "【速報】男子中学生が意識不明　川遊びで流される【スーパーJチャンネル】(2026年8月1日)",
-      "link": "https://www.youtube.com/watch?v=8vEKnHDYxTM",
-      "pubDate": "2026-08-01T08:41:00+00:00",
-      "image": "https://i1.ytimg.com/vi/8vEKnHDYxTM/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015193621000",
       "title": "熊本 氷川町 議員に被害状況を説明 “断水対応を一刻も早く”",
       "link": "https://news.web.nhk/newsweb/na/na-k10015193621000",
@@ -1037,15 +1127,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=unsB1fV6cXc",
-      "title": "【地震最新情報】熊本地震5日目 新たに1人心肺停止で発見 36人死亡 約9000人避難 7万戸以上断水／など 【随時更新】(2026年7月31日～8月1日) ANN/テレ朝 LIVE",
-      "link": "https://www.youtube.com/watch?v=unsB1fV6cXc",
-      "pubDate": "2026-08-01T08:18:39+00:00",
-      "image": "https://i2.ytimg.com/vi/unsB1fV6cXc/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV8122G2V81UTIL00WM.html?ref=rss",
       "title": "愛子さまが三重県入り　伊勢神宮の式年遷宮行事を視察へ",
       "link": "http://www.asahi.com/articles/ASV8122G2V81UTIL00WM.html?ref=rss",
@@ -1053,15 +1134,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015193281000",
-      "title": "熊本県内 給水所の設置状況【8月1日】",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015193281000",
-      "pubDate": "2026-08-01T08:10:34+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015193441000",
@@ -1140,15 +1212,6 @@
       "title": "パドレス 松井裕樹 “ブルペンデー” 3回無失点の好投で2勝目",
       "link": "https://news.web.nhk/newsweb/na/na-k10015193541000",
       "pubDate": "2026-08-01T07:08:52+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/na-k10015193461000",
-      "title": "FIFAが子会社設立計画を撤回 UEFAなどの反発受け",
-      "link": "https://news.web.nhk/newsweb/na/na-k10015193461000",
-      "pubDate": "2026-08-01T07:03:56+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
@@ -1451,15 +1514,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=mFY3IXfSK3k",
-      "title": "【LIVE】癒しの熱帯 アマゾンのジャングルから配信　夜明けの空を横切るインコの群れ　夜の川に響くカエルと昆虫の声　　#ネグロ川 #ブラジル【ライブ】ANN/テレ朝",
-      "link": "https://www.youtube.com/watch?v=mFY3IXfSK3k",
-      "pubDate": "2026-08-01T01:13:29+00:00",
-      "image": "https://i2.ytimg.com/vi/mFY3IXfSK3k/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015193031000",
       "title": "国連PKO インドネシアで多国間演習 女性隊員の重要性も",
       "link": "https://news.web.nhk/newsweb/na/na-k10015193031000",
@@ -1548,15 +1602,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8100P4V81UDCB001M.html?ref=rss",
-      "title": "千葉・市川のマンションで爆発か、けが人複数",
-      "link": "http://www.asahi.com/articles/ASV8100P4V81UDCB001M.html?ref=rss",
-      "pubDate": "2026-08-01T00:39:05+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015192931000",
@@ -3773,15 +3818,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/shorts/jm71yJq8ixY",
-      "title": "【カルビー白黒ポテチの誤算、消えた「おいしそう」】ナフサ不足を受けて白黒パッケージにしたカルビーのポテトチップスの販売がさえません。 #shorts",
-      "link": "https://www.youtube.com/shorts/jm71yJq8ixY",
-      "pubDate": "2026-07-30T04:01:41+00:00",
-      "image": "https://i3.ytimg.com/vi/jm71yJq8ixY/hqdefault.jpg",
-      "source": "日本経済新聞",
-      "sid": "s10"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015190561000",
       "title": "アメリカが人型ロボットの輸入禁止を発表 中国政府は非難",
       "link": "https://news.web.nhk/newsweb/na/na-k10015190561000",
@@ -3915,15 +3951,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=F8P0SAnf5K8",
-      "title": "【ライブ】8/1 夜ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
-      "link": "https://www.youtube.com/watch?v=F8P0SAnf5K8",
-      "pubDate": "2026-07-29T21:00:08+00:00",
-      "image": "https://i3.ytimg.com/vi/F8P0SAnf5K8/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015190361000",
