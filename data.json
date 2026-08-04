@@ -1,6 +1,96 @@
 {
-  "updated": "2026-08-04T18:21:16.200117+00:00",
+  "updated": "2026-08-04T20:16:37.653774+00:00",
   "items": [
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015196421000",
+      "title": "熊本 地震の影響で河川堤防に被害 増水にいつも以上に警戒を",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015196421000",
+      "pubDate": "2026-08-04T20:11:23+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=OMrh-vDlwNU",
+      "title": "【夜ニュースライブ】最新ニュースと生活情報（8月4日） ──THE LATEST NEWS SUMMARY（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=OMrh-vDlwNU",
+      "pubDate": "2026-08-04T20:08:55+00:00",
+      "image": "https://i4.ytimg.com/vi/OMrh-vDlwNU/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260804/k00/00m/040/107000c",
+      "title": "ヒバクシャ:全員が救われるまで…祖父と孫のような被爆者と記者の2年間",
+      "link": "https://mainichi.jp/articles/20260804/k00/00m/040/107000c",
+      "pubDate": "2026-08-04T20:00:16+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260731/k00/00m/100/069000c",
+      "title": "「使いすぎるな」はダメ　子供のSNS対策、情報倫理の専門家は",
+      "link": "https://mainichi.jp/articles/20260731/k00/00m/100/069000c",
+      "pubDate": "2026-08-04T20:00:13+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV83439SV83PTIL00NM.html?ref=rss",
+      "title": "熊本地震直後に生まれた命　そのとき分娩室では　名前に込めた思い",
+      "link": "http://www.asahi.com/articles/ASV83439SV83PTIL00NM.html?ref=rss",
+      "pubDate": "2026-08-04T20:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV841F3VV84PTIL00TM.html?ref=rss",
+      "title": "鉄板入り「偽iPhone」見つけた税関　暴かれた1億円の不正還付",
+      "link": "http://www.asahi.com/articles/ASV841F3VV84PTIL00TM.html?ref=rss",
+      "pubDate": "2026-08-04T20:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=15woPxswB7w",
+      "title": "五輪で通算10個のメダル　スピードスケート・髙木美帆さんに国民栄誉賞を授与　記念品は包丁10本セット｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=15woPxswB7w",
+      "pubDate": "2026-08-04T19:39:58+00:00",
+      "image": "https://i2.ytimg.com/vi/15woPxswB7w/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=yjy_2vFknu4",
+      "title": "【熊本地震発生から1週間あまり】住宅被害1万3000棟以上 依然、約4万4000戸で断水続く｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=yjy_2vFknu4",
+      "pubDate": "2026-08-04T19:06:02+00:00",
+      "image": "https://i2.ytimg.com/vi/yjy_2vFknu4/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Rs2S_FPs9Zs",
+      "title": "「ルフィ」グループ幹部の小島智信被告 懲役20年が確定へ　最高裁が上告棄却｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=Rs2S_FPs9Zs",
+      "pubDate": "2026-08-04T19:04:00+00:00",
+      "image": "https://i3.ytimg.com/vi/Rs2S_FPs9Zs/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/na-k10015196761000",
+      "title": "NYダウ 一時1000ドル超上昇 中東情勢 緊張緩和への期待感で",
+      "link": "https://news.web.nhk/newsweb/na/na-k10015196761000",
+      "pubDate": "2026-08-04T18:48:10+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015196461000",
       "title": "大阪 河内長野 警察官が容疑者に拳銃発砲し逮捕 容疑者は死亡",
@@ -506,15 +596,6 @@
       "sid": "s5"
     },
     {
-      "id": "https://www.youtube.com/watch?v=OMrh-vDlwNU",
-      "title": "【夜ニュースライブ】最新ニュースと生活情報（8月4日） ──THE LATEST NEWS SUMMARY（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=OMrh-vDlwNU",
-      "pubDate": "2026-08-04T12:43:31+00:00",
-      "image": "https://i4.ytimg.com/vi/OMrh-vDlwNU/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015196391000",
       "title": "東京スカイツリー Jリーグ7日開幕を前に特別ライトアップ開始",
       "link": "https://news.web.nhk/newsweb/na/na-k10015196391000",
@@ -587,15 +668,6 @@
       "sid": "s5"
     },
     {
-      "id": "https://www.youtube.com/watch?v=mK6kY5_Wblc",
-      "title": "【深刻な水不足】熊本地震から1週間、危険な暑さのなか約4万4400戸で断水…解消まで「数か月」かかる恐れも【Nスタ解説】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=mK6kY5_Wblc",
-      "pubDate": "2026-08-04T12:15:30+00:00",
-      "image": "https://i2.ytimg.com/vi/mK6kY5_Wblc/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260804/k00/00m/040/250000c",
       "title": "「私たち悪いことしたかね」要介護3の68歳、避難所へ　熊本地震",
       "link": "https://mainichi.jp/articles/20260804/k00/00m/040/250000c",
@@ -657,15 +729,6 @@
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/8DsbMZsoikA",
-      "title": "ペンギン用「流しそうめん」ならぬ“流しアジ”　1歳ペンギン食べられない…｜TBS NEWS DIG#shorts",
-      "link": "https://www.youtube.com/shorts/8DsbMZsoikA",
-      "pubDate": "2026-08-04T11:52:44+00:00",
-      "image": "https://i1.ytimg.com/vi/8DsbMZsoikA/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015195961000",
@@ -992,15 +1055,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://mainichi.jp/articles/20260804/k00/00m/040/226000c",
-      "title": "水俣病70年　石川さゆりさんコンサートチケット12日発売",
-      "link": "https://mainichi.jp/articles/20260804/k00/00m/040/226000c",
-      "pubDate": "2026-08-04T10:50:30+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015196251000",
       "title": "ゼレンスキー大統領 各国大使を集め演説 軍事支援など継続を",
       "link": "https://news.web.nhk/newsweb/na/na-k10015196251000",
@@ -1035,15 +1089,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260804/k00/00m/040/225000c",
-      "title": "「ルフィ」事件、グループ幹部の上告棄却　懲役20年確定へ",
-      "link": "https://mainichi.jp/articles/20260804/k00/00m/040/225000c",
-      "pubDate": "2026-08-04T10:48:13+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "http://www.asahi.com/articles/ASV843FVYV84ULFA00GM.html?ref=rss",
@@ -1469,15 +1514,6 @@
       "sid": "s1"
     },
     {
-      "id": "http://www.asahi.com/articles/ASV842JSPV84PEFT00XM.html?ref=rss",
-      "title": "住宅新築現場で感電か、作業員2人死亡　クレーンと電線が接触　姫路",
-      "link": "http://www.asahi.com/articles/ASV842JSPV84PEFT00XM.html?ref=rss",
-      "pubDate": "2026-08-04T08:11:29+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV842GHHV84ULFA02ZM.html?ref=rss",
       "title": "円安・中東情勢の影響緩和…トヨタ上方修正　苦戦中国どう巻き返す",
       "link": "http://www.asahi.com/articles/ASV842GHHV84ULFA02ZM.html?ref=rss",
@@ -1503,15 +1539,6 @@
       "image": "https://i3.ytimg.com/vi/bXCxxBQ3E2E/hqdefault.jpg",
       "source": "日本経済新聞",
       "sid": "s10"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV840D3PV84UTIL00KM.html?ref=rss",
-      "title": "永住外国人の「生活保護」回避狙った政府　許可要件の厳格化案を発表",
-      "link": "http://www.asahi.com/articles/ASV840D3PV84UTIL00KM.html?ref=rss",
-      "pubDate": "2026-08-04T08:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "http://www.asahi.com/articles/ASV7G1DFTV7GOXIE01MM.html?ref=rss",
@@ -1647,15 +1674,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=dqfgfCIJgtk",
-      "title": "【LIVE】最新ニュースまとめ（Japan News Digest）（8月4日）｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=dqfgfCIJgtk",
-      "pubDate": "2026-08-04T06:48:16+00:00",
-      "image": "https://i1.ytimg.com/vi/dqfgfCIJgtk/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015195901000",
@@ -3125,6 +3143,15 @@
       "sid": "s1"
     },
     {
+      "id": "https://www.youtube.com/watch?v=Zt_YEw0_NPM",
+      "title": "【ライブ】8/5 朝ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=Zt_YEw0_NPM",
+      "pubDate": "2026-08-02T08:00:08+00:00",
+      "image": "https://i3.ytimg.com/vi/Zt_YEw0_NPM/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
       "id": "https://news.web.nhk/newsweb/na/na-k10015194101000",
       "title": "【熊本地震 企業影響 2日】九州のメーカー工場で操業に影響",
       "link": "https://news.web.nhk/newsweb/na/na-k10015194101000",
@@ -3177,15 +3204,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=RqcYwHobFWc",
-      "title": "【ライブ】8/4 深夜ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
-      "link": "https://www.youtube.com/watch?v=RqcYwHobFWc",
-      "pubDate": "2026-08-02T03:00:06+00:00",
-      "image": "https://i3.ytimg.com/vi/RqcYwHobFWc/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/na-k10015194071000",
