@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T16:40:44.759915+00:00",
+  "updated": "2026-08-10T17:42:03.017403+00:00",
   "items": [
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260810de43197",
@@ -11,10 +11,37 @@
       "sid": "s1"
     },
     {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
+      "title": "台風15号 あす関東甲信に接近 夜にかけ上陸のおそれ",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
+      "pubDate": "2026-08-10T17:40:37+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43052",
+      "title": "高校野球 日南学園が明徳義塾にサヨナラ勝ち 県勢で令和初勝利",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43052",
+      "pubDate": "2026-08-10T17:38:16+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260810de43185",
       "title": "高校野球 天理が市福山に快勝 長尾亮大投手が13奪三振で完投",
       "link": "https://news.web.nhk/newsweb/na/nd-20260810de43185",
-      "pubDate": "2026-08-10T16:37:54+00:00",
+      "pubDate": "2026-08-10T17:02:19+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43155",
+      "title": "高校野球 山口 高川学園が富山 高岡商に快勝 3回戦へ",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43155",
+      "pubDate": "2026-08-10T16:45:48+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
@@ -120,7 +147,7 @@
     },
     {
       "id": "https://www.youtube.com/watch?v=sC6GmHT5qr8",
-      "title": "【台風ライブ】11日東北新幹線に遅れや運休が発生する可能性　茨城や栃木などの一部在来線も遅れや運休の可能性…台風15号の影響　JR東日本 ── ニュースライブ（日テレNEWS LIVE）",
+      "title": "【台風ライブ】11日 関東や東北南部に上陸おそれ　気象庁が交通機関の乱れなどに注意呼びかけ ── ニュースライブ（日テレNEWS LIVE）",
       "link": "https://www.youtube.com/watch?v=sC6GmHT5qr8",
       "pubDate": "2026-08-10T15:58:19+00:00",
       "image": "https://i4.ytimg.com/vi/sC6GmHT5qr8/hqdefault.jpg",
@@ -138,7 +165,7 @@
     },
     {
       "id": "https://www.youtube.com/watch?v=14j6IGXKlHE",
-      "title": "【熊本地震 最新情報】11日で2週間　続く避難生活…ボランティア広がる / 今後も震度5弱程度以上の地震に注意　気象庁 ── ニュースライブ（日テレNEWS LIVE）",
+      "title": "【熊本地震 最新情報】熊本地震から2週間　復旧の動き進む中…新たな課題も　県内の宿泊キャンセル20億円以上に / 今後も震度5弱程度以上の地震に注意 ── ニュースライブ（日テレNEWS LIVE）",
       "link": "https://www.youtube.com/watch?v=14j6IGXKlHE",
       "pubDate": "2026-08-10T15:56:11+00:00",
       "image": "https://i2.ytimg.com/vi/14j6IGXKlHE/hqdefault.jpg",
@@ -423,24 +450,6 @@
       "image": "https://i2.ytimg.com/vi/aKNoyWTjQzI/hqdefault.jpg",
       "source": "日テレNEWS",
       "sid": "s3"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-      "title": "台風15号 あす関東甲信に接近 夜にかけ上陸のおそれ",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-      "pubDate": "2026-08-10T13:40:12+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43155",
-      "title": "高校野球 山口 高川学園が富山 高岡商に快勝 3回戦へ",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43155",
-      "pubDate": "2026-08-10T13:37:33+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://www.youtube.com/watch?v=hcSqGeSnUL0",
@@ -1332,15 +1341,6 @@
       "image": "https://i3.ytimg.com/vi/vmfK2BrIimo/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43052",
-      "title": "高校野球 宮崎 日南学園が高知 明徳義塾高校にサヨナラ勝ち",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43052",
-      "pubDate": "2026-08-10T07:01:21+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260810de43122",
