@@ -1,20 +1,218 @@
 {
-  "updated": "2026-08-11T02:58:09.714747+00:00",
+  "updated": "2026-08-11T04:16:29.584514+00:00",
   "items": [
     {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
-      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
-      "pubDate": "2026-08-11T02:53:14+00:00",
+      "id": "https://mainichi.jp/articles/20260811/k00/00m/030/040000c",
+      "title": "コロンビアでM7.4　100人超が死亡、1500戸超の住宅が被害",
+      "link": "https://mainichi.jp/articles/20260811/k00/00m/030/040000c",
+      "pubDate": "2026-08-11T04:13:39+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
+      "title": "台風15号関東上陸おそれ 東日本から東北で土砂災害や暴風警戒",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
+      "pubDate": "2026-08-11T04:12:10+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260811/k00/00m/040/067000c",
+      "title": "イオン「一時入館認めた」と発表　熊本地震後のモール爆発巡り",
+      "link": "https://mainichi.jp/articles/20260811/k00/00m/040/067000c",
+      "pubDate": "2026-08-11T04:10:48+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV87131DV87UHBI02HM.html?ref=rss",
+      "title": "【そもそも解説】IT大手が脅かす報道機関の経営　問題点は？",
+      "link": "http://www.asahi.com/articles/ASV87131DV87UHBI02HM.html?ref=rss",
+      "pubDate": "2026-08-11T04:05:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV87341BV87UHBI02JM.html?ref=rss",
+      "title": "報道機関なくして検索は成立しない　豪州の法律手がけた専門家に聞く",
+      "link": "http://www.asahi.com/articles/ASV87341BV87UHBI02JM.html?ref=rss",
+      "pubDate": "2026-08-11T04:04:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV873628V87UHBI01MM.html?ref=rss",
+      "title": "訃報は電柱、政策知らぬ人々　地方紙消え起きたこと、豪州の教授語る",
+      "link": "http://www.asahi.com/articles/ASV873628V87UHBI01MM.html?ref=rss",
+      "pubDate": "2026-08-11T04:03:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8B351MV8BUHBI019M.html?ref=rss",
+      "title": "300の地方紙が消えた豪州　ニュース砂漠生むIT大手に政府が対抗",
+      "link": "http://www.asahi.com/articles/ASV8B351MV8BUHBI019M.html?ref=rss",
+      "pubDate": "2026-08-11T04:01:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260811/k00/00m/030/065000c",
+      "title": "手錠なし喫煙会見　殺人容疑のタイ元下院議員、「特別扱い」批判",
+      "link": "https://mainichi.jp/articles/20260811/k00/00m/030/065000c",
+      "pubDate": "2026-08-11T04:00:15+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8731BFV87UHBI019M.html?ref=rss",
+      "title": "豪州、ニュース「ただ乗り」規制へ　IT大手に対価支払い実質義務化",
+      "link": "http://www.asahi.com/articles/ASV8731BFV87UHBI019M.html?ref=rss",
+      "pubDate": "2026-08-11T04:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260809de42917",
+      "title": "高校野球 夏の甲子園 全試合をハイライト動画で【8月9日から】",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42917",
+      "pubDate": "2026-08-11T03:58:59+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260811/k00/00m/040/066000c",
+      "title": "東京メトロ半蔵門駅でアスベスト　渋谷ー九段下で運転見合わせ",
+      "link": "https://mainichi.jp/articles/20260811/k00/00m/040/066000c",
+      "pubDate": "2026-08-11T03:57:44+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
+      "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
+      "pubDate": "2026-08-11T03:50:00+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
+      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
+      "pubDate": "2026-08-11T03:38:25+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-      "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下 再開は午後か",
+      "title": "東京メトロ半蔵門線 運転見合わせ 駅構内でアスベスト見つかる",
       "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-      "pubDate": "2026-08-11T02:50:12+00:00",
+      "pubDate": "2026-08-11T03:36:57+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260811/k00/00m/040/060000c",
+      "title": "台風15号で60便超欠航　特急「ひたち」区間運休も　帰省に影響",
+      "link": "https://mainichi.jp/articles/20260811/k00/00m/040/060000c",
+      "pubDate": "2026-08-11T03:34:44+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260810/k00/00m/050/214000c",
+      "title": "父は元オリックス　高校通算20発超の履正社・辻　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260810/k00/00m/050/214000c",
+      "pubDate": "2026-08-11T03:30:06+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260810/k00/00m/040/051000c",
+      "title": "「神の住む場所」を空中散歩　旭川でアイヌ文化知るセンター開設",
+      "link": "https://mainichi.jp/articles/20260810/k00/00m/040/051000c",
+      "pubDate": "2026-08-11T03:15:06+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260811/k00/00m/050/053000c",
+      "title": "「ヒットの歓声は聞こえた」　難聴の敦賀気比・川原　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260811/k00/00m/050/053000c",
+      "pubDate": "2026-08-11T03:06:37+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260811/k00/00m/050/056000c",
+      "title": "敦賀気比・東監督、先発の辻は「目がギラついて」　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260811/k00/00m/050/056000c",
+      "pubDate": "2026-08-11T03:00:25+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260809/k00/00m/040/255000c",
+      "title": "7年近くも「復旧困難」　南アルプス林道　現実化した50年前の予言",
+      "link": "https://mainichi.jp/articles/20260809/k00/00m/040/255000c",
+      "pubDate": "2026-08-11T03:00:19+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260810/k00/00m/020/198000c",
+      "title": "新社長が語る「森ビルらしさ」　ヒルズ同士連携で「経年進化」へ",
+      "link": "https://mainichi.jp/articles/20260810/k00/00m/020/198000c",
+      "pubDate": "2026-08-11T03:00:14+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260810/k00/00m/050/142000c",
+      "title": "「もったいない」の言葉にも…プロの兄と違う道で乗り込む甲子園",
+      "link": "https://mainichi.jp/articles/20260810/k00/00m/050/142000c",
+      "pubDate": "2026-08-11T03:00:12+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260807/k00/00m/200/431000c",
+      "title": "しみじみとあたたかく…　川上弘美さん新刊『スナックふたり』",
+      "link": "https://mainichi.jp/articles/20260807/k00/00m/200/431000c",
+      "pubDate": "2026-08-11T03:00:11+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
+      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
+      "pubDate": "2026-08-11T02:53:14+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
@@ -83,15 +281,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://mainichi.jp/articles/20260811/k00/00m/030/040000c",
-      "title": "コロンビアでM7.4　100人超が死亡、1500戸超の住宅が被害",
-      "link": "https://mainichi.jp/articles/20260811/k00/00m/030/040000c",
-      "pubDate": "2026-08-11T02:04:04+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260811/k00/00m/040/039000c",
       "title": "ひんやり坑道跡を謎解き探検　美川ムーバレー　山口・岩国",
       "link": "https://mainichi.jp/articles/20260811/k00/00m/040/039000c",
@@ -99,15 +288,6 @@
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-      "title": "台風15号関東上陸おそれ 東日本から東北で土砂災害や暴風警戒",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-      "pubDate": "2026-08-11T02:01:36+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://mainichi.jp/articles/20260810/k00/00m/040/197000c",
@@ -128,24 +308,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://mainichi.jp/articles/20260810/k00/00m/100/319000c",
-      "title": "「令和8年8月8日」に八王子市に婚姻届　207組が受理　東京",
-      "link": "https://mainichi.jp/articles/20260810/k00/00m/100/319000c",
-      "pubDate": "2026-08-11T01:45:09+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260810/k00/00m/050/202000c",
-      "title": "敦賀気比が4年ぶりの初戦突破　福井勢夏通算60勝　夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260810/k00/00m/050/202000c",
-      "pubDate": "2026-08-11T01:34:18+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260810de43185",
       "title": "高校野球 天理が市福山に快勝 長尾亮大投手が13奪三振で完投",
       "link": "https://news.web.nhk/newsweb/na/nd-20260810de43185",
@@ -153,33 +315,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260806/k00/00m/040/357000c",
-      "title": "ドラマ「ホットスポット」ロケ地でグッズ発売　観光客らから人気",
-      "link": "https://mainichi.jp/articles/20260806/k00/00m/040/357000c",
-      "pubDate": "2026-08-11T01:15:10+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260809de42917",
-      "title": "高校野球 夏の甲子園 全試合をハイライト動画で【8月9日から】",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42917",
-      "pubDate": "2026-08-11T01:14:23+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260808/k00/00m/040/076000c",
-      "title": "クマ禍を生きる:もう「事件」は起こさない　クマ対策、カギを握る最新技術",
-      "link": "https://mainichi.jp/articles/20260808/k00/00m/040/076000c",
-      "pubDate": "2026-08-11T01:00:11+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "http://www.asahi.com/articles/ASV853VLGV85OXIE029M.html?ref=rss",
@@ -200,69 +335,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://mainichi.jp/articles/20260811/k00/00m/040/026000c",
-      "title": "台風15号、11日午後に関東上陸の恐れ　東北では土砂災害警戒",
-      "link": "https://mainichi.jp/articles/20260811/k00/00m/040/026000c",
-      "pubDate": "2026-08-11T00:59:51+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260810/k00/00m/040/307000c",
-      "title": "DJ KOOさん「恩返ししたい」　千葉・鎌ケ谷サポーターに認定",
-      "link": "https://mainichi.jp/articles/20260810/k00/00m/040/307000c",
-      "pubDate": "2026-08-11T00:45:05+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260811/k00/00m/030/017000c",
-      "title": "英補選で話題の「ごみ箱伯爵」　右派党首の「対抗馬」に?",
-      "link": "https://mainichi.jp/articles/20260811/k00/00m/030/017000c",
-      "pubDate": "2026-08-11T00:18:36+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260807/k00/00m/040/441000c",
-      "title": "人命救助の最前線で対応　はしご登はんで全国に挑む消防士　千葉",
-      "link": "https://mainichi.jp/articles/20260807/k00/00m/040/441000c",
-      "pubDate": "2026-08-11T00:15:26+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260806/k00/00m/200/157000c",
-      "title": "交渉振り返るのもつらい　81年前に昭和天皇を袖にした大国",
-      "link": "https://mainichi.jp/articles/20260806/k00/00m/200/157000c",
-      "pubDate": "2026-08-11T00:00:16+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260810/k00/00m/040/182000c",
-      "title": "新潟まつりに51万人　起源の「住吉祭」300周年で華やかに",
-      "link": "https://mainichi.jp/articles/20260810/k00/00m/040/182000c",
-      "pubDate": "2026-08-10T23:45:14+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260811/k00/00m/030/014000c",
-      "title": "トランプ氏「イランに損害賠償求める」　イラン側要求に対抗姿勢",
-      "link": "https://mainichi.jp/articles/20260811/k00/00m/030/014000c",
-      "pubDate": "2026-08-10T23:42:42+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260810de43140",
       "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月11日の動き）",
       "link": "https://news.web.nhk/newsweb/na/nd-20260810de43140",
@@ -272,24 +344,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://mainichi.jp/articles/20260810/k00/00m/050/341000c",
-      "title": "football life:「繊細、すごく細かい」曺貴裁新監督とともに　浦和レッズ再出発",
-      "link": "https://mainichi.jp/articles/20260810/k00/00m/050/341000c",
-      "pubDate": "2026-08-10T23:30:11+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8B1SM2V8BUHBI01LM.html?ref=rss",
-      "title": "ホルムズめぐりイランと協議　「中東のスイス」オマーンの全方位外交",
-      "link": "http://www.asahi.com/articles/ASV8B1SM2V8BUHBI01LM.html?ref=rss",
-      "pubDate": "2026-08-10T23:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV850F52V85PLZB009M.html?ref=rss",
       "title": "京都の旅は「建築推し」で　安藤忠雄作品を活用した拠点が9月開業へ",
       "link": "http://www.asahi.com/articles/ASV850F52V85PLZB009M.html?ref=rss",
@@ -297,15 +351,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-      "pubDate": "2026-08-10T22:52:04+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260811de43216",
@@ -339,15 +384,6 @@
       "title": "感染性ぶどう膜炎にPCR検査キット　9種の病原体を一度にカバー",
       "link": "http://www.asahi.com/articles/ASV851HFSV85PLZB00DM.html?ref=rss",
       "pubDate": "2026-08-10T22:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8B540JV8BBQBQ1JBM.html?ref=rss",
-      "title": "コロンビア西部で地震、111人の死亡確認　「過去10年で最大」",
-      "link": "http://www.asahi.com/articles/ASV8B540JV8BBQBQ1JBM.html?ref=rss",
-      "pubDate": "2026-08-10T21:34:40+00:00",
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
@@ -477,15 +513,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8B63YNV8BUHBI014M.html?ref=rss",
-      "title": "ロシア最高裁が唯一の「反戦政党」排除　下院選、「停戦」受け皿失う",
-      "link": "http://www.asahi.com/articles/ASV8B63YNV8BUHBI014M.html?ref=rss",
-      "pubDate": "2026-08-10T18:36:10+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260810de43052",
@@ -704,15 +731,6 @@
       "sid": "s2"
     },
     {
-      "id": "http://www.asahi.com/articles/ASV8B3DM7V8BUHBI00LM.html?ref=rss",
-      "title": "イラン大統領が健康不安説のモジタバ師と会談　外交安保トップは交代",
-      "link": "http://www.asahi.com/articles/ASV8B3DM7V8BUHBI00LM.html?ref=rss",
-      "pubDate": "2026-08-10T10:50:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV8B3D0TV8BULFA015M.html?ref=rss",
       "title": "サントリー、熊本工場復旧に3~4カ月　「可能な限り安定供給図る」",
       "link": "http://www.asahi.com/articles/ASV8B3D0TV8BULFA015M.html?ref=rss",
@@ -852,15 +870,6 @@
       "title": "比例「復活当選」で厳格化を提案　衆院選挙制度協議会幹事会の座長案",
       "link": "http://www.asahi.com/articles/ASV8B2TJVV8BUTFK006M.html?ref=rss",
       "pubDate": "2026-08-10T09:05:59+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8B00V3V8BUTFL02DM.html?ref=rss",
-      "title": "毒素を作る腸内細菌、大腸がんの原因に　40歳未満は7割　大阪大",
-      "link": "http://www.asahi.com/articles/ASV8B00V3V8BUTFL02DM.html?ref=rss",
-      "pubDate": "2026-08-10T09:00:00+00:00",
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
