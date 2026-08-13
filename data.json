@@ -1,6 +1,375 @@
 {
-  "updated": "2026-08-13T12:41:23.495226+00:00",
+  "updated": "2026-08-13T14:13:20.289046+00:00",
   "items": [
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/405000c",
+      "title": "千葉県18市1町に大雨特別警報　市川市で1人死亡　けが人も",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/405000c",
+      "pubDate": "2026-08-13T14:07:30+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
+      "title": "千葉県 レベル5の大雨と土砂災害の特別警報 命助かる行動を",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
+      "pubDate": "2026-08-13T14:04:35+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43852",
+      "title": "【動画】千葉 市川でバス立往生（午後6時前）",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43852",
+      "pubDate": "2026-08-13T14:01:59+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/050/401000c",
+      "title": "3年目の阪神・下村海翔　「5度目の正直」で涙のプロ初勝利",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/050/401000c",
+      "pubDate": "2026-08-13T14:01:51+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/010/402000c",
+      "title": "千葉の大雨　政府、情報連絡室を官邸連絡室に格上げ",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/010/402000c",
+      "pubDate": "2026-08-13T14:00:49+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
+      "title": "【大雨被害】道路冠水相次ぐ 柏で車中から救助の女性 心肺停止",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
+      "pubDate": "2026-08-13T14:00:37+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/357000c",
+      "title": "千葉の大雨「直ちに身の安全確保を」　最大級の警戒呼びかけ",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/357000c",
+      "pubDate": "2026-08-13T13:58:50+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/oipsqNWY1rw",
+      "title": "【速報】千葉･長柄町にレベル5大雨特別警報  #shorts",
+      "link": "https://www.youtube.com/shorts/oipsqNWY1rw",
+      "pubDate": "2026-08-13T13:58:33+00:00",
+      "image": "https://i4.ytimg.com/vi/oipsqNWY1rw/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=WVKSzTNb5zY",
+      "title": "【速報】千葉･長柄町にレベル5大雨特別警報",
+      "link": "https://www.youtube.com/watch?v=WVKSzTNb5zY",
+      "pubDate": "2026-08-13T13:56:48+00:00",
+      "image": "https://i4.ytimg.com/vi/WVKSzTNb5zY/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8F4HGKV8FUEFT011M.html?ref=rss",
+      "title": "立ち往生する車、道路は至るところで冠水　千葉で大雨特別警報",
+      "link": "http://www.asahi.com/articles/ASV8F4HGKV8FUEFT011M.html?ref=rss",
+      "pubDate": "2026-08-13T13:52:18+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
+      "title": "千葉県内19自治体に大雨特別警報 気象庁と国交省会見【詳細】",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
+      "pubDate": "2026-08-13T13:51:26+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/387000c",
+      "title": "関門海峡の夜空彩る大輪の花、観客魅了　熊本地震の復興へ願いも",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/387000c",
+      "pubDate": "2026-08-13T13:51:07+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/399000c",
+      "title": "げたの音、朝まで　郡上おどりで4日間の「徹夜おどり」スタート",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/399000c",
+      "pubDate": "2026-08-13T13:51:02+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43873",
+      "title": "赤間防災相“今回の大雨で2人心肺停止と報告受けた”",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43873",
+      "pubDate": "2026-08-13T13:50:00+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=QmSE_UHt-Fc",
+      "title": "【夜ニュースライブ】最新ニュースと生活情報（8月13日） ──THE LATEST NEWS SUMMARY（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=QmSE_UHt-Fc",
+      "pubDate": "2026-08-13T13:43:47+00:00",
+      "image": "https://i2.ytimg.com/vi/QmSE_UHt-Fc/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/aGeh6b-7JBY",
+      "title": "【速報】千葉･茂原市、大網白里市にレベル5大雨特別警報  #shorts",
+      "link": "https://www.youtube.com/shorts/aGeh6b-7JBY",
+      "pubDate": "2026-08-13T13:42:30+00:00",
+      "image": "https://i2.ytimg.com/vi/aGeh6b-7JBY/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=EH8mG6YzUM8",
+      "title": "【速報】千葉･茂原市、大網白里市にレベル5大雨特別警報",
+      "link": "https://www.youtube.com/watch?v=EH8mG6YzUM8",
+      "pubDate": "2026-08-13T13:39:28+00:00",
+      "image": "https://i2.ytimg.com/vi/EH8mG6YzUM8/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43851",
+      "title": "【動画】走行中のバスの車内に水が入り込む 千葉 松戸",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43851",
+      "pubDate": "2026-08-13T13:38:07+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/AOaTrrJY93U",
+      "title": "【速報】千葉市、市原市にレベル5土砂災害特別警報  #shorts",
+      "link": "https://www.youtube.com/shorts/AOaTrrJY93U",
+      "pubDate": "2026-08-13T13:37:20+00:00",
+      "image": "https://i2.ytimg.com/vi/AOaTrrJY93U/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=XdFDD5Uf9CU",
+      "title": "【速報】千葉市、市原市にレベル5土砂災害特別警報",
+      "link": "https://www.youtube.com/watch?v=XdFDD5Uf9CU",
+      "pubDate": "2026-08-13T13:30:56+00:00",
+      "image": "https://i1.ytimg.com/vi/XdFDD5Uf9CU/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=NZ8l_02kSMU",
+      "title": "【立川市グルメ】洋食2品組み合わせランチ　ボリュームも大満足/“朝日の当たる店”　朝から幸せごちそうパン",
+      "link": "https://www.youtube.com/watch?v=NZ8l_02kSMU",
+      "pubDate": "2026-08-13T13:30:12+00:00",
+      "image": "https://i3.ytimg.com/vi/NZ8l_02kSMU/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=sUcKueowJH4",
+      "title": "【ライブ】8/16 昼ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=sUcKueowJH4",
+      "pubDate": "2026-08-13T13:30:09+00:00",
+      "image": "https://i4.ytimg.com/vi/sUcKueowJH4/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/Sp9WoJj9818",
+      "title": "【速報】千葉･東金市、八街市にレベル5大雨特別警報  #shorts",
+      "link": "https://www.youtube.com/shorts/Sp9WoJj9818",
+      "pubDate": "2026-08-13T13:21:10+00:00",
+      "image": "https://i4.ytimg.com/vi/Sp9WoJj9818/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/050/392000c",
+      "title": "大分商の那賀監督「平田の伸びしろはまだまだある」　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/050/392000c",
+      "pubDate": "2026-08-13T13:20:00+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=HWawkswsk0E",
+      "title": "【速報】千葉･東金市、八街市にレベル5大雨特別警報",
+      "link": "https://www.youtube.com/watch?v=HWawkswsk0E",
+      "pubDate": "2026-08-13T13:17:26+00:00",
+      "image": "https://i1.ytimg.com/vi/HWawkswsk0E/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=AQglA2_MlxE",
+      "title": "【速報】レベル5土砂災害特別警報　千葉市と市原市　今すぐ身の安全確保を(2026年8月13日)",
+      "link": "https://www.youtube.com/watch?v=AQglA2_MlxE",
+      "pubDate": "2026-08-13T13:16:58+00:00",
+      "image": "https://i2.ytimg.com/vi/AQglA2_MlxE/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=vpgUaU8m5s4",
+      "title": "【速報】レベル5土砂災害特別警報　千葉県千葉市・市原市｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=vpgUaU8m5s4",
+      "pubDate": "2026-08-13T13:16:57+00:00",
+      "image": "https://i3.ytimg.com/vi/vpgUaU8m5s4/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/050/389000c",
+      "title": "バスケットボール女子が韓国と親善試合　熊本地震の支援募金も",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/050/389000c",
+      "pubDate": "2026-08-13T13:15:30+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=olNhfKOrvTg",
+      "title": "【気象庁が緊急会見】千葉県の14市にレベル5大雨特別警報  安全確保呼びかけ",
+      "link": "https://www.youtube.com/watch?v=olNhfKOrvTg",
+      "pubDate": "2026-08-13T13:14:30+00:00",
+      "image": "https://i4.ytimg.com/vi/olNhfKOrvTg/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=LxP-mgDHikQ",
+      "title": "【東京地検】トップに松下裕子氏が就任「信頼に足る存在と思ってもらえるよう指導を徹底する」",
+      "link": "https://www.youtube.com/watch?v=LxP-mgDHikQ",
+      "pubDate": "2026-08-13T13:10:59+00:00",
+      "image": "https://i1.ytimg.com/vi/LxP-mgDHikQ/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/352000c",
+      "title": "千葉駅のショッピングセンターが浸水「プールに」　大雨特別警報",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/352000c",
+      "pubDate": "2026-08-13T13:03:45+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=d5gFBO9G_3A",
+      "title": "千葉県北西部の14市に「レベル5大雨特別警報」　市川市で60代くらいの男性が冠水した路上で意識不明　気象庁「最大級の警戒が必要」｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=d5gFBO9G_3A",
+      "pubDate": "2026-08-13T13:00:26+00:00",
+      "image": "https://i1.ytimg.com/vi/d5gFBO9G_3A/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8F44J0V8FPQIP02HM.html?ref=rss",
+      "title": "海峡挟んで花火が競演　夜空を彩る関門海峡花火大会",
+      "link": "http://www.asahi.com/articles/ASV8F44J0V8FPQIP02HM.html?ref=rss",
+      "pubDate": "2026-08-13T13:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=rk3ovM9gzk4",
+      "title": "【アメリカライブ】ホワイトハウスのレビット報道官が今月末で退任へ　今年5月に出産──国際ニュースライブ（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=rk3ovM9gzk4",
+      "pubDate": "2026-08-13T13:00:00+00:00",
+      "image": "https://i3.ytimg.com/vi/rk3ovM9gzk4/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8F44NZV8FUCVL01WM.html?ref=rss",
+      "title": "準決勝進出の16チーム決まる　高校麻雀選手権、全国大会1日目終了",
+      "link": "http://www.asahi.com/articles/ASV8F44NZV8FUCVL01WM.html?ref=rss",
+      "pubDate": "2026-08-13T12:56:04+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/010/386000c",
+      "title": "中国・朱鎔基元首相の死去受け　高市首相が習近平氏らに弔意",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/010/386000c",
+      "pubDate": "2026-08-13T12:55:30+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
+      "title": "ロシア プーチン大統領 北方領土初めて訪問",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
+      "pubDate": "2026-08-13T12:52:11+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8F45LTV8FUEFT00YM.html?ref=rss",
+      "title": "【動画まとめ】千葉県にレベル5大雨特別警報　「身の安全の確保を」",
+      "link": "http://www.asahi.com/articles/ASV8F45LTV8FUEFT00YM.html?ref=rss",
+      "pubDate": "2026-08-13T12:50:16+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260813/k00/00m/050/367000c",
+      "title": "英明監督「平田君にのびのび野球をやられたら…」　夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260813/k00/00m/050/367000c",
+      "pubDate": "2026-08-13T12:47:15+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=7tqQTqI7gD0",
+      "title": "【速報】線状降水帯発生　千葉県北西部・北東部・南部｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=7tqQTqI7gD0",
+      "pubDate": "2026-08-13T12:43:37+00:00",
+      "image": "https://i4.ytimg.com/vi/7tqQTqI7gD0/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43816",
+      "title": "【動画】千葉市中央区で道路から水吹き上がる（午後7時ごろ）",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43816",
+      "pubDate": "2026-08-13T12:41:00+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
     {
       "id": "https://mainichi.jp/articles/20260813/k00/00m/040/362000c",
       "title": "「関西走り屋の聖地」で暴走行為　容疑で延べ40人を検挙　大阪",
@@ -20,15 +389,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/030/327000c",
-      "title": "ウクライナ侵攻:北方領土訪問、絡む3要素　プーチン氏、日本の焦り誘う狙いか",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/030/327000c",
-      "pubDate": "2026-08-13T12:36:09+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260813/k00/00m/050/369000c",
       "title": "「平田で負けたら仕方ない」　大分商の「二刀流」夏の甲子園去る",
       "link": "https://mainichi.jp/articles/20260813/k00/00m/050/369000c",
@@ -36,6 +396,15 @@
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=6LQsDinbNIw",
+      "title": "【気象庁会見】千葉県にレベル5大雨特別警報「最大級の警戒が必要」「ほかの地域にも発表の可能性」【ノーカット】",
+      "link": "https://www.youtube.com/watch?v=6LQsDinbNIw",
+      "pubDate": "2026-08-13T12:34:23+00:00",
+      "image": "https://i3.ytimg.com/vi/6LQsDinbNIw/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
     },
     {
       "id": "https://mainichi.jp/articles/20260813/k00/00m/040/368000c",
@@ -47,15 +416,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43729",
-      "title": "【大雨 交通影響】首都圏 JRや私鉄各線で運転見合わせや遅れ",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43729",
-      "pubDate": "2026-08-13T12:33:53+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260813/k00/00m/030/364000c",
       "title": "プーチン氏の北方領土訪問　「特別軍事作戦」長引き国内アピール",
       "link": "https://mainichi.jp/articles/20260813/k00/00m/030/364000c",
@@ -65,49 +425,13 @@
       "sid": "s7"
     },
     {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/050/367000c",
-      "title": "英明監督「平田君にのびのび野球をやられたら…」　夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/050/367000c",
-      "pubDate": "2026-08-13T12:33:34+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-      "title": "千葉県に大雨特別警報 気象庁と国交省会見【詳細】",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-      "pubDate": "2026-08-13T12:33:22+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43818",
-      "title": "【気象予報士解説】千葉 レベル5大雨特別警報 今後の見通しは",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43818",
-      "pubDate": "2026-08-13T12:32:45+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/332000c",
-      "title": "千葉県にレベル5大雨特別警報　県内14市で「命の危険」",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/332000c",
-      "pubDate": "2026-08-13T12:29:33+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/357000c",
-      "title": "千葉の大雨「直ちに身の安全確保を」　最大級の警戒呼びかけ",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/357000c",
-      "pubDate": "2026-08-13T12:29:05+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
+      "id": "https://www.youtube.com/shorts/C9xW6QzfAuw",
+      "title": "【ペルセウス座流星群】カメラが捉えた“流れ星” その瞬間をまとめてお届け！【ハイライト】｜TBS NEWS DIG #shorts",
+      "link": "https://www.youtube.com/shorts/C9xW6QzfAuw",
+      "pubDate": "2026-08-13T12:30:03+00:00",
+      "image": "https://i4.ytimg.com/vi/C9xW6QzfAuw/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
     },
     {
       "id": "https://www.youtube.com/watch?v=659zDg0G_sg",
@@ -119,42 +443,6 @@
       "sid": "s4"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43826",
-      "title": "千葉県に「記録的短時間大雨」の気象防災速報",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43826",
-      "pubDate": "2026-08-13T12:26:00+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=I-ZUdHzQ0mQ",
-      "title": "【速報】千葉北西部､北東部､南部に線状降水帯発生",
-      "link": "https://www.youtube.com/watch?v=I-ZUdHzQ0mQ",
-      "pubDate": "2026-08-13T12:24:31+00:00",
-      "image": "https://i2.ytimg.com/vi/I-ZUdHzQ0mQ/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-      "title": "【大雨被害】千葉 道路冠水で車水没 住宅浸水や崖崩れの情報も",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-      "pubDate": "2026-08-13T12:23:41+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=gUSUwrcf3Is",
-      "title": "【“バイク窃盗”の瞬間】フードかぶり3人でミニバイク乗り…下見か",
-      "link": "https://www.youtube.com/watch?v=gUSUwrcf3Is",
-      "pubDate": "2026-08-13T12:23:06+00:00",
-      "image": "https://i4.ytimg.com/vi/gUSUwrcf3Is/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260813/k00/00m/030/345000c",
       "title": "「ナショナリズム重視」　プーチン氏の北方領土訪問、識者の見方",
       "link": "https://mainichi.jp/articles/20260813/k00/00m/030/345000c",
@@ -162,33 +450,6 @@
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/3bMJo9zQwqc",
-      "title": "【114年ぶり】スペインで｢皆既日食｣  幻想的な天体ショー  #shorts",
-      "link": "https://www.youtube.com/shorts/3bMJo9zQwqc",
-      "pubDate": "2026-08-13T12:20:24+00:00",
-      "image": "https://i4.ytimg.com/vi/3bMJo9zQwqc/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-      "title": "【ライブ配信中】千葉県にレベル5大雨特別警報 命助かる行動を",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-      "pubDate": "2026-08-13T12:19:59+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/4wfYo5okioE",
-      "title": "【ニシキヘビ2匹】川崎市の住宅街で逃走中  毒なしも…体長約2メートル  #shorts",
-      "link": "https://www.youtube.com/shorts/4wfYo5okioE",
-      "pubDate": "2026-08-13T12:19:08+00:00",
-      "image": "https://i1.ytimg.com/vi/4wfYo5okioE/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
     },
     {
       "id": "https://www.youtube.com/watch?v=YmeYnqQJxck",
@@ -227,15 +488,6 @@
       "sid": "s6"
     },
     {
-      "id": "https://www.youtube.com/watch?v=6BlBM35ZOXo",
-      "title": "【熊本城】13日から再開｢熊本の人はがんばるけん｣  “復興のシンボル”歩み再び",
-      "link": "https://www.youtube.com/watch?v=6BlBM35ZOXo",
-      "pubDate": "2026-08-13T12:17:09+00:00",
-      "image": "https://i3.ytimg.com/vi/6BlBM35ZOXo/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260813/k00/00m/030/353000c",
       "title": "元島民の墓参再開より困難に　強硬ロシアに日本が取れる対抗策は",
       "link": "https://mainichi.jp/articles/20260813/k00/00m/030/353000c",
@@ -245,15 +497,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://www.youtube.com/watch?v=tEJHKcrC4tA",
-      "title": "【見逃し配信】気象庁  国交省 合同記者会見　千葉県にレベル5大雨特別警報発表──（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=tEJHKcrC4tA",
-      "pubDate": "2026-08-13T12:13:49+00:00",
-      "image": "https://i1.ytimg.com/vi/tEJHKcrC4tA/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=YYfQZzJtTA0",
       "title": "【LIVE】夜のニュース（Japan News Digest Live）最新情報など（8月13日）｜TBS NEWS DIG",
       "link": "https://www.youtube.com/watch?v=YYfQZzJtTA0",
@@ -261,24 +504,6 @@
       "image": "https://i2.ytimg.com/vi/YYfQZzJtTA0/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=uQPeM4v8uSc",
-      "title": "【クマ】登山道に出没  キャンプ場を閉鎖  仙台では男性襲われケガ",
-      "link": "https://www.youtube.com/watch?v=uQPeM4v8uSc",
-      "pubDate": "2026-08-13T12:09:24+00:00",
-      "image": "https://i2.ytimg.com/vi/uQPeM4v8uSc/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/352000c",
-      "title": "千葉駅直結のショッピングセンターが「プールに」　大雨特別警報",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/352000c",
-      "pubDate": "2026-08-13T12:08:27+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://www.youtube.com/shorts/hAf1pFOqMj4",
@@ -306,15 +531,6 @@
       "image": "https://i3.ytimg.com/vi/zpmGLUgYzz0/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=JWmoLd7J0EU",
-      "title": "【“パワハラ認定”】横浜市長が議会で謝罪…改めて続投の意思も  市議会が別のパワハラ指摘",
-      "link": "https://www.youtube.com/watch?v=JWmoLd7J0EU",
-      "pubDate": "2026-08-13T12:04:07+00:00",
-      "image": "https://i3.ytimg.com/vi/JWmoLd7J0EU/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
     },
     {
       "id": "https://www.youtube.com/watch?v=Ris2UV65jks",
@@ -362,33 +578,6 @@
       "sid": "s3"
     },
     {
-      "id": "https://www.youtube.com/watch?v=Hh9S4SggRtg",
-      "title": "【アメリカ以外で初】Googleの体験型店舗｢Google Store｣表参道にオープン  新型スマホやアバター生成体験も",
-      "link": "https://www.youtube.com/watch?v=Hh9S4SggRtg",
-      "pubDate": "2026-08-13T11:58:00+00:00",
-      "image": "https://i1.ytimg.com/vi/Hh9S4SggRtg/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43791",
-      "title": "【動画】千葉 柏の道路冠水 JR千葉駅ホーム上（午後7時前後）",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43791",
-      "pubDate": "2026-08-13T11:57:02+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=2G5sQ9ujtb8",
-      "title": "【終戦の日】自民党4役そろって靖国参拝で調整  高市首相は…最終判断は直前か",
-      "link": "https://www.youtube.com/watch?v=2G5sQ9ujtb8",
-      "pubDate": "2026-08-13T11:54:16+00:00",
-      "image": "https://i3.ytimg.com/vi/2G5sQ9ujtb8/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV8F3PY0V8FULOB013M.html?ref=rss",
       "title": "パワハラ認定の横浜市長　市議会で涙浮かべ謝罪繰り返す　辞職は否定",
       "link": "http://www.asahi.com/articles/ASV8F3PY0V8FULOB013M.html?ref=rss",
@@ -416,15 +605,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://www.youtube.com/watch?v=RzycuNxdWzU",
-      "title": "【解説】高市首相「強く抗議」プーチン大統領が北方領土“初訪問”日本政府の対応は",
-      "link": "https://www.youtube.com/watch?v=RzycuNxdWzU",
-      "pubDate": "2026-08-13T11:50:57+00:00",
-      "image": "https://i3.ytimg.com/vi/RzycuNxdWzU/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=aUXUGbZc5eo",
       "title": "「刑事部捜査二課警部の井上」警察かたる詐欺師のやりとり公開　「事件に加担」とビデオ通話に誘導　顔を見せ“ニセ警察手帳”提示（2026年08月13日）",
       "link": "https://www.youtube.com/watch?v=aUXUGbZc5eo",
@@ -443,15 +623,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/shorts/CnJgnOZuPxw",
-      "title": "【速報】千葉･習志野市、市川市、千葉市、松戸市に警戒レベル5緊急安全確保  #shorts",
-      "link": "https://www.youtube.com/shorts/CnJgnOZuPxw",
-      "pubDate": "2026-08-13T11:47:47+00:00",
-      "image": "https://i4.ytimg.com/vi/CnJgnOZuPxw/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260813de43676",
       "title": "火星衛星探査機「MMX」公開 秋にも打ち上げへ",
       "link": "https://news.web.nhk/newsweb/na/nd-20260813de43676",
@@ -468,15 +639,6 @@
       "image": "https://i4.ytimg.com/vi/cYRdP4oFvWo/hqdefault.jpg",
       "source": "テレ朝NEWS",
       "sid": "s4"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/050/349000c",
-      "title": "「二刀流」の大分商・平田は号泣「頭が真っ白に…」　夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/050/349000c",
-      "pubDate": "2026-08-13T11:43:15+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://www.youtube.com/watch?v=Bnmcptkjl4g",
@@ -498,7 +660,7 @@
     },
     {
       "id": "https://www.youtube.com/watch?v=NxdIFmdCEJY",
-      "title": "【速報】千葉県の大雨特別警報　計14市/千葉・市川市内でがけ崩れが発生/など【ニュースまとめ】 (2026年8月13日) ANN/テレ朝 LIVE",
+      "title": "【速報】市川市 冠水した道路で発見の男性死亡/千葉県の大雨特別警報 計19市/千葉市・市原市「レベル5土砂災害特別警報」【ニュースまとめ】 (2026年8月13日) ANN/テレ朝 LIVE",
       "link": "https://www.youtube.com/watch?v=NxdIFmdCEJY",
       "pubDate": "2026-08-13T11:38:16+00:00",
       "image": "https://i3.ytimg.com/vi/NxdIFmdCEJY/hqdefault.jpg",
@@ -513,15 +675,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=S_eQ_W_RBIo",
-      "title": "【ライブカメラ】現在の千葉の様子は？　千葉県・千葉市、市川市、船橋市などに【レベル5大雨特別警報】発表 19:30時点｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=S_eQ_W_RBIo",
-      "pubDate": "2026-08-13T11:36:08+00:00",
-      "image": "https://i4.ytimg.com/vi/S_eQ_W_RBIo/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "https://www.youtube.com/watch?v=B2D58ExUqKk",
@@ -540,15 +693,6 @@
       "image": "https://i4.ytimg.com/vi/_ZPNjGAPVG4/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/050/344000c",
-      "title": "都市対抗、東京ドームとコラボ企画　観客、選手、チームが一体に",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/050/344000c",
-      "pubDate": "2026-08-13T11:33:53+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://www.youtube.com/watch?v=A2RwC218y_w",
@@ -597,21 +741,12 @@
     },
     {
       "id": "https://www.youtube.com/watch?v=vhLBKmYh2hQ",
-      "title": "【ライブカメラ】現在の千葉の様子は？　千葉県・千葉市、市川市、船橋市などに【レベル5大雨特別警報】発表 19:30時点｜TBS NEWS DIG",
+      "title": "【ライブカメラ】現在の千葉の様子は？　千葉県・千葉市、市川市、船橋市などに【レベル5大雨特別警報】発表｜TBS NEWS DIG",
       "link": "https://www.youtube.com/watch?v=vhLBKmYh2hQ",
       "pubDate": "2026-08-13T11:22:38+00:00",
       "image": "https://i3.ytimg.com/vi/vhLBKmYh2hQ/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=BTPRb_VqZzo",
-      "title": "【LIVE】癒しの熱帯 アマゾンのジャングルから配信　夜明けの空を横切るインコの群れ　夜の川に響くカエルと昆虫の声　　#ネグロ川 #ブラジル【ライブ】ANN/テレ朝",
-      "link": "https://www.youtube.com/watch?v=BTPRb_VqZzo",
-      "pubDate": "2026-08-13T11:22:34+00:00",
-      "image": "https://i3.ytimg.com/vi/BTPRb_VqZzo/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://www.youtube.com/watch?v=vzeGNT56Tb4",
@@ -630,15 +765,6 @@
       "image": "https://i1.ytimg.com/vi/dX-LD8AiQ1o/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=zdorfoJW7Y8",
-      "title": "ファッションデザイナー・コシノヒロコさん（89）密着取材　第一線で活躍続ける秘訣は【ワイド！スクランブル】(2026年8月13日)",
-      "link": "https://www.youtube.com/watch?v=zdorfoJW7Y8",
-      "pubDate": "2026-08-13T11:18:31+00:00",
-      "image": "https://i3.ytimg.com/vi/zdorfoJW7Y8/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://www.youtube.com/watch?v=GS7lQ27e9bs",
@@ -684,15 +810,6 @@
       "image": "https://i1.ytimg.com/vi/D-n9gHjyR7g/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/325000c",
-      "title": "児童ポルノ製造容疑で保育士逮捕　女児に撮影・送信させたか",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/325000c",
-      "pubDate": "2026-08-13T11:11:38+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "http://www.asahi.com/articles/ASV8F36F7V8FUHBI00NM.html?ref=rss",
@@ -749,15 +866,6 @@
       "sid": "s10"
     },
     {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/050/335000c",
-      "title": "東日大昌平、勝ち越しの奇襲は「サイン無視」から　夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/050/335000c",
-      "pubDate": "2026-08-13T11:00:55+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=D-NgBXhpi-Y",
       "title": "【地震が起き、復興が進み、忘れ去られていく。その過程がまた始まると思うと“すごく苦しい”】地上波では伝えきれなかった被災者の声／熊本地震を現場で取材した報道特集キャスター・山本恵里伽【CRISIS】",
       "link": "https://www.youtube.com/watch?v=D-NgBXhpi-Y",
@@ -774,24 +882,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=UvpypGDfMCg",
-      "title": "皇室典範「更なる改正が必要」、消費税減税「調子のいいこと言っても困るのは一般国民」【石破茂前総理】 【国会トークフロントライン】",
-      "link": "https://www.youtube.com/watch?v=UvpypGDfMCg",
-      "pubDate": "2026-08-13T11:00:06+00:00",
-      "image": "https://i2.ytimg.com/vi/UvpypGDfMCg/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/bG3zuzTo6Ys",
-      "title": "満島真之介が“国家防衛の最前線”へ　自衛隊サイバー防衛隊を取材　AI時代の見えない戦い「THE ワールドチェンジ〜AIが変える戦争の世界〜」【TBS特別番組2026】 #shorts",
-      "link": "https://www.youtube.com/shorts/bG3zuzTo6Ys",
-      "pubDate": "2026-08-13T11:00:02+00:00",
-      "image": "https://i3.ytimg.com/vi/bG3zuzTo6Ys/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "http://www.asahi.com/articles/ASV8F1TYLV8FPTQP006M.html?ref=rss",
@@ -812,24 +902,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/watch?v=Ih92y7CTEvc",
-      "title": "【レベル5大雨特別警報･ライブ】千葉県・千葉市、市川市、船橋市、我孫子市、印西市などに発表【最新情報まとめ】（2026年8月13日 LIVE配信）｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=Ih92y7CTEvc",
-      "pubDate": "2026-08-13T10:58:25+00:00",
-      "image": "https://i2.ytimg.com/vi/Ih92y7CTEvc/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=fS_DJqP6SA0",
-      "title": "真夏の東京に南極！？日本科学未来館「大南極展」…“南極飯”一番人気のメニューは？【Nスタ】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=fS_DJqP6SA0",
-      "pubDate": "2026-08-13T10:57:43+00:00",
-      "image": "https://i3.ytimg.com/vi/fS_DJqP6SA0/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=jHlCj2aVny4",
       "title": "【緊急ライブ】「ほかの市町村にも特別警報の可能性」千葉県にレベル5「大雨特別警報」　気象庁・国交省 会見 【LIVE】 (2026年8月12日) ANN/テレ朝",
       "link": "https://www.youtube.com/watch?v=jHlCj2aVny4",
@@ -837,33 +909,6 @@
       "image": "https://i3.ytimg.com/vi/jHlCj2aVny4/hqdefault.jpg",
       "source": "テレ朝NEWS",
       "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=qeldLTJ9LfA",
-      "title": "【最新まとめ】千葉県に「レベル5 大雨特別警報」川の氾濫・土砂災害に警戒── ニュースライブ（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=qeldLTJ9LfA",
-      "pubDate": "2026-08-13T10:47:43+00:00",
-      "image": "https://i2.ytimg.com/vi/qeldLTJ9LfA/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/326000c",
-      "title": "児童文学作家の高木敏子さん死去　94歳　「ガラスのうさぎ」",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/326000c",
-      "pubDate": "2026-08-13T10:47:01+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/030/316000c",
-      "title": "台湾で演習　中国のサイバー攻撃備え、初めてスマホ通信制限",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/030/316000c",
-      "pubDate": "2026-08-13T10:45:30+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://www.youtube.com/watch?v=hh_VdbSyI0c",
@@ -882,15 +927,6 @@
       "image": "https://i1.ytimg.com/vi/DmLarrjRCAc/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=NxaDSNKYOEs",
-      "title": "【緊急ライブ】千葉県にレベル5「大雨特別警報」 最新情報【LIVE】 (2026年8月13日) ANN/テレ朝",
-      "link": "https://www.youtube.com/watch?v=NxaDSNKYOEs",
-      "pubDate": "2026-08-13T10:33:13+00:00",
-      "image": "https://i3.ytimg.com/vi/NxaDSNKYOEs/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://www.youtube.com/watch?v=FsZIacpos8s",
@@ -1022,19 +1058,10 @@
       "id": "https://news.web.nhk/newsweb/na/nd-20260813de43615",
       "title": "高校野球 熊本の有明が長崎日大高に競り勝ち3回戦進出",
       "link": "https://news.web.nhk/newsweb/na/nd-20260813de43615",
-      "pubDate": "2026-08-13T09:58:50+00:00",
+      "pubDate": "2026-08-13T09:58:00+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=qZ7_R81VJ9c",
-      "title": "【熊本地震 最新情報】地震で休園の熊本城がきょう開園　待ち望んだ約200人が列　熊本地震から16日──社会ニュースライブ（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=qZ7_R81VJ9c",
-      "pubDate": "2026-08-13T09:53:32+00:00",
-      "image": "https://i2.ytimg.com/vi/qZ7_R81VJ9c/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260813de43553",
@@ -1082,19 +1109,10 @@
       "sid": "s2"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
-      "title": "ロシア プーチン大統領 北方領土初めて訪問",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
-      "pubDate": "2026-08-13T09:22:47+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260809de42917",
       "title": "高校野球 夏の甲子園 全試合をハイライト動画で【8月9日から】",
       "link": "https://news.web.nhk/newsweb/na/nd-20260809de42917",
-      "pubDate": "2026-08-13T09:21:28+00:00",
+      "pubDate": "2026-08-13T09:21:00+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
@@ -1163,13 +1181,13 @@
       "sid": "s10"
     },
     {
-      "id": "http://www.asahi.com/articles/ASV8D4240V8DUTIL03JM.html?ref=rss",
-      "title": "患者のX線画像、9病院から流出か　医療機器会社員が撮影し社内共有",
-      "link": "http://www.asahi.com/articles/ASV8D4240V8DUTIL03JM.html?ref=rss",
-      "pubDate": "2026-08-13T09:00:38+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
+      "id": "https://www.youtube.com/watch?v=PzMJMCscU5E",
+      "title": "【夜ニュースライブ】最新ニュースと生活情報（8月13日） ──THE LATEST NEWS SUMMARY（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=PzMJMCscU5E",
+      "pubDate": "2026-08-13T09:01:19+00:00",
+      "image": "https://i1.ytimg.com/vi/PzMJMCscU5E/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
     },
     {
       "id": "http://www.asahi.com/articles/ASV8F2F7RV8FUHBI00HM.html?ref=rss",
@@ -1203,24 +1221,6 @@
       "title": "香川知事選が告示、現新4人が立候補　それぞれの主張と目指す社会は",
       "link": "http://www.asahi.com/articles/ASV8D7H4ZV8DPLXB002M.html?ref=rss",
       "pubDate": "2026-08-13T08:36:21+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8F2K0SV8FUTIL00TM.html?ref=rss",
-      "title": "高円宮妃久子さま、ケニア訪問へ　バードライフの世界大会に出席",
-      "link": "http://www.asahi.com/articles/ASV8F2K0SV8FUTIL00TM.html?ref=rss",
-      "pubDate": "2026-08-13T08:30:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8F2FS2V8FTIPE00PM.html?ref=rss",
-      "title": "韓国岳で流星群ツアーの参加者が行方不明　火口で心肺停止の男性発見",
-      "link": "http://www.asahi.com/articles/ASV8F2FS2V8FTIPE00PM.html?ref=rss",
-      "pubDate": "2026-08-13T08:30:00+00:00",
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
@@ -2171,15 +2171,6 @@
       "sid": "s1"
     },
     {
-      "id": "http://www.asahi.com/articles/ASV871QH5V87UCVL01HM.html?ref=rss",
-      "title": "なぜ「男系男子」にこだわるのか　皇室典範、原武史さんが読み解くと",
-      "link": "http://www.asahi.com/articles/ASV871QH5V87UCVL01HM.html?ref=rss",
-      "pubDate": "2026-08-11T23:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260811de43316",
       "title": "シリアのアサド前大統領に死刑判決 殺人や人道に対する罪など",
       "link": "https://news.web.nhk/newsweb/na/nd-20260811de43316",
@@ -2502,6 +2493,15 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=mTPLINFu8sM",
+      "title": "【ライブ】8/13 夜ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=mTPLINFu8sM",
+      "pubDate": "2026-08-10T21:00:09+00:00",
+      "image": "https://i2.ytimg.com/vi/mTPLINFu8sM/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260810de43055",
