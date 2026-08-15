@@ -1,6 +1,357 @@
 {
-  "updated": "2026-08-15T08:13:46.931450+00:00",
+  "updated": "2026-08-15T09:14:54.150129+00:00",
   "items": [
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
+      "title": "【動画】Pickup NEWS（8月15日）",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
+      "pubDate": "2026-08-15T09:12:36+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/010/173000c",
+      "title": "高市首相、直接参拝は見送ったが…　印象づけた靖国へのこだわり",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/010/173000c",
+      "pubDate": "2026-08-15T09:11:09+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Kcs-ASlBKEQ",
+      "title": "終戦日に戦死した若き零戦パイロット　81年経った今も遺骨を求める遺族の思い",
+      "link": "https://www.youtube.com/watch?v=Kcs-ASlBKEQ",
+      "pubDate": "2026-08-15T09:08:52+00:00",
+      "image": "https://i4.ytimg.com/vi/Kcs-ASlBKEQ/hqdefault.jpg",
+      "source": "FNNプライムオンライン",
+      "sid": "s6"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/050/178000c",
+      "title": "夏の甲子園が雨で一時中断　仙台育英と拓大紅陵戦、今大会初",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/050/178000c",
+      "pubDate": "2026-08-15T09:08:27+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/010/177000c",
+      "title": "コスプレ禁止の靖国で　「禁止は当然」「右翼団体のユニホームだ」",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/010/177000c",
+      "pubDate": "2026-08-15T09:07:18+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260815de44255",
+      "title": "地表断層出現の瞬間か 熊本 八代の防犯カメラに地表のずれ写る",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44255",
+      "pubDate": "2026-08-15T09:06:42+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Ycz2nAxwgxg",
+      "title": "天皇陛下「将来にわたって平和と人々の幸せを希求し続けていく」　全国戦没者追悼式　遺族最年少は3歳　81回目の終戦の日（2026年08月15日）",
+      "link": "https://www.youtube.com/watch?v=Ycz2nAxwgxg",
+      "pubDate": "2026-08-15T09:00:23+00:00",
+      "image": "https://i2.ytimg.com/vi/Ycz2nAxwgxg/hqdefault.jpg",
+      "source": "FNNプライムオンライン",
+      "sid": "s6"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/200/138000c",
+      "title": "かの国の国会議事堂を建てたのは…　知られざる「モンゴル抑留」",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/200/138000c",
+      "pubDate": "2026-08-15T09:00:15+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8H1GWSV8HUTQP01RM.html?ref=rss",
+      "title": "準々決勝・第1試合　天理―三重の対戦決まる　夏の甲子園",
+      "link": "http://www.asahi.com/articles/ASV8H1GWSV8HUTQP01RM.html?ref=rss",
+      "pubDate": "2026-08-15T09:00:05+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=lT9bXgEZ8wE",
+      "title": "【高市首相は「遥拝」】小泉防衛相ら閣僚や自民幹部が靖国神社を参拝",
+      "link": "https://www.youtube.com/watch?v=lT9bXgEZ8wE",
+      "pubDate": "2026-08-15T08:57:00+00:00",
+      "image": "https://i1.ytimg.com/vi/lT9bXgEZ8wE/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=2AFpvMWh3aI",
+      "title": "小泉防衛大臣ら高市内閣4人の閣僚らが靖国神社を参拝　高市総理は私費で玉串料を納め 隣接する日本武道館の駐車場から靖国神社に向かって「遥拝」｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=2AFpvMWh3aI",
+      "pubDate": "2026-08-15T08:55:47+00:00",
+      "image": "https://i3.ytimg.com/vi/2AFpvMWh3aI/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/glBOIhoe-Uw",
+      "title": "千葉豪雨で放置車両1200台超か　放置車両への追突事故も　アンダーパスでは排水ポンプが作動せず｜TBS NEWS DIG #shorts",
+      "link": "https://www.youtube.com/shorts/glBOIhoe-Uw",
+      "pubDate": "2026-08-15T08:55:18+00:00",
+      "image": "https://i4.ytimg.com/vi/glBOIhoe-Uw/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/040/126000c",
+      "title": "沖縄から戻らなかった父　待ち続けた母は　「骨は沖縄に」と逝った",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/040/126000c",
+      "pubDate": "2026-08-15T08:53:31+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=8lbJ0awJzJ4",
+      "title": "「平和と人々の幸せを希求し続けていくことを心から願います」全国戦没者追悼式で天皇陛下がおことば　参列予定遺族のうち戦後生まれ56.3%と過去最多｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=8lbJ0awJzJ4",
+      "pubDate": "2026-08-15T08:53:09+00:00",
+      "image": "https://i1.ytimg.com/vi/8lbJ0awJzJ4/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=PKRhoEYpW_s",
+      "title": "あす（16日）沖縄は、よく晴れる見込み　西日本は雲が広がりやすく雨が降るところが 北陸はくもりや雨で午後は雷を伴うところもある予想｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=PKRhoEYpW_s",
+      "pubDate": "2026-08-15T08:47:48+00:00",
+      "image": "https://i1.ytimg.com/vi/PKRhoEYpW_s/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260815de44275",
+      "title": "終戦の日 さまざまな立場の人たちが戦争の犠牲者を悼む集会",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44275",
+      "pubDate": "2026-08-15T08:45:51+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/040/174000c",
+      "title": "450棟超が浸水被害、行方不明の男性は発見に至らず　千葉豪雨",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/040/174000c",
+      "pubDate": "2026-08-15T08:43:49+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=syp-0HLPbNU",
+      "title": "【「反省」言及せず】高市首相  「終戦の日」全国戦没者追悼式",
+      "link": "https://www.youtube.com/watch?v=syp-0HLPbNU",
+      "pubDate": "2026-08-15T08:40:54+00:00",
+      "image": "https://i4.ytimg.com/vi/syp-0HLPbNU/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=uyrAF33c0ho",
+      "title": "【「違憲」判断】“15歳未満SNS禁止”  フランス憲法評議会  9月からの施行見送りへ",
+      "link": "https://www.youtube.com/watch?v=uyrAF33c0ho",
+      "pubDate": "2026-08-15T08:40:51+00:00",
+      "image": "https://i2.ytimg.com/vi/uyrAF33c0ho/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=vzf8Rv7tceg",
+      "title": "【少なくとも20人死亡】インドネシア東部でM7.7の地震",
+      "link": "https://www.youtube.com/watch?v=vzf8Rv7tceg",
+      "pubDate": "2026-08-15T08:40:48+00:00",
+      "image": "https://i3.ytimg.com/vi/vzf8Rv7tceg/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
+      "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
+      "pubDate": "2026-08-15T08:40:30+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=1fQDLHCkrso",
+      "title": "インドネシアの地震で少なくとも20人死亡　マグニチュード7.7で一時、津波警報　最大94cmの津波観測（2026年08月15日）",
+      "link": "https://www.youtube.com/watch?v=1fQDLHCkrso",
+      "pubDate": "2026-08-15T08:38:27+00:00",
+      "image": "https://i2.ytimg.com/vi/1fQDLHCkrso/hqdefault.jpg",
+      "source": "FNNプライムオンライン",
+      "sid": "s6"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/050/172000c",
+      "title": "大阪代表に勝利、三重・沖田監督「未来につながった」　甲子園",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/050/172000c",
+      "pubDate": "2026-08-15T08:38:25+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260815de44269",
+      "title": "ドジャース 山本由伸 6回1失点で12勝目 大谷翔平は無安打",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44269",
+      "pubDate": "2026-08-15T08:36:50+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8H2JP9V8HUHBI016M.html?ref=rss",
+      "title": "台湾の高速鉄道、新型車両が日本から到着　27年に営業運転の見込み",
+      "link": "http://www.asahi.com/articles/ASV8H2JP9V8HUHBI016M.html?ref=rss",
+      "pubDate": "2026-08-15T08:30:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8G3G9DV8GUTIL001M.html?ref=rss",
+      "title": "天皇陛下、戦没者追悼式でおことば　「深い反省」　「苦難語り継ぐ」",
+      "link": "http://www.asahi.com/articles/ASV8G3G9DV8GUTIL001M.html?ref=rss",
+      "pubDate": "2026-08-15T08:29:32+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8H2JHNV8HUGTB001M.html?ref=rss",
+      "title": "福島・郡山の「東北六彩マルシェ」、直前に中止　SNSで投稿相次ぐ",
+      "link": "http://www.asahi.com/articles/ASV8H2JHNV8HUGTB001M.html?ref=rss",
+      "pubDate": "2026-08-15T08:29:22+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
+      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
+      "pubDate": "2026-08-15T08:27:05+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/050/137000c",
+      "title": "敦賀気比・東監督「作戦タイムをかけたらよかった…」夏の甲子園",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/050/137000c",
+      "pubDate": "2026-08-15T08:25:24+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=f6PpqfzJvEg",
+      "title": "美容師がボランティア　高齢者らが洗髪や散髪でリフレッシュ(2026年8月15日)",
+      "link": "https://www.youtube.com/watch?v=f6PpqfzJvEg",
+      "pubDate": "2026-08-15T08:25:21+00:00",
+      "image": "https://i3.ytimg.com/vi/f6PpqfzJvEg/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260815de44271",
+      "title": "高校野球 三重が履正社に勝利 準々決勝へ",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44271",
+      "pubDate": "2026-08-15T08:25:00+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=dlcSw6GBDlM",
+      "title": "コカインをラップで包み飲み込み密輸か　アルゼンチン国籍の女逮捕(2026年8月15日)",
+      "link": "https://www.youtube.com/watch?v=dlcSw6GBDlM",
+      "pubDate": "2026-08-15T08:22:19+00:00",
+      "image": "https://i1.ytimg.com/vi/dlcSw6GBDlM/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=MwGBXst1pU0",
+      "title": "【アメリカライブ】プーチン大統領の北方領土初訪問受け…米国務省「米政府は北方領土の日本主権を長年にわたって認めてきた」日本の立場を改めて支持 ──国際ニュースライブ（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=MwGBXst1pU0",
+      "pubDate": "2026-08-15T08:21:44+00:00",
+      "image": "https://i2.ytimg.com/vi/MwGBXst1pU0/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=mqQy12lJ6EY",
+      "title": "【千葉記録的豪雨】8人死亡　「車が浮いた」住宅も水没…大規模冠水　生活の基盤に打撃　きょうも各地で激しい雷雨 ──社会ニュースライブ（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=mqQy12lJ6EY",
+      "pubDate": "2026-08-15T08:19:25+00:00",
+      "image": "https://i2.ytimg.com/vi/mqQy12lJ6EY/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/050/171000c",
+      "title": "ミスにしょげず　智弁和歌山の7番・川原、殊勲の二塁打　甲子園",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/050/171000c",
+      "pubDate": "2026-08-15T08:18:45+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=XehowAsRbpc",
+      "title": "中国　閣僚の靖国参拝に「強く抗議」　「再軍事化」の加速が真の目的(2026年8月15日)",
+      "link": "https://www.youtube.com/watch?v=XehowAsRbpc",
+      "pubDate": "2026-08-15T08:16:00+00:00",
+      "image": "https://i1.ytimg.com/vi/XehowAsRbpc/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/040/106000c",
+      "title": "「一刻も早く住めるよう…」寸断された生活　千葉豪雨、お盆直撃",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/040/106000c",
+      "pubDate": "2026-08-15T08:15:10+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260815/k00/00m/030/170000c",
+      "title": "トランプ氏、ホルムズ海峡「米国の領土と宣言する」イラン打倒で",
+      "link": "https://mainichi.jp/articles/20260815/k00/00m/030/170000c",
+      "pubDate": "2026-08-15T08:13:31+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=hd6-7-nxSJ4",
+      "title": "【台風ライブ】新たな台風17号が発生 週明けに本州へ近づくおそれ 　気象予報士「晴れていても高い波に注意を」─ ニュースライブ（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=hd6-7-nxSJ4",
+      "pubDate": "2026-08-15T08:06:34+00:00",
+      "image": "https://i1.ytimg.com/vi/hd6-7-nxSJ4/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
     {
       "id": "https://www.youtube.com/shorts/Zpeb7qjur8U",
       "title": "【ニュース】【終戦の日】陛下が全国戦没者追悼式でおことば「戦争の惨禍が繰り返されぬこと願い」(2026年8月15日) #shorts",
@@ -20,13 +371,13 @@
       "sid": "s7"
     },
     {
-      "id": "https://mainichi.jp/articles/20260815/k00/00m/040/126000c",
-      "title": "沖縄から戻らなかった父　待ち続けた母は　「骨は沖縄に」と逝った",
-      "link": "https://mainichi.jp/articles/20260815/k00/00m/040/126000c",
-      "pubDate": "2026-08-15T08:00:18+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
+      "id": "https://www.youtube.com/watch?v=zFH_k7CKpC8",
+      "title": "史上最年少のホワイトハウス報道官　レビット氏（28）退任へ【音声解説】（2026年8月15日）| TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=zFH_k7CKpC8",
+      "pubDate": "2026-08-15T08:00:21+00:00",
+      "image": "https://i3.ytimg.com/vi/zFH_k7CKpC8/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
     },
     {
       "id": "https://mainichi.jp/articles/20260812/k00/00m/020/310000c",
@@ -110,15 +461,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
-      "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
-      "pubDate": "2026-08-15T07:40:25+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260815/k00/00m/050/120000c",
       "title": "三重が12年ぶり8強入り　履正社を破る　夏の甲子園",
       "link": "https://mainichi.jp/articles/20260815/k00/00m/050/120000c",
@@ -137,15 +479,6 @@
       "sid": "s4"
     },
     {
-      "id": "https://mainichi.jp/articles/20260815/k00/00m/010/119000c",
-      "title": "高市首相は靖国神社の方向へ「遥拝」　全国戦没者追悼式の開会前",
-      "link": "https://mainichi.jp/articles/20260815/k00/00m/010/119000c",
-      "pubDate": "2026-08-15T07:35:45+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://mainichi.jp/articles/20260815/k00/00m/030/156000c",
       "title": "韓国外務省、靖国参拝を批判　「歴史を忘却した時代錯誤の行為」",
       "link": "https://mainichi.jp/articles/20260815/k00/00m/030/156000c",
@@ -153,15 +486,6 @@
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8H1GWSV8HUTQP01RM.html?ref=rss",
-      "title": "準々決勝・第1試合　天理―三重の対戦決まる　夏の甲子園",
-      "link": "http://www.asahi.com/articles/ASV8H1GWSV8HUTQP01RM.html?ref=rss",
-      "pubDate": "2026-08-15T07:32:42+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://mainichi.jp/articles/20260812/k00/00m/040/154000c",
@@ -189,15 +513,6 @@
       "image": "https://i2.ytimg.com/vi/MUbVNRPgS_8/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260815de44271",
-      "title": "高校野球 三重が履正社に勝利 準々決勝へ",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44271",
-      "pubDate": "2026-08-15T07:23:52+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://mainichi.jp/articles/20260815/k00/00m/040/147000c",
@@ -239,7 +554,7 @@
       "id": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
       "title": "【千葉豪雨 被害】8人死亡確認 建物への浸水被害相次ぐ",
       "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-      "pubDate": "2026-08-15T07:14:24+00:00",
+      "pubDate": "2026-08-15T07:14:00+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
@@ -252,24 +567,6 @@
       "image": "https://i1.ytimg.com/vi/dXiQJF2mRJM/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260815/k00/00m/050/137000c",
-      "title": "敦賀気比・東監督「作戦タイムをかけたらよかった…」夏の甲子園",
-      "link": "https://mainichi.jp/articles/20260815/k00/00m/050/137000c",
-      "pubDate": "2026-08-15T07:02:22+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260815de44237",
-      "title": "熊本地震 お盆にふるさとで実家の片づけ行う人も",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44237",
-      "pubDate": "2026-08-15T07:01:20+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://www.youtube.com/shorts/74F8V_4zTRM",
@@ -306,15 +603,6 @@
       "image": "https://i3.ytimg.com/vi/fjtLJrzvEDU/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260815/k00/00m/030/136000c",
-      "title": "李大統領、日韓は「信頼の基盤を築いてきた」　対日批判を抑制",
-      "link": "https://mainichi.jp/articles/20260815/k00/00m/030/136000c",
-      "pubDate": "2026-08-15T06:58:08+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://www.youtube.com/watch?v=x3lX3cOz5nk",
@@ -371,29 +659,11 @@
       "sid": "s4"
     },
     {
-      "id": "https://mainichi.jp/articles/20260815/k00/00m/030/134000c",
-      "title": "中国外務省、北方領土で露寄り鮮明に　「2国間の問題」表明せず",
-      "link": "https://mainichi.jp/articles/20260815/k00/00m/030/134000c",
-      "pubDate": "2026-08-15T06:46:56+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/shorts/uByBYyxLVLo",
       "title": "【ニュース】興奮したクマ「こっちに来る！」　“逃げられない”橋で遭遇　#shorts",
       "link": "https://www.youtube.com/shorts/uByBYyxLVLo",
       "pubDate": "2026-08-15T06:46:08+00:00",
       "image": "https://i2.ytimg.com/vi/uByBYyxLVLo/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=d7TLMU31nUg",
-      "title": "熊本地震　本堂が倒壊し参拝できず　住職が巡回でお盆の供養(2026年8月15日)",
-      "link": "https://www.youtube.com/watch?v=d7TLMU31nUg",
-      "pubDate": "2026-08-15T06:45:46+00:00",
-      "image": "https://i1.ytimg.com/vi/d7TLMU31nUg/hqdefault.jpg",
       "source": "テレ朝NEWS",
       "sid": "s4"
     },
@@ -405,42 +675,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=BZjXoMzwOFk",
-      "title": "米・カリフォルニア州で国外脱出図る富裕層が急増　将来への政治的不安などが背景(2026年8月15日)",
-      "link": "https://www.youtube.com/watch?v=BZjXoMzwOFk",
-      "pubDate": "2026-08-15T06:43:34+00:00",
-      "image": "https://i3.ytimg.com/vi/BZjXoMzwOFk/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260815/k00/00m/030/125000c",
-      "title": "中国と軍事関係深めるカンボジア、米国との合同演習を再開へ",
-      "link": "https://mainichi.jp/articles/20260815/k00/00m/030/125000c",
-      "pubDate": "2026-08-15T06:43:16+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260815/k00/00m/200/116000c",
-      "title": "18歳で戦死した「かいぐんの兄さん」　伯父の生きた証し絵本に",
-      "link": "https://mainichi.jp/articles/20260815/k00/00m/200/116000c",
-      "pubDate": "2026-08-15T06:39:46+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260815/k00/00m/050/117000c",
-      "title": "逆転呼び込んだ「8分間」　天理が見極めた勝負どころ　甲子園",
-      "link": "https://mainichi.jp/articles/20260815/k00/00m/050/117000c",
-      "pubDate": "2026-08-15T06:22:05+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260815de44268",
@@ -470,33 +704,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://mainichi.jp/articles/20260814/k00/00m/040/163000c",
-      "title": "「戦友を思い出す」　ビルマの仏塔・パゴダ、四国との関係とは",
-      "link": "https://mainichi.jp/articles/20260814/k00/00m/040/163000c",
-      "pubDate": "2026-08-15T06:15:12+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260815de44269",
-      "title": "ドジャース 山本由伸 6回1失点で12勝目 大谷翔平は無安打",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44269",
-      "pubDate": "2026-08-15T06:13:40+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/XGWcAXqn9rU",
-      "title": "【ニュース】“目をそらす男”逮捕　助手席に女性「彼女を迎えに行かないと」　酒酔い運転の疑い #shorts",
-      "link": "https://www.youtube.com/shorts/XGWcAXqn9rU",
-      "pubDate": "2026-08-15T06:07:21+00:00",
-      "image": "https://i1.ytimg.com/vi/XGWcAXqn9rU/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV8G0G5MV8GUTFL00HM.html?ref=rss",
       "title": "栄養を取らせねば　「国策雑誌」も料理家も奮闘した戦時下の食事",
       "link": "http://www.asahi.com/articles/ASV8G0G5MV8GUTFL00HM.html?ref=rss",
@@ -522,15 +729,6 @@
       "image": "https://i4.ytimg.com/vi/CZbxCHs7hCs/hqdefault.jpg",
       "source": "日テレNEWS",
       "sid": "s3"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260815/k00/00m/040/108000c",
-      "title": "1キロのコカインのみ込み密輸か　体内から繭玉状の101個発見",
-      "link": "https://mainichi.jp/articles/20260815/k00/00m/040/108000c",
-      "pubDate": "2026-08-15T05:51:18+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260815de44252",
@@ -614,15 +812,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/shorts/G6bVhkGF2t8",
-      "title": "【ニュース】目の前で落雷　走行中の車や打ちあがったロケットにも…稲妻が直撃 #shorts",
-      "link": "https://www.youtube.com/shorts/G6bVhkGF2t8",
-      "pubDate": "2026-08-15T05:23:58+00:00",
-      "image": "https://i4.ytimg.com/vi/G6bVhkGF2t8/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260815de44254",
       "title": "ロシア プーチン大統領が北朝鮮のキム総書記へ祝電 結束を確認",
       "link": "https://news.web.nhk/newsweb/na/nd-20260815de44254",
@@ -639,15 +828,6 @@
       "image": "https://i4.ytimg.com/vi/GzC5Lr4gNFM/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20260813/k00/00m/040/229000c",
-      "title": "海自が土地取得、横須賀の防空壕公開　総距離1700メートル",
-      "link": "https://mainichi.jp/articles/20260813/k00/00m/040/229000c",
-      "pubDate": "2026-08-15T05:15:11+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "http://www.asahi.com/articles/ASV8H1H44V8HTIPE006M.html?ref=rss",
@@ -668,15 +848,6 @@
       "sid": "s3"
     },
     {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
-      "title": "【動画】Pickup NEWS（8月15日）",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
-      "pubDate": "2026-08-15T05:11:50+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=YRe2ZtdXKcg",
       "title": "終戦の日　小泉防衛大臣など高市内閣4人の閣僚が靖国参拝　高市総理は玉串料納める　自民・鈴木幹事長ら幹部3人も参拝（2026年08月15日）",
       "link": "https://www.youtube.com/watch?v=YRe2ZtdXKcg",
@@ -684,15 +855,6 @@
       "image": "https://i2.ytimg.com/vi/YRe2ZtdXKcg/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/IWozy5XK1c8",
-      "title": "【ニュース】川崎ニシキヘビ2匹“脱走”　2日経過も発見できず　大雨がヘビの行動に影響か【知っておきたい！】【グッド！モーニング】(2026年8月15日)　#shorts",
-      "link": "https://www.youtube.com/shorts/IWozy5XK1c8",
-      "pubDate": "2026-08-15T05:07:00+00:00",
-      "image": "https://i2.ytimg.com/vi/IWozy5XK1c8/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://www.youtube.com/watch?v=bsDsV2n6RMk",
@@ -711,6 +873,15 @@
       "image": "https://i3.ytimg.com/vi/FAZH7_txahM/hqdefault.jpg",
       "source": "日本経済新聞",
       "sid": "s10"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=9LO6n8VYg_Y",
+      "title": "【LIVE】癒しの熱帯 アマゾンのジャングルから配信　夜明けの空を横切るインコの群れ　夜の川に響くカエルと昆虫の声　　#ネグロ川 #ブラジル【ライブ】ANN/テレ朝",
+      "link": "https://www.youtube.com/watch?v=9LO6n8VYg_Y",
+      "pubDate": "2026-08-15T05:00:39+00:00",
+      "image": "https://i2.ytimg.com/vi/9LO6n8VYg_Y/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
     },
     {
       "id": "https://www.youtube.com/watch?v=3z4oS46rcIo",
@@ -765,15 +936,6 @@
       "image": "https://i2.ytimg.com/vi/UIh0mgnaOn0/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
-      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
-      "pubDate": "2026-08-15T04:42:55+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
     },
     {
       "id": "https://www.youtube.com/watch?v=37j6W1ePYSI",
@@ -848,87 +1010,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/watch?v=b5CrEIfn8NM",
-      "title": "【熊本地震 最新情報】熊本地震から18日　お盆も「り災証明書」の臨時窓口…朝早くから申請・受け取りの人──社会ニュースライブ（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=b5CrEIfn8NM",
-      "pubDate": "2026-08-15T04:13:12+00:00",
-      "image": "https://i3.ytimg.com/vi/b5CrEIfn8NM/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=nTRzeEX5VVY",
-      "title": "【政治ライブ】終戦の日　自民党幹部ら靖国参拝へ…小林政調会長は不参加の見通し　高市首相の最終判断は直前か ──政治ニュースまとめ （日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=nTRzeEX5VVY",
-      "pubDate": "2026-08-15T04:00:48+00:00",
-      "image": "https://i3.ytimg.com/vi/nTRzeEX5VVY/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=eSOIp59fgZg",
-      "title": "【戦後81年】核の脅威を自分ごとに…若い世代がつなぐ新たな形の継承とは『every.特集』",
-      "link": "https://www.youtube.com/watch?v=eSOIp59fgZg",
-      "pubDate": "2026-08-15T04:00:25+00:00",
-      "image": "https://i2.ytimg.com/vi/eSOIp59fgZg/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=UxORzW5kAp8",
-      "title": "【朝ニュースライブ】最新ニュースと生活情報（8月15日） ──THE LATEST NEWS SUMMARY（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=UxORzW5kAp8",
-      "pubDate": "2026-08-15T03:50:56+00:00",
-      "image": "https://i2.ytimg.com/vi/UxORzW5kAp8/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=oSJSmNK4eg8",
-      "title": "【インドネシア東部】M7.7の地震  建物損壊の被害  日本への津波影響なし",
-      "link": "https://www.youtube.com/watch?v=oSJSmNK4eg8",
-      "pubDate": "2026-08-15T03:50:14+00:00",
-      "image": "https://i4.ytimg.com/vi/oSJSmNK4eg8/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=iMNC7wdhduo",
-      "title": "【臨時窓口】お盆も「り災証明書」  朝早くから申請・受け取りの人   熊本地震から18日",
-      "link": "https://www.youtube.com/watch?v=iMNC7wdhduo",
-      "pubDate": "2026-08-15T03:50:11+00:00",
-      "image": "https://i2.ytimg.com/vi/iMNC7wdhduo/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8G3G9DV8GUTIL001M.html?ref=rss",
-      "title": "天皇陛下、戦没者追悼式でおことば　「苦難を今後とも語り継ぎ」",
-      "link": "http://www.asahi.com/articles/ASV8G3G9DV8GUTIL001M.html?ref=rss",
-      "pubDate": "2026-08-15T03:47:16+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=VWTBN-nVPbE",
-      "title": "【千葉記録的豪雨】千葉の記録的豪雨　大網白里市で浸水続く…孤立住人をボートで救出 ──社会ニュースライブ（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=VWTBN-nVPbE",
-      "pubDate": "2026-08-15T03:46:26+00:00",
-      "image": "https://i3.ytimg.com/vi/VWTBN-nVPbE/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=c_ZFjnr6T5s",
-      "title": "終戦から81年 高市総理「日本はインド太平洋の輝く灯台として頼りにされる国になれる」【全国戦没者追悼式 高市総理式辞全文】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=c_ZFjnr6T5s",
-      "pubDate": "2026-08-15T03:45:55+00:00",
-      "image": "https://i4.ytimg.com/vi/c_ZFjnr6T5s/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV8H12DHV8HUHBI00TM.html?ref=rss",
       "title": "韓国大統領「実用外交」継続　光復節演説、「過去の痛み」にも言及",
       "link": "http://www.asahi.com/articles/ASV8H12DHV8HUHBI00TM.html?ref=rss",
@@ -947,15 +1028,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=7t1p1Hw_gLQ",
-      "title": "【瞬間映像】地表に“断層出現”　熊本地震　日奈久断層帯の周辺で活発な地震活動続く 「これで収まると考えないほうがいい」今後も注意必要｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=7t1p1Hw_gLQ",
-      "pubDate": "2026-08-15T03:30:26+00:00",
-      "image": "https://i4.ytimg.com/vi/7t1p1Hw_gLQ/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV8G3JTJV8GOIPE009M.html?ref=rss",
       "title": "遊泳中に一時行方不明　27歳の男性死亡　愛知・豊田の郡界川",
       "link": "http://www.asahi.com/articles/ASV8G3JTJV8GOIPE009M.html?ref=rss",
@@ -965,15 +1037,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/watch?v=JdHEneMHQFw",
-      "title": "まもなく「全国戦没者追悼式」　天皇皇后両陛下も参列　戦後81年「終戦の日」　3270人の遺族が参列予定　戦争の犠牲となった約310万人を追悼｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=JdHEneMHQFw",
-      "pubDate": "2026-08-15T03:28:24+00:00",
-      "image": "https://i3.ytimg.com/vi/JdHEneMHQFw/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=2ZCmTmBO9EE",
       "title": "81回目の終戦の日　全国戦没者追悼式　両陛下ご臨席　高市総理や遺族らが参列　遺族の56.3％が戦後生まれに（2026年08月15日）",
       "link": "https://www.youtube.com/watch?v=2ZCmTmBO9EE",
@@ -981,24 +1044,6 @@
       "image": "https://i3.ytimg.com/vi/2ZCmTmBO9EE/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=Iv7zjpkKrRk",
-      "title": "Uターンラッシュ　きょう（15日）からあすにかけてピーク “最大9連休”のお盆休み　東海道新幹線「のぞみ」上りはあすの午後ほぼ満席｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=Iv7zjpkKrRk",
-      "pubDate": "2026-08-15T03:19:54+00:00",
-      "image": "https://i2.ytimg.com/vi/Iv7zjpkKrRk/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=q26c0PWvuoI",
-      "title": "インドネシアでマグニチュード7.7の地震　少なくとも2人死亡　日本への津波の影響なし｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=q26c0PWvuoI",
-      "pubDate": "2026-08-15T03:19:53+00:00",
-      "image": "https://i2.ytimg.com/vi/q26c0PWvuoI/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "http://www.asahi.com/articles/ASV8G36F3V8GUTFK01LM.html?ref=rss",
@@ -1172,24 +1217,6 @@
       "sid": "s2"
     },
     {
-      "id": "http://www.asahi.com/articles/ASV8D3RK0V8DUHBI018M.html?ref=rss",
-      "title": "規制緩和で地価3倍増　全戸に監視カメラ強制　タリバンの異様な統治",
-      "link": "http://www.asahi.com/articles/ASV8D3RK0V8DUHBI018M.html?ref=rss",
-      "pubDate": "2026-08-15T02:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=K6i5DExVjfQ",
-      "title": "小泉大臣が靖国参拝　高市総理は見送りか（2026年08月15日）",
-      "link": "https://www.youtube.com/watch?v=K6i5DExVjfQ",
-      "pubDate": "2026-08-15T01:51:27+00:00",
-      "image": "https://i4.ytimg.com/vi/K6i5DExVjfQ/hqdefault.jpg",
-      "source": "FNNプライムオンライン",
-      "sid": "s6"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260812de43487",
       "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月15日の動き）",
       "link": "https://news.web.nhk/newsweb/na/nd-20260812de43487",
@@ -1197,15 +1224,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=TrPa7foMfyg",
-      "title": "タクシーに閉じ込めも　8人死亡　今も放置車両1000台超　千葉記録的豪雨（2026年08月15日）",
-      "link": "https://www.youtube.com/watch?v=TrPa7foMfyg",
-      "pubDate": "2026-08-15T01:37:23+00:00",
-      "image": "https://i1.ytimg.com/vi/TrPa7foMfyg/hqdefault.jpg",
-      "source": "FNNプライムオンライン",
-      "sid": "s6"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260815de44224",
@@ -1568,15 +1586,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/watch?v=ml5kkqAQias",
-      "title": "千葉豪雨災害で大混乱　駅構内まで浸水　バス待つ人々むなしく運休知らせ　店の前には商品詰めた袋の山（2026年08月14日）",
-      "link": "https://www.youtube.com/watch?v=ml5kkqAQias",
-      "pubDate": "2026-08-14T11:30:23+00:00",
-      "image": "https://i2.ytimg.com/vi/ml5kkqAQias/hqdefault.jpg",
-      "source": "FNNプライムオンライン",
-      "sid": "s6"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260814de44103",
       "title": "車で移動中に浸水被害 専門家「毎年起きる身近な危険」",
       "link": "https://news.web.nhk/newsweb/na/nd-20260814de44103",
@@ -1818,15 +1827,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8G20GQV8GULFA003M.html?ref=rss",
-      "title": "太平洋クロマグロ国際会議、異例の再開催へ　漁獲増枠の合意が焦点",
-      "link": "http://www.asahi.com/articles/ASV8G20GQV8GULFA003M.html?ref=rss",
-      "pubDate": "2026-08-14T07:35:43+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260814de44090",
@@ -2628,6 +2628,15 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=DRz9EeM6NIw",
+      "title": "【ライブ】8/15 夜ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=DRz9EeM6NIw",
+      "pubDate": "2026-08-12T21:00:08+00:00",
+      "image": "https://i1.ytimg.com/vi/DRz9EeM6NIw/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260812de43533",
