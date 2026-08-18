@@ -1,6 +1,96 @@
 {
-  "updated": "2026-08-18T13:34:00.142042+00:00",
+  "updated": "2026-08-18T14:20:45.832414+00:00",
   "items": [
+    {
+      "id": "https://www.youtube.com/watch?v=wk_lxIsXyM8",
+      "title": "【ライブ】8/18 夜ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=wk_lxIsXyM8",
+      "pubDate": "2026-08-18T14:12:44+00:00",
+      "image": "https://i4.ytimg.com/vi/wk_lxIsXyM8/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260818/k00/00m/050/370000c",
+      "title": "阪神、劇的な逆転勝ち　佐藤輝明、大山悠輔が2者連続アーチ",
+      "link": "https://mainichi.jp/articles/20260818/k00/00m/050/370000c",
+      "pubDate": "2026-08-18T14:11:31+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20260818/k00/00m/050/363000c",
+      "title": "バックネット裏の観客にも礼　丁寧な有明選手、最後まで礼儀貫く",
+      "link": "https://mainichi.jp/articles/20260818/k00/00m/050/363000c",
+      "pubDate": "2026-08-18T14:03:26+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=4Jb8m5wcH8c",
+      "title": "【政治ライブ】高市首相　被災自治体への普通交付税の繰り上げ交付など指示　千葉豪雨被害受け ──政治ニュースまとめ （日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=4Jb8m5wcH8c",
+      "pubDate": "2026-08-18T13:59:08+00:00",
+      "image": "https://i1.ytimg.com/vi/4Jb8m5wcH8c/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASV8L4G4HV8LUHBI006M.html?ref=rss",
+      "title": "イラン、米国に「数週間以内に覚書実行を」　応じなければ攻撃と警告",
+      "link": "http://www.asahi.com/articles/ASV8L4G4HV8LUHBI006M.html?ref=rss",
+      "pubDate": "2026-08-18T13:58:57+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=H40eYCmOL_Y",
+      "title": "【ロシア外務省】「ロシアの主権は揺るぎない｣  プーチン氏による北方領土訪問への非難に…日本大使を呼び出し抗議",
+      "link": "https://www.youtube.com/watch?v=H40eYCmOL_Y",
+      "pubDate": "2026-08-18T13:57:19+00:00",
+      "image": "https://i1.ytimg.com/vi/H40eYCmOL_Y/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=qzWNH5Zal9I",
+      "title": "【鈴木農水相】「前進があったものと考える」大型クロマグロの漁獲枠25％増で合意",
+      "link": "https://www.youtube.com/watch?v=qzWNH5Zal9I",
+      "pubDate": "2026-08-18T13:45:29+00:00",
+      "image": "https://i2.ytimg.com/vi/qzWNH5Zal9I/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260818de44893",
+      "title": "“英首相が米大統領首席補佐官装う人物とメッセージ”報道",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44893",
+      "pubDate": "2026-08-18T13:44:43+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260818de44900",
+      "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44900",
+      "pubDate": "2026-08-18T13:43:36+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260818de44903",
+      "title": "両陛下 空海ゆかりの名宝を集めた特別展に",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44903",
+      "pubDate": "2026-08-18T13:35:40+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260818de44901",
       "title": "ロス五輪出場権 日本勢で最初の獲得 新体操のメンバーが帰国",
@@ -9,6 +99,24 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=e_ODkeaJCnQ",
+      "title": "【ライブ】8/21 昼ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=e_ODkeaJCnQ",
+      "pubDate": "2026-08-18T13:30:08+00:00",
+      "image": "https://i2.ytimg.com/vi/e_ODkeaJCnQ/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=sWY77aQjA7g",
+      "title": "【被災地の声】「子どもたちは、果物とかサラダとか食べたいと…」熊本地震でいま必要なもの",
+      "link": "https://www.youtube.com/watch?v=sWY77aQjA7g",
+      "pubDate": "2026-08-18T13:27:19+00:00",
+      "image": "https://i4.ytimg.com/vi/sWY77aQjA7g/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
     },
     {
       "id": "http://www.asahi.com/articles/ASV8L4CQ0V8LTLTB00GM.html?ref=rss",
@@ -83,15 +191,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=R-jpH3OaBbk",
-      "title": "【緊迫】天井まで残り50センチ  水の中で救助待ち3時間  千葉豪雨で浸水「命の危険を本当に感じて」",
-      "link": "https://www.youtube.com/watch?v=R-jpH3OaBbk",
-      "pubDate": "2026-08-18T13:07:44+00:00",
-      "image": "https://i3.ytimg.com/vi/R-jpH3OaBbk/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://www.youtube.com/shorts/1cojlB2Y5-M",
       "title": "【クマ被害か】“爪痕”や足跡も  食い荒らされたニンジン約500本  ニワトリ23羽の死骸  北海道  #shorts",
       "link": "https://www.youtube.com/shorts/1cojlB2Y5-M",
@@ -115,6 +214,15 @@
       "link": "https://www.youtube.com/watch?v=qYj17HR-VIw",
       "pubDate": "2026-08-18T13:01:37+00:00",
       "image": "https://i2.ytimg.com/vi/qYj17HR-VIw/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=mzt7H3_50vE",
+      "title": "【熊本地震 最新情報】地震発生から3週間　保育園再開で子どもたちに“笑顔”　高速道路が一部再開、物流に期待──社会ニュースライブ（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=mzt7H3_50vE",
+      "pubDate": "2026-08-18T12:59:38+00:00",
+      "image": "https://i2.ytimg.com/vi/mzt7H3_50vE/hqdefault.jpg",
       "source": "日テレNEWS",
       "sid": "s3"
     },
@@ -146,10 +254,37 @@
       "sid": "s1"
     },
     {
+      "id": "https://www.youtube.com/watch?v=db_KP4Gwwc0",
+      "title": "【政治ライブ】高市首相　被災自治体への普通交付税の繰り上げ交付など指示　千葉豪雨被害受け ──政治ニュースまとめ （日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=db_KP4Gwwc0",
+      "pubDate": "2026-08-18T12:55:49+00:00",
+      "image": "https://i1.ytimg.com/vi/db_KP4Gwwc0/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260818de44892",
       "title": "横浜高野球部元監督 渡辺元智さん死去 プロで活躍のOBなど心境",
       "link": "https://news.web.nhk/newsweb/na/nd-20260818de44892",
       "pubDate": "2026-08-18T12:54:54+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=K5-E9Kvexrc",
+      "title": "【アメリカライブ】トランプ大統領の支持率、就任以来最低の33％に / トランプ大統領、覚書の延長「求めない」　イラン側は軍事攻撃実施も警告 ──国際ニュースライブ（日テレNEWS LIVE）",
+      "link": "https://www.youtube.com/watch?v=K5-E9Kvexrc",
+      "pubDate": "2026-08-18T12:52:58+00:00",
+      "image": "https://i4.ytimg.com/vi/K5-E9Kvexrc/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20260818de44895",
+      "title": "熊本地震受け 全国の工場など煙突の状況を調査開始 金子国交相",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44895",
+      "pubDate": "2026-08-18T12:50:39+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
@@ -380,15 +515,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://mainichi.jp/articles/20260818/k00/00m/030/298000c",
-      "title": "インドネシア地震、死者70人に　住宅損壊は1万9300戸",
-      "link": "https://mainichi.jp/articles/20260818/k00/00m/030/298000c",
-      "pubDate": "2026-08-18T11:48:17+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=8QX568gyWQE",
       "title": "【群馬でマンゴー？】猛暑逆手に関東で“南国フルーツ”続々  暑さに強いはずが“変色”も",
       "link": "https://www.youtube.com/watch?v=8QX568gyWQE",
@@ -506,15 +632,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/shorts/HXzhkTXqcyw",
-      "title": "【“トクリュウ”男3人逮捕】特殊詐欺の受け子を狙い路上で強盗か  富山市  #shorts",
-      "link": "https://www.youtube.com/shorts/HXzhkTXqcyw",
-      "pubDate": "2026-08-18T11:31:23+00:00",
-      "image": "https://i1.ytimg.com/vi/HXzhkTXqcyw/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://www.youtube.com/shorts/yClfm2zGi3Q",
       "title": "【新米の集荷価格4割安】記録的なコメ余り #shorts",
       "link": "https://www.youtube.com/shorts/yClfm2zGi3Q",
@@ -551,15 +668,6 @@
       "sid": "s6"
     },
     {
-      "id": "https://www.youtube.com/shorts/5xQlgXIp0-M",
-      "title": "【教え子の裸を盗撮か】「自分の性的欲求を満たすために…」“少年サッカー”の合宿中に  押収動画など300点以上  #shorts",
-      "link": "https://www.youtube.com/shorts/5xQlgXIp0-M",
-      "pubDate": "2026-08-18T11:30:19+00:00",
-      "image": "https://i2.ytimg.com/vi/5xQlgXIp0-M/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASV8L3PPLV8LUTIL01HM.html?ref=rss",
       "title": "SNSで知り合った10代女児に性的暴行か　カレー店経営者を逮捕",
       "link": "http://www.asahi.com/articles/ASV8L3PPLV8LUTIL01HM.html?ref=rss",
@@ -567,15 +675,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=x2zxO3Z_1to",
-      "title": "【なるほどッ！】暑さで室外機も“熱中症”に  豪雨や酷暑…エアコン使用の注意点  災害時に浸水や転倒…故障防ぐには",
-      "link": "https://www.youtube.com/watch?v=x2zxO3Z_1to",
-      "pubDate": "2026-08-18T11:28:44+00:00",
-      "image": "https://i1.ytimg.com/vi/x2zxO3Z_1to/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
     },
     {
       "id": "https://mainichi.jp/articles/20260818/k00/00m/050/308000c",
@@ -594,15 +693,6 @@
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=2QmheGZYm0s",
-      "title": "【2歳男児に暴行か】「寝たふりされカッとなった｣36歳男を逮捕  男の子はその後死亡  “子どもが泣き叫ぶ声”近所の住民が聞く  横浜市",
-      "link": "https://www.youtube.com/watch?v=2QmheGZYm0s",
-      "pubDate": "2026-08-18T11:25:31+00:00",
-      "image": "https://i3.ytimg.com/vi/2QmheGZYm0s/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
     },
     {
       "id": "https://www.youtube.com/watch?v=FXuqRInX8Co",
@@ -657,15 +747,6 @@
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=JG8qI7jU6hg",
-      "title": "【熊本地震から3週間】高速道路が一部再開、物流に期待  保育園再開で子どもたちに“笑顔”",
-      "link": "https://www.youtube.com/watch?v=JG8qI7jU6hg",
-      "pubDate": "2026-08-18T11:17:42+00:00",
-      "image": "https://i3.ytimg.com/vi/JG8qI7jU6hg/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
     },
     {
       "id": "https://mainichi.jp/articles/20260818/k00/00m/050/301000c",
@@ -830,15 +911,6 @@
       "sid": "s4"
     },
     {
-      "id": "https://www.youtube.com/watch?v=isxsH-TaejQ",
-      "title": "【千葉豪雨】国や県がプロジェクトチーム立ち上げ放置車両を撤去へ  県内の死者は13人に",
-      "link": "https://www.youtube.com/watch?v=isxsH-TaejQ",
-      "pubDate": "2026-08-18T11:03:30+00:00",
-      "image": "https://i2.ytimg.com/vi/isxsH-TaejQ/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20260818de44872",
       "title": "熊本地震から3週間 “見えない避難者”半数以上が体調悪化",
       "link": "https://news.web.nhk/newsweb/na/nd-20260818de44872",
@@ -992,15 +1064,6 @@
       "sid": "s4"
     },
     {
-      "id": "https://mainichi.jp/articles/20260818/k00/00m/040/300000c",
-      "title": "SNSで少女誘い性交疑い　男性逮捕　スマホに動画など200点",
-      "link": "https://mainichi.jp/articles/20260818/k00/00m/040/300000c",
-      "pubDate": "2026-08-18T10:49:20+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=vWT54WNDpQU",
       "title": "逮捕の慶応大学4年の22歳女は数年前まで海外生活　スポーツ施設の“受付担当”でマスターキー持ち出し客のクレカ盗んだか（2026年08月18日）",
       "link": "https://www.youtube.com/watch?v=vWT54WNDpQU",
@@ -1051,24 +1114,6 @@
       "link": "https://www.youtube.com/watch?v=2AGPVS97Ucg",
       "pubDate": "2026-08-18T10:22:56+00:00",
       "image": "https://i3.ytimg.com/vi/2AGPVS97Ucg/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=dlDBuTfu_bI",
-      "title": "千葉豪雨　大網白里市「罹災証明書」求め　生活再建へ いま必要なものは【スーパーJチャンネル】(2026年8月18日)",
-      "link": "https://www.youtube.com/watch?v=dlDBuTfu_bI",
-      "pubDate": "2026-08-18T10:21:31+00:00",
-      "image": "https://i1.ytimg.com/vi/dlDBuTfu_bI/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=SSHTNoHRSCM",
-      "title": "【関東の天気】晴れエリア広範囲　洗濯は「あす」週末外干し困難に　再び不安定【スーパーJチャンネル】(2026年8月18日)",
-      "link": "https://www.youtube.com/watch?v=SSHTNoHRSCM",
-      "pubDate": "2026-08-18T10:17:25+00:00",
-      "image": "https://i4.ytimg.com/vi/SSHTNoHRSCM/hqdefault.jpg",
       "source": "テレ朝NEWS",
       "sid": "s4"
     },
@@ -1338,15 +1383,6 @@
       "title": "高校野球 天理が完封勝利でベスト4一番乗り",
       "link": "https://news.web.nhk/newsweb/na/nd-20260818de44680",
       "pubDate": "2026-08-18T08:35:29+00:00",
-      "image": "",
-      "source": "NHK ニュース",
-      "sid": "s1"
-    },
-    {
-      "id": "https://news.web.nhk/newsweb/na/nd-20260818de44818",
-      "title": "千葉豪雨で乗客死亡 国交省が全国のタクシー会社などに通知",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44818",
-      "pubDate": "2026-08-18T08:34:49+00:00",
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
@@ -1647,15 +1683,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV8K73YXV8KUHBI01LM.html?ref=rss",
-      "title": "イランとの仲介国に「邪魔なら爆撃」と脅し　トランプ氏がオマーンに",
-      "link": "http://www.asahi.com/articles/ASV8K73YXV8KUHBI01LM.html?ref=rss",
-      "pubDate": "2026-08-17T21:38:16+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20260817de44667",
