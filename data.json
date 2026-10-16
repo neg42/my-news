@@ -1,14 +1,518 @@
 {
-  "updated": "2026-10-16T19:44:52.068136+00:00",
+  "updated": "2026-10-16T22:17:32.337163+00:00",
   "items": [
     {
-      "id": "https://www.youtube.com/watch?v=c1Jet2LMZ8k",
-      "title": "【ライブ】10/16 深夜ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
-      "link": "https://www.youtube.com/watch?v=c1Jet2LMZ8k",
-      "pubDate": "2026-10-16T19:40:01+00:00",
-      "image": "https://i4.ytimg.com/vi/c1Jet2LMZ8k/hqdefault.jpg",
+      "id": "https://mainichi.jp/articles/20261015/k00/00m/310/195000c",
+      "title": "「日本より進んでいる」?　ネパールの避難所運営、NPOが報告",
+      "link": "https://mainichi.jp/articles/20261015/k00/00m/310/195000c",
+      "pubDate": "2026-10-16T22:15:11+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60802",
+      "title": "台風30号 非常に強い勢力に発達する見込み 今後の情報に注意",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802",
+      "pubDate": "2026-10-16T22:13:52+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60805",
+      "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805",
+      "pubDate": "2026-10-16T22:04:10+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20261014/k00/00m/200/208000c",
+      "title": "ＩｎＭｙＬｉｆｅ・旅の途中で:マンガ家・里中満智子さん「30分の1も描けてない」自分に発破",
+      "link": "https://mainichi.jp/articles/20261014/k00/00m/200/208000c",
+      "pubDate": "2026-10-16T22:01:11+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20261014/k00/00m/200/194000c",
+      "title": "ＩｎＭｙＬｉｆｅ・旅の途中で:「マンガは悪書」の差別に奮起　里中満智子さん60年の情熱",
+      "link": "https://mainichi.jp/articles/20261014/k00/00m/200/194000c",
+      "pubDate": "2026-10-16T22:00:11+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ1FN7VBJPTIL01FM.html?ref=rss",
+      "title": "「だんじり」って法律上は？安全策は？　大阪府警交通規制課に聞いた",
+      "link": "http://www.asahi.com/articles/ASVBJ1FN7VBJPTIL01FM.html?ref=rss",
+      "pubDate": "2026-10-16T22:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ3F2VVBJUTFK008M.html?ref=rss",
+      "title": "歴史認識「反省なんかしておりません」　過去の発言問われた首相は…",
+      "link": "http://www.asahi.com/articles/ASVBJ3F2VVBJUTFK008M.html?ref=rss",
+      "pubDate": "2026-10-16T22:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ3Q98VBJUTFK011M.html?ref=rss",
+      "title": "公明「8万円給付」、国民「住民税の控除引き上げ」　消費減税に対案",
+      "link": "http://www.asahi.com/articles/ASVBJ3Q98VBJUTFK011M.html?ref=rss",
+      "pubDate": "2026-10-16T22:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBF1RFZVBFUCVL024M.html?ref=rss",
+      "title": "dancyu元編集長、「いまいち」なうなぎ喜んだ母に見た食の深さ",
+      "link": "http://www.asahi.com/articles/ASVBF1RFZVBFUCVL024M.html?ref=rss",
+      "pubDate": "2026-10-16T22:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ3WNDVBJOXIE00NM.html?ref=rss",
+      "title": "「見せる」だんじり曲がり角　二つの死亡事故が問う安全とのバランス",
+      "link": "http://www.asahi.com/articles/ASVBJ3WNDVBJOXIE00NM.html?ref=rss",
+      "pubDate": "2026-10-16T22:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60815",
+      "title": "高市首相 靖国神社の秋の例大祭にあわせ「真榊」奉納",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815",
+      "pubDate": "2026-10-16T21:46:12+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=UlDjsDyTPdY",
+      "title": "米　ホワイトハウス報道官が退任　任命からわずか1週間　弁護士資格なく“経歴詐称”(2026年10月17日)",
+      "link": "https://www.youtube.com/watch?v=UlDjsDyTPdY",
+      "pubDate": "2026-10-16T21:46:12+00:00",
+      "image": "https://i2.ytimg.com/vi/UlDjsDyTPdY/hqdefault.jpg",
       "source": "テレ朝NEWS",
       "sid": "s4"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20261016/k00/00m/310/056000c",
+      "title": "「街の魅力度ランキング」京都府、全国4位　ポイントは住み心地",
+      "link": "https://mainichi.jp/articles/20261016/k00/00m/310/056000c",
+      "pubDate": "2026-10-16T21:45:10+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261016de60703",
+      "title": "【動画】Pickup NEWS（10月17日）",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60703",
+      "pubDate": "2026-10-16T21:44:30+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=gIjyKOrkNPo",
+      "title": "エレベーターに挟まれ男性作業員（67）が死亡　奈良・天理市(2026年10月17日)",
+      "link": "https://www.youtube.com/watch?v=gIjyKOrkNPo",
+      "pubDate": "2026-10-16T21:41:59+00:00",
+      "image": "https://i4.ytimg.com/vi/gIjyKOrkNPo/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=J3xT4pFbHO4",
+      "title": "“空港まひ”狙い作戦強化か　ロシアで欠航や遅れ相次ぐ(2026年10月17日)",
+      "link": "https://www.youtube.com/watch?v=J3xT4pFbHO4",
+      "pubDate": "2026-10-16T21:40:31+00:00",
+      "image": "https://i3.ytimg.com/vi/J3xT4pFbHO4/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60808",
+      "title": "サウジアラビア首都への攻撃続く 国際会議が延期も",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60808",
+      "pubDate": "2026-10-16T21:39:33+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60812",
+      "title": "ウクライナ映画祭 都内で開会式 戦時の社会や暮らしなど描く",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60812",
+      "pubDate": "2026-10-16T21:35:16+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=q1JVTHMsT0E",
+      "title": "【速報】「誤った緊急地震速報」について 気象庁が3回目の会見【LIVE】(2026年10月16日) ANN/テレ朝",
+      "link": "https://www.youtube.com/watch?v=q1JVTHMsT0E",
+      "pubDate": "2026-10-16T21:30:55+00:00",
+      "image": "https://i2.ytimg.com/vi/q1JVTHMsT0E/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ2FFVVBJUTQP00XM.html?ref=rss",
+      "title": "大谷翔平に託されたシナリオ　投打の二刀流は「もちろん」来季も継続",
+      "link": "http://www.asahi.com/articles/ASVBJ2FFVVBJUTQP00XM.html?ref=rss",
+      "pubDate": "2026-10-16T21:30:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=GP0tq7XlpI0",
+      "title": "「緊急地震速報」取り消し　マグニチュードの計算に震源から遠く離れた観測点データを使用｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=GP0tq7XlpI0",
+      "pubDate": "2026-10-16T21:29:00+00:00",
+      "image": "https://i4.ytimg.com/vi/GP0tq7XlpI0/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ71Y8VBJUHBI02XM.html?ref=rss",
+      "title": "プーチン氏、ウクライナ「緩衝地帯」返さない　事実上の要求引き上げ",
+      "link": "http://www.asahi.com/articles/ASVBJ71Y8VBJUHBI02XM.html?ref=rss",
+      "pubDate": "2026-10-16T21:28:37+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=tt1zNYcsF08",
+      "title": "スカイチケット運営会社 新たに「一部の顧客のクレジットカード情報流出」　Eストアーもカード情報の一部漏洩｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=tt1zNYcsF08",
+      "pubDate": "2026-10-16T21:26:08+00:00",
+      "image": "https://i1.ytimg.com/vi/tt1zNYcsF08/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=RKIfmmSdrZU",
+      "title": "京王電鉄Gへのランサムウェア攻撃でハッカー集団「Qilin」が声明　内部資料とされる画像も掲載　京王電鉄は「事実確認中」｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=RKIfmmSdrZU",
+      "pubDate": "2026-10-16T21:25:44+00:00",
+      "image": "https://i3.ytimg.com/vi/RKIfmmSdrZU/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60807",
+      "title": "ロシアが拘束した北海道新聞記者への領事面会は実現せず",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60807",
+      "pubDate": "2026-10-16T21:21:47+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=qJqjdwV8ykw",
+      "title": "米ホワイトハウスの新報道官が退任へ　弁護士資格の詐称をめぐり　事実上の更迭　今週就任したばかり｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=qJqjdwV8ykw",
+      "pubDate": "2026-10-16T21:18:54+00:00",
+      "image": "https://i2.ytimg.com/vi/qJqjdwV8ykw/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60813",
+      "title": "プーチン大統領が戦果強調 トランプ氏引き寄せるねらいか",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60813",
+      "pubDate": "2026-10-16T21:16:14+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20261014/k00/00m/310/054000c",
+      "title": "秋色装う大地、4万本のコキア見ごろ　茨城・ひたち海浜公園",
+      "link": "https://mainichi.jp/articles/20261014/k00/00m/310/054000c",
+      "pubDate": "2026-10-16T21:15:09+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=t8POWsIL2d0",
+      "title": "拘置所訪問の日本大使館職員　拘束の北海道新聞記者と面会できず　ロシア側が“拒否”(2026年10月17日)",
+      "link": "https://www.youtube.com/watch?v=t8POWsIL2d0",
+      "pubDate": "2026-10-16T21:14:34+00:00",
+      "image": "https://i1.ytimg.com/vi/t8POWsIL2d0/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60798",
+      "title": "トルコの沖合で“世界最古の沈没船”の痕跡見つかる",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60798",
+      "pubDate": "2026-10-16T21:10:19+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=6cl36psNi3Q",
+      "title": "さわやかな秋晴れ 絶好の行楽日和　関東から西は季節外れの半袖の出番　台風の動向に注意｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=6cl36psNi3Q",
+      "pubDate": "2026-10-16T21:08:08+00:00",
+      "image": "https://i3.ytimg.com/vi/6cl36psNi3Q/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60803",
+      "title": "NY原油1バレル100ドルを再び突破 ホルムズ攻撃など懸念",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60803",
+      "pubDate": "2026-10-16T21:07:45+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60781",
+      "title": "避難民医療支援のミャンマー人医師が講演 人権尊重訴え",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60781",
+      "pubDate": "2026-10-16T21:05:19+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=iaS0F88YM_0",
+      "title": "【ライブ】10/19 夜ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=iaS0F88YM_0",
+      "pubDate": "2026-10-16T21:00:15+00:00",
+      "image": "https://i2.ytimg.com/vi/iaS0F88YM_0/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20261016/k00/00m/010/396000c",
+      "title": "福岡県議会、金銭授受疑惑で百条委設置へ　「高額」海外視察も",
+      "link": "https://mainichi.jp/articles/20261016/k00/00m/010/396000c",
+      "pubDate": "2026-10-16T21:00:13+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ6J43VBJUHBI02VM.html?ref=rss",
+      "title": "ローマ教皇、プーチン氏に「深い懸念」　ウクライナの人道危機めぐり",
+      "link": "http://www.asahi.com/articles/ASVBJ6J43VBJUHBI02VM.html?ref=rss",
+      "pubDate": "2026-10-16T21:00:04+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60800",
+      "title": "“餃子の王将”社長殺害事件で無罪 捜査の進展も問われる",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60800",
+      "pubDate": "2026-10-16T21:00:03+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBH21XJVBHPTJB00RM.html?ref=rss",
+      "title": "滋賀・草津市長選　候補者4人はどんな人？　訴えは？　18日投開票",
+      "link": "http://www.asahi.com/articles/ASVBH21XJVBHPTJB00RM.html?ref=rss",
+      "pubDate": "2026-10-16T21:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBF4R1ZVBFUHBI00CM.html?ref=rss",
+      "title": "破産者も生むアメリカの医療費　救急外来1回19万円「幸せを制限」",
+      "link": "http://www.asahi.com/articles/ASVBF4R1ZVBFUHBI00CM.html?ref=rss",
+      "pubDate": "2026-10-16T21:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261016de60765",
+      "title": "大学病院の医師 半数以上が「将来 大学病院以外で勤務したい」",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60765",
+      "pubDate": "2026-10-16T20:56:07+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60784",
+      "title": "テスラが“空飛ぶクルマ”を発表 マスク氏「AIではない」",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60784",
+      "pubDate": "2026-10-16T20:53:28+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60795",
+      "title": "CSファイナルステージ セ・リーグ第4戦の見どころ",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60795",
+      "pubDate": "2026-10-16T20:51:15+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20261016/k00/00m/310/092000c",
+      "title": "ノーベル賞「アイスキューブ」知る展示、見学者増　千葉市科学館",
+      "link": "https://mainichi.jp/articles/20261016/k00/00m/310/092000c",
+      "pubDate": "2026-10-16T20:45:10+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ6K0TVBJBQBQ241M.html?ref=rss",
+      "title": "拘束の北海道新聞の記者に面会できず　在ロシア日本大使館幹部ら",
+      "link": "http://www.asahi.com/articles/ASVBJ6K0TVBJBQBQ241M.html?ref=rss",
+      "pubDate": "2026-10-16T20:37:02+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ6KRYVBJUHNB00DM.html?ref=rss",
+      "title": "2度の110番通報、男女もめる物音　男を殺人未遂容疑で現行犯逮捕",
+      "link": "http://www.asahi.com/articles/ASVBJ6KRYVBJUHNB00DM.html?ref=rss",
+      "pubDate": "2026-10-16T20:36:28+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60801",
+      "title": "東京大学の総長選考「藤垣氏は選考会議の最多の支持」",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60801",
+      "pubDate": "2026-10-16T20:32:08+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60797",
+      "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁は調査",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60797",
+      "pubDate": "2026-10-16T20:29:02+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Lqrm8td-EHw",
+      "title": "【ニュースライブ】最新ニュースまとめ（Japan News Digest）（10月16日）｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=Lqrm8td-EHw",
+      "pubDate": "2026-10-16T20:24:04+00:00",
+      "image": "https://i1.ytimg.com/vi/Lqrm8td-EHw/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60796",
+      "title": "戦闘続くウクライナで7年ぶりに日本語弁論大会開催",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60796",
+      "pubDate": "2026-10-16T20:23:17+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ62W9VBJSFVU356M.html?ref=rss",
+      "title": "トランプ氏の新報道官、わずか5日で解任　米メディア　経歴で疑惑も",
+      "link": "http://www.asahi.com/articles/ASVBJ62W9VBJSFVU356M.html?ref=rss",
+      "pubDate": "2026-10-16T20:18:29+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60791",
+      "title": "消費税減税法案来週審議入り 与党 成立図る 野党 支援金明示を",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60791",
+      "pubDate": "2026-10-16T20:08:25+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261016de60762",
+      "title": "消費減税 農家などに売り上げ5％程度の給付金検討",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60762",
+      "pubDate": "2026-10-16T20:05:46+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60779",
+      "title": "トヨタ すべての車種をSDVにする方針 2030年までに",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60779",
+      "pubDate": "2026-10-16T20:01:59+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://news.web.nhk/newsweb/na/nd-20261017de60794",
+      "title": "日銀植田総裁“物価2％超の上昇容認せず” 今後も利上げ進める",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60794",
+      "pubDate": "2026-10-16T20:01:00+00:00",
+      "image": "",
+      "source": "NHK ニュース",
+      "sid": "s1"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20261015/k00/00m/100/106000c",
+      "title": "「セックスが怖い」を変えるか　ED治療薬が市販化で気軽に",
+      "link": "https://mainichi.jp/articles/20261015/k00/00m/100/106000c",
+      "pubDate": "2026-10-16T20:00:15+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "https://mainichi.jp/articles/20261009/k00/00m/310/021000c",
+      "title": "東葛駅伝、17日号砲　6市の中学校から700人がたすきつなぐ",
+      "link": "https://mainichi.jp/articles/20261009/k00/00m/310/021000c",
+      "pubDate": "2026-10-16T20:00:12+00:00",
+      "image": "",
+      "source": "毎日新聞",
+      "sid": "s7"
+    },
+    {
+      "id": "http://www.asahi.com/articles/ASVBJ3RKNVBJUTFK00QM.html?ref=rss",
+      "title": "簗氏更迭で「政治不信への責任」語らぬ高市首相　任命責任には言及も",
+      "link": "http://www.asahi.com/articles/ASVBJ3RKNVBJUTFK00QM.html?ref=rss",
+      "pubDate": "2026-10-16T20:00:00+00:00",
+      "image": "",
+      "source": "朝日新聞",
+      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60767",
@@ -27,15 +531,6 @@
       "image": "https://i2.ytimg.com/vi/1V-p3K-CVbo/hqdefault.jpg",
       "source": "テレ朝NEWS",
       "sid": "s4"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASVBJ62W9VBJSFVU356M.html?ref=rss",
-      "title": "トランプ氏、ホワイトハウス新報道官解任を示唆　「既に解任」報道も",
-      "link": "http://www.asahi.com/articles/ASVBJ62W9VBJSFVU356M.html?ref=rss",
-      "pubDate": "2026-10-16T18:21:53+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://mainichi.jp/articles/20261016/k00/00m/030/179000c",
@@ -63,15 +558,6 @@
       "image": "https://i1.ytimg.com/vi/tyu1MEq60cE/hqdefault.jpg",
       "source": "TBS NEWS DIG",
       "sid": "s5"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASV851RW5V85UHBI001M.html?ref=rss",
-      "title": "急進左派が激戦州ミシガンも民主上院予備選勝利　本選へ問われる結束",
-      "link": "http://www.asahi.com/articles/ASV851RW5V85UHBI001M.html?ref=rss",
-      "pubDate": "2026-10-16T17:17:12+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://www.youtube.com/watch?v=4REMAkneVVQ",
@@ -299,24 +785,6 @@
       "sid": "s3"
     },
     {
-      "id": "https://www.youtube.com/watch?v=hC2G43yKOWs",
-      "title": "緊急地震速報の誤配信、規定以上離れた観測データを用いたことが原因　気象庁(2026年10月16日)",
-      "link": "https://www.youtube.com/watch?v=hC2G43yKOWs",
-      "pubDate": "2026-10-16T15:06:27+00:00",
-      "image": "https://i1.ytimg.com/vi/hC2G43yKOWs/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=oTKn7TiiWDw",
-      "title": "「高市さん分かりやすい」大学生が見た国会／“危機管理”問われ「24時間、常にスマホを…」【10月16日(金) #報道1930】",
-      "link": "https://www.youtube.com/watch?v=oTKn7TiiWDw",
-      "pubDate": "2026-10-16T15:00:08+00:00",
-      "image": "https://i4.ytimg.com/vi/oTKn7TiiWDw/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=CEnCP9fBYHY",
       "title": "【食欲の秋】サンマが高値の中…旬の戻りカツオが豊漁“去年比6倍”　脂のりも抜群！そのワケは？ ── ニュースまとめ （日テレNEWS LIVE）",
       "link": "https://www.youtube.com/watch?v=CEnCP9fBYHY",
@@ -360,24 +828,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=qR2qGn5OXB4",
-      "title": "“浸水の街”失われた日常…家に残された“幸せのカケラ”　台風30号への懸念も【報道ステーション】(2026年10月16日)",
-      "link": "https://www.youtube.com/watch?v=qR2qGn5OXB4",
-      "pubDate": "2026-10-16T14:43:15+00:00",
-      "image": "https://i2.ytimg.com/vi/qR2qGn5OXB4/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=j1lOeF4MI3A",
-      "title": "“任命責任”と“危機管理能力”高市総理に厳しい追及　食料品減税についても論戦【報道ステーション】(2026年10月16日)",
-      "link": "https://www.youtube.com/watch?v=j1lOeF4MI3A",
-      "pubDate": "2026-10-16T14:35:52+00:00",
-      "image": "https://i3.ytimg.com/vi/j1lOeF4MI3A/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60772",
@@ -425,15 +875,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=WjtqGdBeWlY",
-      "title": "【ライブ】10/16 夜ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
-      "link": "https://www.youtube.com/watch?v=WjtqGdBeWlY",
-      "pubDate": "2026-10-16T14:14:07+00:00",
-      "image": "https://i4.ytimg.com/vi/WjtqGdBeWlY/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "https://mainichi.jp/articles/20261016/k00/00m/010/393000c",
       "title": "高市首相、プレミアム商品券を検討　消費減税に伴う外食産業支援",
       "link": "https://mainichi.jp/articles/20261016/k00/00m/010/393000c",
@@ -461,15 +902,6 @@
       "sid": "s7"
     },
     {
-      "id": "https://mainichi.jp/articles/20261016/k00/00m/050/355000c",
-      "title": "送球ミス「取り返す」　ソフトバンク正木が逆転弾　CSファイナル",
-      "link": "https://mainichi.jp/articles/20261016/k00/00m/050/355000c",
-      "pubDate": "2026-10-16T14:01:45+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=rOT-P6KIq1A",
       "title": "【リプレイ】G20財務大臣・中央銀行総裁会議をおえて　日銀・植田総裁、三村財務官 共同記者会見 ── ニュースライブ（日テレNEWS LIVE）",
       "link": "https://www.youtube.com/watch?v=rOT-P6KIq1A",
@@ -488,13 +920,13 @@
       "sid": "s3"
     },
     {
-      "id": "https://mainichi.jp/articles/20261016/k00/00m/010/341000c",
-      "title": "読む政治:守勢の高市首相　危機管理問われ「スマホ最大音量で寝ている」",
-      "link": "https://mainichi.jp/articles/20261016/k00/00m/010/341000c",
-      "pubDate": "2026-10-16T13:49:09+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
+      "id": "https://www.youtube.com/watch?v=LtKbV12p52U",
+      "title": "【外国人観光案内所】日本の狐のお面が欲しい！外国人旅行客の願いを叶える「観光案内所」とは？/トリリンガル⁉多言語を操る25歳に迫る/奮闘！日光＆川越の女性観光案内所スタッフ",
+      "link": "https://www.youtube.com/watch?v=LtKbV12p52U",
+      "pubDate": "2026-10-16T13:45:31+00:00",
+      "image": "https://i1.ytimg.com/vi/LtKbV12p52U/hqdefault.jpg",
+      "source": "日テレNEWS",
+      "sid": "s3"
     },
     {
       "id": "https://mainichi.jp/articles/20261016/k00/00m/020/371000c",
@@ -504,33 +936,6 @@
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20261016/k00/00m/050/349000c",
-      "title": "「飛車角落ち」の阪神打線、流れを作れず　先発才木も痛恨の被弾",
-      "link": "https://mainichi.jp/articles/20261016/k00/00m/050/349000c",
-      "pubDate": "2026-10-16T13:36:53+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=XsX3spQ35TU",
-      "title": "【ライブ】10/19 昼ニュースまとめ 最新情報を厳選してお届け  ANN/テレ朝【LIVE】",
-      "link": "https://www.youtube.com/watch?v=XsX3spQ35TU",
-      "pubDate": "2026-10-16T13:32:14+00:00",
-      "image": "https://i1.ytimg.com/vi/XsX3spQ35TU/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=S4bxJcszApA",
-      "title": "【夜ニュースライブ】最新ニュースと生活情報（10月16日） ──THE LATEST NEWS SUMMARY（日テレNEWS LIVE）",
-      "link": "https://www.youtube.com/watch?v=S4bxJcszApA",
-      "pubDate": "2026-10-16T13:28:37+00:00",
-      "image": "https://i4.ytimg.com/vi/S4bxJcszApA/hqdefault.jpg",
-      "source": "日テレNEWS",
-      "sid": "s3"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60764",
@@ -560,15 +965,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/watch?v=q1JVTHMsT0E",
-      "title": "【速報】「誤った緊急地震速報」について 気象庁が3回目の会見【LIVE】(2026年10月16日) ANN/テレ朝",
-      "link": "https://www.youtube.com/watch?v=q1JVTHMsT0E",
-      "pubDate": "2026-10-16T13:09:26+00:00",
-      "image": "https://i2.ytimg.com/vi/q1JVTHMsT0E/hqdefault.jpg",
-      "source": "テレ朝NEWS",
-      "sid": "s4"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASVBJ44MTVBJUTQP003M.html?ref=rss",
       "title": "ソフトバンクの「新しい顔」が躍動　開幕スタメンに不在だった2人が",
       "link": "http://www.asahi.com/articles/ASVBJ44MTVBJUTQP003M.html?ref=rss",
@@ -578,15 +974,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://www.youtube.com/shorts/fuPHBXRLc4o",
-      "title": "緊急地震速報→8分後に取り消し…「マグニチュードを過大に推定」気象庁が謝罪　“誤報”で各地に混乱　サイバー攻撃の可能性は否定｜TBS NEWS DIG #shorts",
-      "link": "https://www.youtube.com/shorts/fuPHBXRLc4o",
-      "pubDate": "2026-10-16T13:00:33+00:00",
-      "image": "https://i3.ytimg.com/vi/fuPHBXRLc4o/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60691",
       "title": "農相交代後初の予算委員会 野党 高市首相の任命責任を追及",
       "link": "https://news.web.nhk/newsweb/na/nd-20261016de60691",
@@ -594,24 +981,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20261016/k00/00m/030/344000c",
-      "title": "尹前大統領に控訴審でも懲役30年求刑　平壌への無人機投入指示",
-      "link": "https://mainichi.jp/articles/20261016/k00/00m/030/344000c",
-      "pubDate": "2026-10-16T12:43:04+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://www.youtube.com/shorts/pww0mIBqoxI",
-      "title": "「なぜ、かばいつづけたのか」高市総理の“簗氏更迭”遅れ国会停滞と厳しく批判　立憲・辻元氏は総理の“危機管理能力”も追及｜TBS NEWS DIG #shorts",
-      "link": "https://www.youtube.com/shorts/pww0mIBqoxI",
-      "pubDate": "2026-10-16T12:30:32+00:00",
-      "image": "https://i1.ytimg.com/vi/pww0mIBqoxI/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "http://www.asahi.com/articles/ASVBJ3PTDVBJTLVB009M.html?ref=rss",
@@ -632,24 +1001,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://mainichi.jp/articles/20261016/k00/00m/040/335000c",
-      "title": "逆転有罪判決「分かってくれる人が…」　猪苗代湖ボート事故遺族",
-      "link": "https://mainichi.jp/articles/20261016/k00/00m/040/335000c",
-      "pubDate": "2026-10-16T12:28:37+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=qA67rXCUpQI",
-      "title": "「新宿逸品」55品がブランド認定！8時間煮込んだ“とろけるゆでたん”、炭酸で割る“魔法のシロップ”も…魅力の区認定グルメ【Nスタ】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=qA67rXCUpQI",
-      "pubDate": "2026-10-16T12:28:18+00:00",
-      "image": "https://i2.ytimg.com/vi/qA67rXCUpQI/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
       "id": "https://mainichi.jp/articles/20261016/k00/00m/040/360000c",
       "title": "証拠の核心だった「吸い殻」　地裁に否定され、検察の立証が瓦解",
       "link": "https://mainichi.jp/articles/20261016/k00/00m/040/360000c",
@@ -663,15 +1014,6 @@
       "title": "DeNAが5試合連続アーチ　佐野の3ランで先制　CSファイナル",
       "link": "https://mainichi.jp/articles/20261016/k00/00m/050/365000c",
       "pubDate": "2026-10-16T12:24:16+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20261016/k00/00m/020/334000c",
-      "title": "使途未定の基金返納で新たな予算措置　財務省、財政審で方針",
-      "link": "https://mainichi.jp/articles/20261016/k00/00m/020/334000c",
-      "pubDate": "2026-10-16T12:22:42+00:00",
       "image": "",
       "source": "毎日新聞",
       "sid": "s7"
@@ -729,15 +1071,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=r4O2MzOlpAM",
-      "title": "【ニュースライブ】夜のニュース（Japan News Digest Live）最新情報など（10月16日）｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=r4O2MzOlpAM",
-      "pubDate": "2026-10-16T12:08:45+00:00",
-      "image": "https://i3.ytimg.com/vi/r4O2MzOlpAM/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "https://www.youtube.com/watch?v=8sNyzAQ7Y-Q",
@@ -803,24 +1136,6 @@
       "sid": "s1"
     },
     {
-      "id": "https://www.youtube.com/watch?v=59MiMUqGHLI",
-      "title": "「中吊り広告」阪急電鉄で廃止へ“スマホ普及”だけではない要因とは…広告料が一番高いのはどこ？駅から消える「時刻表」【Nスタ解説】｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=59MiMUqGHLI",
-      "pubDate": "2026-10-16T11:57:33+00:00",
-      "image": "https://i2.ytimg.com/vi/59MiMUqGHLI/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20261016/k00/00m/040/348000c",
-      "title": "王将社長射殺、認められなかった「吸い殻」　京都地裁の判決要旨",
-      "link": "https://mainichi.jp/articles/20261016/k00/00m/040/348000c",
-      "pubDate": "2026-10-16T11:57:14+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASVBJ3HFNVBJTIPE01YM.html?ref=rss",
       "title": "職員が患者を撮影し投稿か、病院が「おわび」　福岡・済生会八幡総合",
       "link": "http://www.asahi.com/articles/ASVBJ3HFNVBJTIPE01YM.html?ref=rss",
@@ -830,15 +1145,6 @@
       "sid": "s2"
     },
     {
-      "id": "https://mainichi.jp/articles/20261016/k00/00m/010/338000c",
-      "title": "自衛隊に原子力潜水艦導入検討、安保3文書改定で盛り込む方針",
-      "link": "https://mainichi.jp/articles/20261016/k00/00m/010/338000c",
-      "pubDate": "2026-10-16T11:44:40+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60742",
       "title": "ECサイトシステム運営会社の情報漏えい 2335万件を確認",
       "link": "https://news.web.nhk/newsweb/na/nd-20261016de60742",
@@ -846,15 +1152,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://mainichi.jp/articles/20261016/k00/00m/020/339000c",
-      "title": "みずほFG、免許証用いた本人確認廃止へ　りそな、あおぞら銀も",
-      "link": "https://mainichi.jp/articles/20261016/k00/00m/020/339000c",
-      "pubDate": "2026-10-16T11:34:04+00:00",
-      "image": "",
-      "source": "毎日新聞",
-      "sid": "s7"
     },
     {
       "id": "https://www.youtube.com/watch?v=OLA1PNUwW9I",
@@ -920,15 +1217,6 @@
       "sid": "s2"
     },
     {
-      "id": "http://www.asahi.com/articles/ASVBJ3GN0VBJUTFK00PM.html?ref=rss",
-      "title": "医療や金融の個人データを保護へ　漏洩リスク防止に法整備の検討開始",
-      "link": "http://www.asahi.com/articles/ASVBJ3GN0VBJUTFK00PM.html?ref=rss",
-      "pubDate": "2026-10-16T11:15:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60688",
       "title": "中学部活動 外部指導員導入後も 教員も一緒に指導 会計検査院",
       "link": "https://news.web.nhk/newsweb/na/nd-20261016de60688",
@@ -981,15 +1269,6 @@
       "image": "https://i1.ytimg.com/vi/X-H3Run5egM/hqdefault.jpg",
       "source": "FNNプライムオンライン",
       "sid": "s6"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASVBJ3CHQVBJUTFK00NM.html?ref=rss",
-      "title": "相次ぐサイバー攻撃に政府の対応は　情報収集に力を入れるも…",
-      "link": "http://www.asahi.com/articles/ASVBJ3CHQVBJUTFK00NM.html?ref=rss",
-      "pubDate": "2026-10-16T11:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "http://www.asahi.com/articles/ASVBJ35P2VBJUCVL04MM.html?ref=rss",
@@ -1064,15 +1343,6 @@
       "sid": "s1"
     },
     {
-      "id": "http://www.asahi.com/articles/ASVBJ3FKPVBJUTFK00ZM.html?ref=rss",
-      "title": "衆院議運委員長、関文科相を厳重注意へ　議員会館でのパーティー開催",
-      "link": "http://www.asahi.com/articles/ASVBJ3FKPVBJUTFK00ZM.html?ref=rss",
-      "pubDate": "2026-10-16T10:40:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=REgDRMbNZa0",
       "title": "東京・原宿で“ビンテージ万引き”　1950年代の43万円ブルゾンなど盗まれる　犯行前にオーナーと会話　防犯カメラに“瞬間”映像も（2026年10月16日）",
       "link": "https://www.youtube.com/watch?v=REgDRMbNZa0",
@@ -1136,15 +1406,6 @@
       "sid": "s2"
     },
     {
-      "id": "http://www.asahi.com/articles/ASVBJ3C8KVBJOXIE01GM.html?ref=rss",
-      "title": "斎藤知事支えた元副知事と自民推す前市議が立候補　兵庫県議補欠選挙",
-      "link": "http://www.asahi.com/articles/ASVBJ3C8KVBJOXIE01GM.html?ref=rss",
-      "pubDate": "2026-10-16T10:25:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASVBJ3DM6VBJULFA01ZM.html?ref=rss",
       "title": "首相「プレミアム商品券やGoTo含め」検討　減税に伴う外食支援",
       "link": "http://www.asahi.com/articles/ASVBJ3DM6VBJULFA01ZM.html?ref=rss",
@@ -1161,15 +1422,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASVBJ2RSDVBJUHBI00BM.html?ref=rss",
-      "title": "ロシア、米と合意の軽油輸出開始　ウクライナは製油所攻撃再開か",
-      "link": "http://www.asahi.com/articles/ASVBJ2RSDVBJUHBI00BM.html?ref=rss",
-      "pubDate": "2026-10-16T10:20:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60669",
@@ -1253,37 +1505,10 @@
       "sid": "s2"
     },
     {
-      "id": "http://www.asahi.com/articles/ASVBJ32VHVBJUTIL03CM.html?ref=rss",
-      "title": "「相互理解促し、民主主義の維持と発展を」　松江市で新聞大会",
-      "link": "http://www.asahi.com/articles/ASVBJ32VHVBJUTIL03CM.html?ref=rss",
-      "pubDate": "2026-10-16T10:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASVBJ350RVBJOXIE022M.html?ref=rss",
-      "title": "遺族「控訴を」、元役員「報われない」王将社長射殺事件の無罪判決に",
-      "link": "http://www.asahi.com/articles/ASVBJ350RVBJOXIE022M.html?ref=rss",
-      "pubDate": "2026-10-16T10:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASVBJ3383VBJTLVB00BM.html?ref=rss",
       "title": "水俣病初の語り部会長　浜元二徳さん死去　自らの被害、国内外で訴え",
       "link": "http://www.asahi.com/articles/ASVBJ3383VBJTLVB00BM.html?ref=rss",
       "pubDate": "2026-10-16T10:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASVBJ357FVBJUHBI01BM.html?ref=rss",
-      "title": "中国、紙おむつ「ホルムアミド検出されず」　当局が調査結果を発表",
-      "link": "http://www.asahi.com/articles/ASVBJ357FVBJUHBI01BM.html?ref=rss",
-      "pubDate": "2026-10-16T09:55:26+00:00",
       "image": "",
       "source": "朝日新聞",
       "sid": "s2"
@@ -1341,15 +1566,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASVBJ2PZZVBJSFVU0SLM.html?ref=rss",
-      "title": "米ホワイトハウス新報道官、司法試験に合格していないと認める",
-      "link": "http://www.asahi.com/articles/ASVBJ2PZZVBJSFVU0SLM.html?ref=rss",
-      "pubDate": "2026-10-16T09:30:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60636",
@@ -1478,36 +1694,9 @@
       "sid": "s10"
     },
     {
-      "id": "http://www.asahi.com/articles/ASVBJ2JKSVBJUTQP009M.html?ref=rss",
-      "title": "鳥海連志、古沢拓也が快勝導く　車いすバスケ男子のアジアパラ初戦",
-      "link": "http://www.asahi.com/articles/ASVBJ2JKSVBJUTQP009M.html?ref=rss",
-      "pubDate": "2026-10-16T08:18:19+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
       "id": "http://www.asahi.com/articles/ASVBH1F7RVBHPOMB00LM.html?ref=rss",
       "title": "明治の和洋折衷建築「奈良ホテル本館」が国重文に　文化審が答申",
       "link": "http://www.asahi.com/articles/ASVBH1F7RVBHPOMB00LM.html?ref=rss",
-      "pubDate": "2026-10-16T08:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASVBJ2355VBJPQIP001M.html?ref=rss",
-      "title": "大阪城天守閣は鉄筋だけどニセ物じゃない？　重要文化財へ文化審答申",
-      "link": "http://www.asahi.com/articles/ASVBJ2355VBJPQIP001M.html?ref=rss",
-      "pubDate": "2026-10-16T08:00:00+00:00",
-      "image": "",
-      "source": "朝日新聞",
-      "sid": "s2"
-    },
-    {
-      "id": "http://www.asahi.com/articles/ASVBJ262FVBJUCVL02YM.html?ref=rss",
-      "title": "大阪城天守閣や奈良ホテルなど8件が重要文化財に　文化審議会が答申",
-      "link": "http://www.asahi.com/articles/ASVBJ262FVBJUCVL02YM.html?ref=rss",
       "pubDate": "2026-10-16T08:00:00+00:00",
       "image": "",
       "source": "朝日新聞",
@@ -1521,15 +1710,6 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=Lqrm8td-EHw",
-      "title": "【ニュースライブ】最新ニュースまとめ（Japan News Digest）（10月16日）｜TBS NEWS DIG",
-      "link": "https://www.youtube.com/watch?v=Lqrm8td-EHw",
-      "pubDate": "2026-10-16T07:38:44+00:00",
-      "image": "https://i1.ytimg.com/vi/Lqrm8td-EHw/hqdefault.jpg",
-      "source": "TBS NEWS DIG",
-      "sid": "s5"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60468",
@@ -1548,6 +1728,15 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=zpD5ln3WGYM",
+      "title": "【ニュースライブ】朝のニュース（Japan News Digest Live）最新情報など（10月17日）｜TBS NEWS DIG",
+      "link": "https://www.youtube.com/watch?v=zpD5ln3WGYM",
+      "pubDate": "2026-10-16T07:21:19+00:00",
+      "image": "https://i3.ytimg.com/vi/zpD5ln3WGYM/hqdefault.jpg",
+      "source": "TBS NEWS DIG",
+      "sid": "s5"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20261016de60420",
@@ -3312,6 +3501,15 @@
       "image": "",
       "source": "NHK ニュース",
       "sid": "s1"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=15jU3dO9FIo",
+      "title": "【ライブ】10/17 朝ニュースまとめ 最新情報を厳選してお届け ANN/テレ朝【LIVE】",
+      "link": "https://www.youtube.com/watch?v=15jU3dO9FIo",
+      "pubDate": "2026-10-14T08:00:15+00:00",
+      "image": "https://i2.ytimg.com/vi/15jU3dO9FIo/hqdefault.jpg",
+      "source": "テレ朝NEWS",
+      "sid": "s4"
     },
     {
       "id": "https://news.web.nhk/newsweb/na/nd-20261014de59229",
